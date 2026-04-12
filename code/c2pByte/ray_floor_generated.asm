@@ -1,4 +1,4 @@
-floors:
+floors: 
 	dc.l floor_0
 	dc.l floor_15
 	dc.l floor_30
@@ -6,6 +6,7 @@ floors:
 	dc.l floor_60
 	dc.l floor_75
 floor_0:
+
 	move.b 3200(a1),(a0)+
 	move.b 3140(a1),(a0)+
 	move.b 3143(a1),(a0)+

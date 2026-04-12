@@ -48,6 +48,7 @@ c2p2x1_4_Blitter_stretchedByte:
 		
 .pass:									;res0
 		move.l buffer,a0
+		sub.l #8,a0
 		lea res0,a1
 		
 	
@@ -190,6 +191,7 @@ c2p2x1_4_Blitter_stretchedByte:
 .pass2:									;res0
 				
 		move.l buffer,a0
+		sub.l #8,a0
 		lea res0,a1
 		adda.l #160*100-4,a0
 		adda.l #80*100-2,a1

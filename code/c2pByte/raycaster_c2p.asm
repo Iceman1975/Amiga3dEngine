@@ -4,6 +4,7 @@
 
 
 ray_drawFrame:
+	move.w #0,screenPointer_collision_z
 	;lea map,a1
 	;moveq #NO_WALLS-1,d7
 	lea.l     objectPointerList,a5
@@ -19,10 +20,17 @@ ray_drawFrame:
 	tst.w MAP_STATUS(a1)
 	beq .next
 
-	tst.w MAP_TYPE(a1)
-	bne .isBitmap
+	cmp.w #1,MAP_TYPE(a1)
+	beq .isBitmap
 
-	move.l MAP_IMAGE(a1),a6
+	cmp.w #2,MAP_TYPE(a1)
+	beq .isPoly
+
+	cmp.w #3,MAP_TYPE(a1)
+	beq .isTexture
+
+	move.l  imageDataPointer,a6
+	add.l MAP_IMAGE(a1),a6
 
 	move.l buffer,a0
 
@@ -71,7 +79,7 @@ ray_drawFrame:
 
 	moveq #0,d1
 	move.w MAP_YY0(a2),d1
-	mulu.w #160,d1
+	muls.w #160,d1
 	add.l d1,a0
 
 	add.l d0,a0
@@ -94,10 +102,26 @@ ray_drawFrame:
 	move.w d2,d4
 .draw
 	;bsr ray_drawWallWithMask
+	move.w screenPointerX,d2
+	move.w MAP_XX0(a2),d5
+	cmp.w d2,d5
+	bgt.s .drawAfterCollCheck
+	move.w MAP_XX1(a2),d5
+	cmp.w d2,d5
+	blt.s .drawAfterCollCheck
+	move.w 2(a5),screenPointer_collision_z
+	move.l a1,screenPointer_element
+.drawAfterCollCheck:	
 	bsr ray_drawWall
 	bra.s .next
 .isBitmap:
 	bsr ray_drawBitmap
+	bra.s .next
+.isTexture:
+	bsr tray_drawPoly
+	bra.s .next
+.isPoly:
+	bsr ray_drawPoly
 .next
 	;lea MAP_ENTRY_SIZE(a1),a1
 	adda.l    #8,a5		; next element in sorted list
@@ -117,9 +141,10 @@ ray_drawBitmap:
 	move.w MAP_XX1(a2),d0 ;width
 	moveq #0,d1
 	move.w MAP_YY1(a2),d1 ;height
-	move.w #32,d2
-	move.w #48,d3
-	move.l MAP_IMAGE(a1),a3
+
+	move.l	imageDataPointer,a3
+	add.l MAP_IMAGE(a1),a3
+
 	bsr ray_scaleObject
 
 	;d0 width
@@ -137,6 +162,18 @@ ray_drawBitmap:
 
 	move.w MAP_YY0(a2),d3 ;y
 	sub.w  d1,d3 ; y- height =start y
+
+	move.w screenPointerX,d4
+	cmp.w d4,d2					; compare with xx0
+	bgt.s .drawAfterCollCheck
+	move.w d2,d5
+	add.w  d0,d5				; compare with xx1
+	cmp.w d4,d5
+	blt.s .drawAfterCollCheck
+	move.w 2(a5),screenPointer_collision_z
+	move.l a1,screenPointer_element
+
+.drawAfterCollCheck
  	bsr ray_drawObject
 	rts
 
@@ -307,25 +344,10 @@ ray_drawWall:
 
 	
 
-	
-
-	;d7 height-1;
-	;a0 startPos address	
-ray_draw_vLine:	
-
-.vline:
-
-	move.b (a3),(a0)	
-	lea  -160(a0),a0
-	adda.w (a4)+,a3
-	dbf d7,.vline
-	rts
-
-
 	;d7 height-1;
 	;d5 y start pos
 	;a0 startPos address	
-ray_draw_vLineGenerated:
+ray_draw_vLineGenerated:	
 	tst  d5			; line out of screen?
 	ble  .end
 	move.w d5,d0	
@@ -378,13 +400,18 @@ clipValue dc.w 0
 ray_scaleObject:
 	movem.l    d0-d7/a0-a6,-(sp)  
 
+	lea.l  hvlink__48_80Table,a4
+	lea.l  hlink48Table,a5
+	move.l MAP_HVLINK(a2),a4
+	move.l MAP_HLINK(a2),a5
+
 	move.l #128,d6
 	sub.w  d0,d6 ; buffer modulo
 
 	lea.l scaleBuffer,a0
 	lea.l scaleMaskBuffer,a1
 	
-	lea.l hvlink__48_80Table,a4
+	;lea.l hvlink__48_80Table,a4
 	moveq #0,d4
 	move.w d1,d4
 	lsl.w #2,d4
@@ -397,7 +424,7 @@ ray_scaleObject:
 
 	subq.w #1,d1  ; destination scale height -1
 
-	lea.l  hlink48Table,a5
+	;lea.l  hlink48Table,a5
 	lsl.w #2,d0 ; destination width*4
 	adda.l d0,a5
 	;adda.l #4*32,a5
@@ -534,7 +561,7 @@ heightDownInstruction:
 rtsInstruction
 		rts
 
-MAP_ENTRY_SIZE = 32+4+(7*2)
+MAP_ENTRY_SIZE = 32+4+(7*2)+4+2
 MAP_POINTER2D = 32+4
 
 
@@ -570,6 +597,7 @@ MAP_XX1		= 6
 MAP_YY1		= 8
 MAP_HEIGHT1  = 10
 MAP_CLIP_DOOR  = 12
-
-
-
+	
+MAP_HLINK  		= 10	
+MAP_HVLINK		= 14
+MAP_ISCLIPPED   = 18

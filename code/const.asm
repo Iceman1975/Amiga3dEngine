@@ -1,6 +1,6 @@
 
 screen_width                  = 320
-screen_height                 = 256
+screen_height                 = 200;256
 screen_bitplanesize           = (screen_width/8)*screen_height
 
 screen_bitplanesizeGame           = (screen_width/8)*100
@@ -25,7 +25,7 @@ screenBuffer_modulo_repeat    =  -(screen_width/8)-2
 screenBuffer_width_Byte       = screenBuffer_width/8
 screenBuffer_lineSize         = screenBuffer_width_Byte*screen_colorDepth
 
-GAME_SCREEN_HEIGHT            = 90 ; because of scanline doubling
+GAME_SCREEN_HEIGHT            = 100 ; because of scanline doubling
 
 SCREEN_CLIP_X0 = 0
 SCREEN_CLIP_Y0 = 0
@@ -40,7 +40,6 @@ PFR 		= 	128  ;64
 PFR_DIV		= 	128
 PFR_IN_SHIFTS = 8
 
-PLAYER_SPEED = 16
-PLAYER_ANGLE_SPEED = 15 ; degree
+PLAYER_SPEED = 32;16
+PLAYER_ANGLE_SPEED = 3;15 ; degree
 
-NO_WALLS = 17

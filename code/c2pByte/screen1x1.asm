@@ -1,4 +1,6 @@
-
+SCREEN_SIZE_X:		equ	320
+SCREEN_SIZE_Y:		equ	200
+SCREEN_BITPLANES:	equ	4
 
 screen_waitVBlank:
 wait:              ; wait until at beam line 0
@@ -165,10 +167,31 @@ screen_buffer
 ;a0 pointer to colors
 screen_setColors
                               lea       copper_colors,a1
+							  move.l 	currentLevel,a0
+							  move.l   10(a0),a0
+							  ;lea		map_colors,a0
                               moveq     #15,d0
 sr_col_loop                   move.l    (a0)+,(a1)+
                               dbf       d0,sr_col_loop
                               rts
+
+screen_setGradient:
+  rts ;TODO
+
+	move.l currentLevel,a0
+	move.l 14(a0),a0
+	beq.s .done 	;no gradient? -> done
+	move.w (a0)+,d6
+	
+	lea copper_colorGradient,a1
+	adda.l #10,a1
+.loop:
+	move.w (a0)+,(a1)
+	adda.l #28,a1
+	dbf.w d6,.loop
+.done:
+	rts
+
 
 
 screen_buffer2screen
@@ -181,8 +204,8 @@ screen_buffer2screen
 
   move.w #160,d0
   move.w #100,d1
-  move.w #48,d2
-  move.w #16,d3
+  move.w #64,d2
+  move.w #28,d3
   move.l buffer,a0
   move.l Screen_RENDER,a1
 
@@ -211,15 +234,15 @@ s1_sprcoploop:            ; set all 7 sprite pointers
 
 	
 screen_mem1:			;Reserve screen memory 
-                include "./data/bg1x1.asm"
+                include "./data/bg1x1_UU.asm"
                            ; ds.b      screenBuffer_size
 
 screen_mem2:			;Reserve screen memory 
-  include "./data/bg1x1.asm"
+  include "./data/bg1x1_UU.asm"
                             ;ds.b      screenBuffer_size
 
 screen_mem3:			;Reserve screen memory 
- include "./data/bg1x1.asm"
+ include "./data/bg1x1_UU.asm"
 							;ds.b      screenBuffer_size
     
 Screen_SHOW:                  dc.l      screen_mem1
@@ -332,7 +355,7 @@ copper_colors:
 	dc.w  COLOR30, $0b10
 	dc.w  COLOR31, $0d11	
 
-
+copper_colorGradient:
 
 copperSlot:
                               dc.w      $ffdf,$fffe                                                                ; wait($df,$ff) enables waits > $ff vertical

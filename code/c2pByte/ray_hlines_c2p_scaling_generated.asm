@@ -1,16 +1,16 @@
-hline1_16:
+hl1_16:
 	move.b 15(a3),(a0)+
 	sne (a1)+
 	rts
 
-hline2_16:
+hl2_16:
 	move.b 7(a3),(a0)+
 	sne (a1)+
 	move.b 15(a3),(a0)+
 	sne (a1)+
 	rts
 
-hline3_16:
+hl3_16:
 	move.b 5(a3),(a0)+
 	sne (a1)+
 	move.b 10(a3),(a0)+
@@ -19,7 +19,7 @@ hline3_16:
 	sne (a1)+
 	rts
 
-hline4_16:
+hl4_16:
 	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 7(a3),(a0)+
@@ -30,7 +30,7 @@ hline4_16:
 	sne (a1)+
 	rts
 
-hline5_16:
+hl5_16:
 	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 6(a3),(a0)+
@@ -43,7 +43,7 @@ hline5_16:
 	sne (a1)+
 	rts
 
-hline6_16:
+hl6_16:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
@@ -58,7 +58,7 @@ hline6_16:
 	sne (a1)+
 	rts
 
-hline7_16:
+hl7_16:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 4(a3),(a0)+
@@ -75,7 +75,7 @@ hline7_16:
 	sne (a1)+
 	rts
 
-hline8_16:
+hl8_16:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -94,7 +94,7 @@ hline8_16:
 	sne (a1)+
 	rts
 
-hline9_16:
+hl9_16:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -115,7 +115,7 @@ hline9_16:
 	sne (a1)+
 	rts
 
-hline10_16:
+hl10_16:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -138,7 +138,7 @@ hline10_16:
 	sne (a1)+
 	rts
 
-hline11_16:
+hl11_16:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -163,7 +163,7 @@ hline11_16:
 	sne (a1)+
 	rts
 
-hline12_16:
+hl12_16:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -190,7 +190,7 @@ hline12_16:
 	sne (a1)+
 	rts
 
-hline13_16:
+hl13_16:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -219,7 +219,7 @@ hline13_16:
 	sne (a1)+
 	rts
 
-hline14_16:
+hl14_16:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -250,7 +250,7 @@ hline14_16:
 	sne (a1)+
 	rts
 
-hline15_16:
+hl15_16:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -283,7 +283,7 @@ hline15_16:
 	sne (a1)+
 	rts
 
-hline16_16:
+hl16_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -318,7 +318,7 @@ hline16_16:
 	sne (a1)+
 	rts
 
-hline17_16:
+hl17_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -355,7 +355,7 @@ hline17_16:
 	sne (a1)+
 	rts
 
-hline18_16:
+hl18_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -394,7 +394,7 @@ hline18_16:
 	sne (a1)+
 	rts
 
-hline19_16:
+hl19_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -435,7 +435,7 @@ hline19_16:
 	sne (a1)+
 	rts
 
-hline20_16:
+hl20_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -478,7 +478,7 @@ hline20_16:
 	sne (a1)+
 	rts
 
-hline21_16:
+hl21_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -523,7 +523,7 @@ hline21_16:
 	sne (a1)+
 	rts
 
-hline22_16:
+hl22_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -570,7 +570,7 @@ hline22_16:
 	sne (a1)+
 	rts
 
-hline23_16:
+hl23_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -619,7 +619,7 @@ hline23_16:
 	sne (a1)+
 	rts
 
-hline24_16:
+hl24_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -670,7 +670,7 @@ hline24_16:
 	sne (a1)+
 	rts
 
-hline25_16:
+hl25_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -723,7 +723,7 @@ hline25_16:
 	sne (a1)+
 	rts
 
-hline26_16:
+hl26_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -778,7 +778,7 @@ hline26_16:
 	sne (a1)+
 	rts
 
-hline27_16:
+hl27_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -835,7 +835,7 @@ hline27_16:
 	sne (a1)+
 	rts
 
-hline28_16:
+hl28_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -894,7 +894,7 @@ hline28_16:
 	sne (a1)+
 	rts
 
-hline29_16:
+hl29_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -955,7 +955,7 @@ hline29_16:
 	sne (a1)+
 	rts
 
-hline30_16:
+hl30_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -1018,74 +1018,7 @@ hline30_16:
 	sne (a1)+
 	rts
 
-hline31_16:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline32_16:
-	move.b 0(a3),(a0)+
-	sne (a1)+
+hl31_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -1150,7 +1083,7 @@ hline32_16:
 	sne (a1)+
 	rts
 
-hline33_16:
+hl32_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -1210,79 +1143,6 @@ hline33_16:
 	move.b 14(a3),(a0)+
 	sne (a1)+
 	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline34_16:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
 	sne (a1)+
 	move.b 15(a3),(a0)+
 	sne (a1)+
@@ -1290,7 +1150,7 @@ hline34_16:
 	sne (a1)+
 	rts
 
-hline35_16:
+hl33_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -1310,8 +1170,6 @@ hline35_16:
 	move.b 4(a3),(a0)+
 	sne (a1)+
 	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
 	sne (a1)+
@@ -1337,163 +1195,9 @@ hline35_16:
 	sne (a1)+
 	move.b 10(a3),(a0)+
 	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
 	move.b 11(a3),(a0)+
 	sne (a1)+
 	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline36_16:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline37_16:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
 	sne (a1)+
 	move.b 12(a3),(a0)+
 	sne (a1)+
@@ -1515,7 +1219,7 @@ hline37_16:
 	sne (a1)+
 	rts
 
-hline38_16:
+hl34_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -1528,8 +1232,6 @@ hline38_16:
 	sne (a1)+
 	move.b 2(a3),(a0)+
 	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
 	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -1537,8 +1239,6 @@ hline38_16:
 	move.b 4(a3),(a0)+
 	sne (a1)+
 	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
 	sne (a1)+
@@ -1566,8 +1266,6 @@ hline38_16:
 	sne (a1)+
 	move.b 10(a3),(a0)+
 	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
 	move.b 11(a3),(a0)+
 	sne (a1)+
 	move.b 11(a3),(a0)+
@@ -1575,8 +1273,6 @@ hline38_16:
 	move.b 12(a3),(a0)+
 	sne (a1)+
 	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
 	sne (a1)+
 	move.b 13(a3),(a0)+
 	sne (a1)+
@@ -1594,7 +1290,7 @@ hline38_16:
 	sne (a1)+
 	rts
 
-hline39_16:
+hl35_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -1602,8 +1298,6 @@ hline39_16:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
 	sne (a1)+
@@ -1617,13 +1311,11 @@ hline39_16:
 	sne (a1)+
 	move.b 4(a3),(a0)+
 	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
 	move.b 5(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
 	sne (a1)+
-	move.b 6(a3),(a0)+
+	move.b 5(a3),(a0)+
 	sne (a1)+
 	move.b 6(a3),(a0)+
 	sne (a1)+
@@ -1641,13 +1333,11 @@ hline39_16:
 	sne (a1)+
 	move.b 9(a3),(a0)+
 	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
 	move.b 10(a3),(a0)+
 	sne (a1)+
 	move.b 10(a3),(a0)+
 	sne (a1)+
-	move.b 11(a3),(a0)+
+	move.b 10(a3),(a0)+
 	sne (a1)+
 	move.b 11(a3),(a0)+
 	sne (a1)+
@@ -1656,8 +1346,6 @@ hline39_16:
 	move.b 12(a3),(a0)+
 	sne (a1)+
 	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
 	sne (a1)+
 	move.b 13(a3),(a0)+
 	sne (a1)+
@@ -1675,7 +1363,7 @@ hline39_16:
 	sne (a1)+
 	rts
 
-hline40_16:
+hl36_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -1688,13 +1376,11 @@ hline40_16:
 	sne (a1)+
 	move.b 2(a3),(a0)+
 	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
 	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
 	sne (a1)+
-	move.b 4(a3),(a0)+
+	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 4(a3),(a0)+
 	sne (a1)+
@@ -1708,13 +1394,11 @@ hline40_16:
 	sne (a1)+
 	move.b 6(a3),(a0)+
 	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
 	move.b 7(a3),(a0)+
 	sne (a1)+
 	move.b 7(a3),(a0)+
 	sne (a1)+
-	move.b 8(a3),(a0)+
+	move.b 7(a3),(a0)+
 	sne (a1)+
 	move.b 8(a3),(a0)+
 	sne (a1)+
@@ -1728,13 +1412,11 @@ hline40_16:
 	sne (a1)+
 	move.b 10(a3),(a0)+
 	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
 	move.b 11(a3),(a0)+
 	sne (a1)+
 	move.b 11(a3),(a0)+
 	sne (a1)+
-	move.b 12(a3),(a0)+
+	move.b 11(a3),(a0)+
 	sne (a1)+
 	move.b 12(a3),(a0)+
 	sne (a1)+
@@ -1745,6 +1427,81 @@ hline40_16:
 	move.b 13(a3),(a0)+
 	sne (a1)+
 	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl37_16:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
 	sne (a1)+
 	move.b 14(a3),(a0)+
 	sne (a1)+
@@ -1758,12 +1515,10 @@ hline40_16:
 	sne (a1)+
 	rts
 
-hline41_16:
+hl38_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
 	sne (a1)+
@@ -1773,7 +1528,7 @@ hline41_16:
 	sne (a1)+
 	move.b 2(a3),(a0)+
 	sne (a1)+
-	move.b 3(a3),(a0)+
+	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
 	sne (a1)+
@@ -1794,6 +1549,166 @@ hline41_16:
 	move.b 6(a3),(a0)+
 	sne (a1)+
 	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl39_16:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl40_16:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
 	sne (a1)+
 	move.b 7(a3),(a0)+
 	sne (a1)+
@@ -1843,7 +1758,92 @@ hline41_16:
 	sne (a1)+
 	rts
 
-hline42_16:
+hl41_16:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl42_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -1930,7 +1930,7 @@ hline42_16:
 	sne (a1)+
 	rts
 
-hline43_16:
+hl43_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -2019,7 +2019,7 @@ hline43_16:
 	sne (a1)+
 	rts
 
-hline44_16:
+hl44_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -2110,7 +2110,7 @@ hline44_16:
 	sne (a1)+
 	rts
 
-hline45_16:
+hl45_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -2203,7 +2203,7 @@ hline45_16:
 	sne (a1)+
 	rts
 
-hline46_16:
+hl46_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -2298,7 +2298,7 @@ hline46_16:
 	sne (a1)+
 	rts
 
-hline47_16:
+hl47_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -2395,7 +2395,7 @@ hline47_16:
 	sne (a1)+
 	rts
 
-hline48_16:
+hl48_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -2494,7 +2494,7 @@ hline48_16:
 	sne (a1)+
 	rts
 
-hline49_16:
+hl49_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -2595,7 +2595,7 @@ hline49_16:
 	sne (a1)+
 	rts
 
-hline50_16:
+hl50_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -2698,7 +2698,7 @@ hline50_16:
 	sne (a1)+
 	rts
 
-hline51_16:
+hl51_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -2803,7 +2803,7 @@ hline51_16:
 	sne (a1)+
 	rts
 
-hline52_16:
+hl52_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -2910,7 +2910,7 @@ hline52_16:
 	sne (a1)+
 	rts
 
-hline53_16:
+hl53_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -3019,7 +3019,7 @@ hline53_16:
 	sne (a1)+
 	rts
 
-hline54_16:
+hl54_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -3130,7 +3130,7 @@ hline54_16:
 	sne (a1)+
 	rts
 
-hline55_16:
+hl55_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -3243,7 +3243,7 @@ hline55_16:
 	sne (a1)+
 	rts
 
-hline56_16:
+hl56_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -3358,7 +3358,7 @@ hline56_16:
 	sne (a1)+
 	rts
 
-hline57_16:
+hl57_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -3475,7 +3475,7 @@ hline57_16:
 	sne (a1)+
 	rts
 
-hline58_16:
+hl58_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -3594,7 +3594,7 @@ hline58_16:
 	sne (a1)+
 	rts
 
-hline59_16:
+hl59_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -3715,7 +3715,7 @@ hline59_16:
 	sne (a1)+
 	rts
 
-hline60_16:
+hl60_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -3838,7 +3838,7 @@ hline60_16:
 	sne (a1)+
 	rts
 
-hline61_16:
+hl61_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -3963,7 +3963,7 @@ hline61_16:
 	sne (a1)+
 	rts
 
-hline62_16:
+hl62_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -4090,138 +4090,7 @@ hline62_16:
 	sne (a1)+
 	rts
 
-hline63_16:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline64_16:
-	move.b 0(a3),(a0)+
-	sne (a1)+
+hl63_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -4350,7 +4219,7 @@ hline64_16:
 	sne (a1)+
 	rts
 
-hline65_16:
+hl64_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -4478,12 +4347,10 @@ hline65_16:
 	move.b 15(a3),(a0)+
 	sne (a1)+
 	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
 	sne (a1)+
 	rts
 
-hline66_16:
+hl65_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -4547,8 +4414,6 @@ hline66_16:
 	move.b 7(a3),(a0)+
 	sne (a1)+
 	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
 	sne (a1)+
 	move.b 8(a3),(a0)+
 	sne (a1)+
@@ -4618,7 +4483,142 @@ hline66_16:
 	sne (a1)+
 	rts
 
-hline67_16:
+hl66_16:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl67_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -4755,7 +4755,7 @@ hline67_16:
 	sne (a1)+
 	rts
 
-hline68_16:
+hl68_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -4894,7 +4894,7 @@ hline68_16:
 	sne (a1)+
 	rts
 
-hline69_16:
+hl69_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -5035,7 +5035,7 @@ hline69_16:
 	sne (a1)+
 	rts
 
-hline70_16:
+hl70_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -5178,7 +5178,7 @@ hline70_16:
 	sne (a1)+
 	rts
 
-hline71_16:
+hl71_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -5323,7 +5323,7 @@ hline71_16:
 	sne (a1)+
 	rts
 
-hline72_16:
+hl72_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -5470,7 +5470,7 @@ hline72_16:
 	sne (a1)+
 	rts
 
-hline73_16:
+hl73_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -5619,7 +5619,7 @@ hline73_16:
 	sne (a1)+
 	rts
 
-hline74_16:
+hl74_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -5770,7 +5770,7 @@ hline74_16:
 	sne (a1)+
 	rts
 
-hline75_16:
+hl75_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -5923,7 +5923,7 @@ hline75_16:
 	sne (a1)+
 	rts
 
-hline76_16:
+hl76_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -6078,7 +6078,7 @@ hline76_16:
 	sne (a1)+
 	rts
 
-hline77_16:
+hl77_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -6235,7 +6235,7 @@ hline77_16:
 	sne (a1)+
 	rts
 
-hline78_16:
+hl78_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -6394,170 +6394,7 @@ hline78_16:
 	sne (a1)+
 	rts
 
-hline79_16:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline80_16:
-	move.b 0(a3),(a0)+
-	sne (a1)+
+hl79_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -6718,7 +6555,170 @@ hline80_16:
 	sne (a1)+
 	rts
 
-hline81_16:
+hl80_16:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl81_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -6883,7 +6883,7 @@ hline81_16:
 	sne (a1)+
 	rts
 
-hline82_16:
+hl82_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -7050,7 +7050,7 @@ hline82_16:
 	sne (a1)+
 	rts
 
-hline83_16:
+hl83_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -7219,7 +7219,7 @@ hline83_16:
 	sne (a1)+
 	rts
 
-hline84_16:
+hl84_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -7390,7 +7390,7 @@ hline84_16:
 	sne (a1)+
 	rts
 
-hline85_16:
+hl85_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -7563,7 +7563,7 @@ hline85_16:
 	sne (a1)+
 	rts
 
-hline86_16:
+hl86_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -7738,7 +7738,7 @@ hline86_16:
 	sne (a1)+
 	rts
 
-hline87_16:
+hl87_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -7915,7 +7915,7 @@ hline87_16:
 	sne (a1)+
 	rts
 
-hline88_16:
+hl88_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -8094,7 +8094,7 @@ hline88_16:
 	sne (a1)+
 	rts
 
-hline89_16:
+hl89_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -8275,7 +8275,7 @@ hline89_16:
 	sne (a1)+
 	rts
 
-hline90_16:
+hl90_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -8458,7 +8458,7 @@ hline90_16:
 	sne (a1)+
 	rts
 
-hline91_16:
+hl91_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -8643,7 +8643,7 @@ hline91_16:
 	sne (a1)+
 	rts
 
-hline92_16:
+hl92_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -8830,7 +8830,7 @@ hline92_16:
 	sne (a1)+
 	rts
 
-hline93_16:
+hl93_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -8946,197 +8946,6 @@ hline93_16:
 	move.b 9(a3),(a0)+
 	sne (a1)+
 	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline94_16:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
 	sne (a1)+
 	move.b 10(a3),(a0)+
 	sne (a1)+
@@ -9210,7 +9019,198 @@ hline94_16:
 	sne (a1)+
 	rts
 
-hline95_16:
+hl94_16:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl95_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -9403,7 +9403,7 @@ hline95_16:
 	sne (a1)+
 	rts
 
-hline96_16:
+hl96_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -9598,7 +9598,7 @@ hline96_16:
 	sne (a1)+
 	rts
 
-hline97_16:
+hl97_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -9795,7 +9795,7 @@ hline97_16:
 	sne (a1)+
 	rts
 
-hline98_16:
+hl98_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -9994,7 +9994,7 @@ hline98_16:
 	sne (a1)+
 	rts
 
-hline99_16:
+hl99_16:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -10198,119 +10198,119 @@ hline99_16:
 
 hlink16Table
 	dc.l 0
-	dc.l hline1_16
-	dc.l hline2_16
-	dc.l hline3_16
-	dc.l hline4_16
-	dc.l hline5_16
-	dc.l hline6_16
-	dc.l hline7_16
-	dc.l hline8_16
-	dc.l hline9_16
-	dc.l hline10_16
-	dc.l hline11_16
-	dc.l hline12_16
-	dc.l hline13_16
-	dc.l hline14_16
-	dc.l hline15_16
-	dc.l hline16_16
-	dc.l hline17_16
-	dc.l hline18_16
-	dc.l hline19_16
-	dc.l hline20_16
-	dc.l hline21_16
-	dc.l hline22_16
-	dc.l hline23_16
-	dc.l hline24_16
-	dc.l hline25_16
-	dc.l hline26_16
-	dc.l hline27_16
-	dc.l hline28_16
-	dc.l hline29_16
-	dc.l hline30_16
-	dc.l hline31_16
-	dc.l hline32_16
-	dc.l hline33_16
-	dc.l hline34_16
-	dc.l hline35_16
-	dc.l hline36_16
-	dc.l hline37_16
-	dc.l hline38_16
-	dc.l hline39_16
-	dc.l hline40_16
-	dc.l hline41_16
-	dc.l hline42_16
-	dc.l hline43_16
-	dc.l hline44_16
-	dc.l hline45_16
-	dc.l hline46_16
-	dc.l hline47_16
-	dc.l hline48_16
-	dc.l hline49_16
-	dc.l hline50_16
-	dc.l hline51_16
-	dc.l hline52_16
-	dc.l hline53_16
-	dc.l hline54_16
-	dc.l hline55_16
-	dc.l hline56_16
-	dc.l hline57_16
-	dc.l hline58_16
-	dc.l hline59_16
-	dc.l hline60_16
-	dc.l hline61_16
-	dc.l hline62_16
-	dc.l hline63_16
-	dc.l hline64_16
-	dc.l hline65_16
-	dc.l hline66_16
-	dc.l hline67_16
-	dc.l hline68_16
-	dc.l hline69_16
-	dc.l hline70_16
-	dc.l hline71_16
-	dc.l hline72_16
-	dc.l hline73_16
-	dc.l hline74_16
-	dc.l hline75_16
-	dc.l hline76_16
-	dc.l hline77_16
-	dc.l hline78_16
-	dc.l hline79_16
-	dc.l hline80_16
-	dc.l hline81_16
-	dc.l hline82_16
-	dc.l hline83_16
-	dc.l hline84_16
-	dc.l hline85_16
-	dc.l hline86_16
-	dc.l hline87_16
-	dc.l hline88_16
-	dc.l hline89_16
-	dc.l hline90_16
-	dc.l hline91_16
-	dc.l hline92_16
-	dc.l hline93_16
-	dc.l hline94_16
-	dc.l hline95_16
-	dc.l hline96_16
-	dc.l hline97_16
-	dc.l hline98_16
-	dc.l hline99_16
+	dc.l hl1_16
+	dc.l hl2_16
+	dc.l hl3_16
+	dc.l hl4_16
+	dc.l hl5_16
+	dc.l hl6_16
+	dc.l hl7_16
+	dc.l hl8_16
+	dc.l hl9_16
+	dc.l hl10_16
+	dc.l hl11_16
+	dc.l hl12_16
+	dc.l hl13_16
+	dc.l hl14_16
+	dc.l hl15_16
+	dc.l hl16_16
+	dc.l hl17_16
+	dc.l hl18_16
+	dc.l hl19_16
+	dc.l hl20_16
+	dc.l hl21_16
+	dc.l hl22_16
+	dc.l hl23_16
+	dc.l hl24_16
+	dc.l hl25_16
+	dc.l hl26_16
+	dc.l hl27_16
+	dc.l hl28_16
+	dc.l hl29_16
+	dc.l hl30_16
+	dc.l hl31_16
+	dc.l hl32_16
+	dc.l hl33_16
+	dc.l hl34_16
+	dc.l hl35_16
+	dc.l hl36_16
+	dc.l hl37_16
+	dc.l hl38_16
+	dc.l hl39_16
+	dc.l hl40_16
+	dc.l hl41_16
+	dc.l hl42_16
+	dc.l hl43_16
+	dc.l hl44_16
+	dc.l hl45_16
+	dc.l hl46_16
+	dc.l hl47_16
+	dc.l hl48_16
+	dc.l hl49_16
+	dc.l hl50_16
+	dc.l hl51_16
+	dc.l hl52_16
+	dc.l hl53_16
+	dc.l hl54_16
+	dc.l hl55_16
+	dc.l hl56_16
+	dc.l hl57_16
+	dc.l hl58_16
+	dc.l hl59_16
+	dc.l hl60_16
+	dc.l hl61_16
+	dc.l hl62_16
+	dc.l hl63_16
+	dc.l hl64_16
+	dc.l hl65_16
+	dc.l hl66_16
+	dc.l hl67_16
+	dc.l hl68_16
+	dc.l hl69_16
+	dc.l hl70_16
+	dc.l hl71_16
+	dc.l hl72_16
+	dc.l hl73_16
+	dc.l hl74_16
+	dc.l hl75_16
+	dc.l hl76_16
+	dc.l hl77_16
+	dc.l hl78_16
+	dc.l hl79_16
+	dc.l hl80_16
+	dc.l hl81_16
+	dc.l hl82_16
+	dc.l hl83_16
+	dc.l hl84_16
+	dc.l hl85_16
+	dc.l hl86_16
+	dc.l hl87_16
+	dc.l hl88_16
+	dc.l hl89_16
+	dc.l hl90_16
+	dc.l hl91_16
+	dc.l hl92_16
+	dc.l hl93_16
+	dc.l hl94_16
+	dc.l hl95_16
+	dc.l hl96_16
+	dc.l hl97_16
+	dc.l hl98_16
+	dc.l hl99_16
 
-hline1_32:
+hl1_32:
 	move.b 31(a3),(a0)+
 	sne (a1)+
 	rts
 
-hline2_32:
+hl2_32:
 	move.b 15(a3),(a0)+
 	sne (a1)+
 	move.b 31(a3),(a0)+
 	sne (a1)+
 	rts
 
-hline3_32:
+hl3_32:
 	move.b 10(a3),(a0)+
 	sne (a1)+
 	move.b 21(a3),(a0)+
@@ -10319,7 +10319,7 @@ hline3_32:
 	sne (a1)+
 	rts
 
-hline4_32:
+hl4_32:
 	move.b 7(a3),(a0)+
 	sne (a1)+
 	move.b 15(a3),(a0)+
@@ -10330,7 +10330,7 @@ hline4_32:
 	sne (a1)+
 	rts
 
-hline5_32:
+hl5_32:
 	move.b 6(a3),(a0)+
 	sne (a1)+
 	move.b 12(a3),(a0)+
@@ -10343,7 +10343,7 @@ hline5_32:
 	sne (a1)+
 	rts
 
-hline6_32:
+hl6_32:
 	move.b 5(a3),(a0)+
 	sne (a1)+
 	move.b 10(a3),(a0)+
@@ -10358,7 +10358,7 @@ hline6_32:
 	sne (a1)+
 	rts
 
-hline7_32:
+hl7_32:
 	move.b 4(a3),(a0)+
 	sne (a1)+
 	move.b 9(a3),(a0)+
@@ -10375,7 +10375,7 @@ hline7_32:
 	sne (a1)+
 	rts
 
-hline8_32:
+hl8_32:
 	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 7(a3),(a0)+
@@ -10394,7 +10394,7 @@ hline8_32:
 	sne (a1)+
 	rts
 
-hline9_32:
+hl9_32:
 	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 7(a3),(a0)+
@@ -10415,7 +10415,7 @@ hline9_32:
 	sne (a1)+
 	rts
 
-hline10_32:
+hl10_32:
 	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 6(a3),(a0)+
@@ -10438,7 +10438,7 @@ hline10_32:
 	sne (a1)+
 	rts
 
-hline11_32:
+hl11_32:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
@@ -10463,7 +10463,7 @@ hline11_32:
 	sne (a1)+
 	rts
 
-hline12_32:
+hl12_32:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
@@ -10490,7 +10490,7 @@ hline12_32:
 	sne (a1)+
 	rts
 
-hline13_32:
+hl13_32:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 4(a3),(a0)+
@@ -10519,7 +10519,7 @@ hline13_32:
 	sne (a1)+
 	rts
 
-hline14_32:
+hl14_32:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 4(a3),(a0)+
@@ -10550,7 +10550,7 @@ hline14_32:
 	sne (a1)+
 	rts
 
-hline15_32:
+hl15_32:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 4(a3),(a0)+
@@ -10583,7 +10583,7 @@ hline15_32:
 	sne (a1)+
 	rts
 
-hline16_32:
+hl16_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -10618,7 +10618,7 @@ hline16_32:
 	sne (a1)+
 	rts
 
-hline17_32:
+hl17_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -10655,7 +10655,7 @@ hline17_32:
 	sne (a1)+
 	rts
 
-hline18_32:
+hl18_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -10694,7 +10694,7 @@ hline18_32:
 	sne (a1)+
 	rts
 
-hline19_32:
+hl19_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -10735,7 +10735,7 @@ hline19_32:
 	sne (a1)+
 	rts
 
-hline20_32:
+hl20_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -10778,7 +10778,7 @@ hline20_32:
 	sne (a1)+
 	rts
 
-hline21_32:
+hl21_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -10823,7 +10823,7 @@ hline21_32:
 	sne (a1)+
 	rts
 
-hline22_32:
+hl22_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -10870,7 +10870,7 @@ hline22_32:
 	sne (a1)+
 	rts
 
-hline23_32:
+hl23_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -10919,7 +10919,7 @@ hline23_32:
 	sne (a1)+
 	rts
 
-hline24_32:
+hl24_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -10970,7 +10970,7 @@ hline24_32:
 	sne (a1)+
 	rts
 
-hline25_32:
+hl25_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -11023,7 +11023,7 @@ hline25_32:
 	sne (a1)+
 	rts
 
-hline26_32:
+hl26_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -11078,7 +11078,7 @@ hline26_32:
 	sne (a1)+
 	rts
 
-hline27_32:
+hl27_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -11135,7 +11135,7 @@ hline27_32:
 	sne (a1)+
 	rts
 
-hline28_32:
+hl28_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -11194,7 +11194,7 @@ hline28_32:
 	sne (a1)+
 	rts
 
-hline29_32:
+hl29_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -11255,7 +11255,7 @@ hline29_32:
 	sne (a1)+
 	rts
 
-hline30_32:
+hl30_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -11318,7 +11318,7 @@ hline30_32:
 	sne (a1)+
 	rts
 
-hline31_32:
+hl31_32:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -11383,7 +11383,7 @@ hline31_32:
 	sne (a1)+
 	rts
 
-hline32_32:
+hl32_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -11450,7 +11450,7 @@ hline32_32:
 	sne (a1)+
 	rts
 
-hline33_32:
+hl33_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -11519,7 +11519,7 @@ hline33_32:
 	sne (a1)+
 	rts
 
-hline34_32:
+hl34_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -11590,7 +11590,7 @@ hline34_32:
 	sne (a1)+
 	rts
 
-hline35_32:
+hl35_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -11663,7 +11663,7 @@ hline35_32:
 	sne (a1)+
 	rts
 
-hline36_32:
+hl36_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -11738,7 +11738,7 @@ hline36_32:
 	sne (a1)+
 	rts
 
-hline37_32:
+hl37_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -11802,249 +11802,6 @@ hline37_32:
 	move.b 26(a3),(a0)+
 	sne (a1)+
 	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline38_32:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline39_32:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline40_32:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
 	sne (a1)+
 	move.b 28(a3),(a0)+
 	sne (a1)+
@@ -12058,7 +11815,7 @@ hline40_32:
 	sne (a1)+
 	rts
 
-hline41_32:
+hl38_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -12067,15 +11824,13 @@ hline41_32:
 	sne (a1)+
 	move.b 3(a3),(a0)+
 	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
 	move.b 4(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
 	sne (a1)+
-	move.b 6(a3),(a0)+
+	move.b 5(a3),(a0)+
 	sne (a1)+
-	move.b 7(a3),(a0)+
+	move.b 6(a3),(a0)+
 	sne (a1)+
 	move.b 7(a3),(a0)+
 	sne (a1)+
@@ -12095,13 +11850,11 @@ hline41_32:
 	sne (a1)+
 	move.b 14(a3),(a0)+
 	sne (a1)+
-	move.b 14(a3),(a0)+
+	move.b 15(a3),(a0)+
 	sne (a1)+
 	move.b 15(a3),(a0)+
 	sne (a1)+
 	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
 	sne (a1)+
 	move.b 17(a3),(a0)+
 	sne (a1)+
@@ -12112,6 +11865,168 @@ hline41_32:
 	move.b 20(a3),(a0)+
 	sne (a1)+
 	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl39_32:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl40_32:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
 	sne (a1)+
 	move.b 21(a3),(a0)+
 	sne (a1)+
@@ -12143,7 +12058,92 @@ hline41_32:
 	sne (a1)+
 	rts
 
-hline42_32:
+hl41_32:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl42_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -12230,7 +12230,7 @@ hline42_32:
 	sne (a1)+
 	rts
 
-hline43_32:
+hl43_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -12319,7 +12319,7 @@ hline43_32:
 	sne (a1)+
 	rts
 
-hline44_32:
+hl44_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -12410,7 +12410,7 @@ hline44_32:
 	sne (a1)+
 	rts
 
-hline45_32:
+hl45_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -12503,7 +12503,7 @@ hline45_32:
 	sne (a1)+
 	rts
 
-hline46_32:
+hl46_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -12598,7 +12598,7 @@ hline46_32:
 	sne (a1)+
 	rts
 
-hline47_32:
+hl47_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -12695,7 +12695,7 @@ hline47_32:
 	sne (a1)+
 	rts
 
-hline48_32:
+hl48_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -12794,7 +12794,7 @@ hline48_32:
 	sne (a1)+
 	rts
 
-hline49_32:
+hl49_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -12895,7 +12895,7 @@ hline49_32:
 	sne (a1)+
 	rts
 
-hline50_32:
+hl50_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -12998,7 +12998,7 @@ hline50_32:
 	sne (a1)+
 	rts
 
-hline51_32:
+hl51_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -13103,7 +13103,7 @@ hline51_32:
 	sne (a1)+
 	rts
 
-hline52_32:
+hl52_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -13210,7 +13210,7 @@ hline52_32:
 	sne (a1)+
 	rts
 
-hline53_32:
+hl53_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -13319,7 +13319,7 @@ hline53_32:
 	sne (a1)+
 	rts
 
-hline54_32:
+hl54_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -13430,7 +13430,7 @@ hline54_32:
 	sne (a1)+
 	rts
 
-hline55_32:
+hl55_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -13543,7 +13543,7 @@ hline55_32:
 	sne (a1)+
 	rts
 
-hline56_32:
+hl56_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -13658,7 +13658,7 @@ hline56_32:
 	sne (a1)+
 	rts
 
-hline57_32:
+hl57_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -13775,7 +13775,7 @@ hline57_32:
 	sne (a1)+
 	rts
 
-hline58_32:
+hl58_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -13894,7 +13894,7 @@ hline58_32:
 	sne (a1)+
 	rts
 
-hline59_32:
+hl59_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -14015,7 +14015,7 @@ hline59_32:
 	sne (a1)+
 	rts
 
-hline60_32:
+hl60_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -14138,7 +14138,7 @@ hline60_32:
 	sne (a1)+
 	rts
 
-hline61_32:
+hl61_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -14263,7 +14263,7 @@ hline61_32:
 	sne (a1)+
 	rts
 
-hline62_32:
+hl62_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -14390,138 +14390,7 @@ hline62_32:
 	sne (a1)+
 	rts
 
-hline63_32:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline64_32:
-	move.b 0(a3),(a0)+
-	sne (a1)+
+hl63_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -14650,7 +14519,7 @@ hline64_32:
 	sne (a1)+
 	rts
 
-hline65_32:
+hl64_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -14778,12 +14647,10 @@ hline65_32:
 	move.b 31(a3),(a0)+
 	sne (a1)+
 	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
 	sne (a1)+
 	rts
 
-hline66_32:
+hl65_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -14847,8 +14714,6 @@ hline66_32:
 	move.b 15(a3),(a0)+
 	sne (a1)+
 	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
 	sne (a1)+
 	move.b 16(a3),(a0)+
 	sne (a1)+
@@ -14918,7 +14783,142 @@ hline66_32:
 	sne (a1)+
 	rts
 
-hline67_32:
+hl66_32:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl67_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -15055,7 +15055,7 @@ hline67_32:
 	sne (a1)+
 	rts
 
-hline68_32:
+hl68_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -15194,7 +15194,7 @@ hline68_32:
 	sne (a1)+
 	rts
 
-hline69_32:
+hl69_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -15335,7 +15335,7 @@ hline69_32:
 	sne (a1)+
 	rts
 
-hline70_32:
+hl70_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -15478,7 +15478,7 @@ hline70_32:
 	sne (a1)+
 	rts
 
-hline71_32:
+hl71_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -15623,7 +15623,7 @@ hline71_32:
 	sne (a1)+
 	rts
 
-hline72_32:
+hl72_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -15770,7 +15770,7 @@ hline72_32:
 	sne (a1)+
 	rts
 
-hline73_32:
+hl73_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -15919,7 +15919,7 @@ hline73_32:
 	sne (a1)+
 	rts
 
-hline74_32:
+hl74_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -16070,7 +16070,7 @@ hline74_32:
 	sne (a1)+
 	rts
 
-hline75_32:
+hl75_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -16223,7 +16223,7 @@ hline75_32:
 	sne (a1)+
 	rts
 
-hline76_32:
+hl76_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -16378,7 +16378,7 @@ hline76_32:
 	sne (a1)+
 	rts
 
-hline77_32:
+hl77_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -16535,7 +16535,7 @@ hline77_32:
 	sne (a1)+
 	rts
 
-hline78_32:
+hl78_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -16694,7 +16694,7 @@ hline78_32:
 	sne (a1)+
 	rts
 
-hline79_32:
+hl79_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -16855,7 +16855,7 @@ hline79_32:
 	sne (a1)+
 	rts
 
-hline80_32:
+hl80_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -17018,7 +17018,7 @@ hline80_32:
 	sne (a1)+
 	rts
 
-hline81_32:
+hl81_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -17183,7 +17183,7 @@ hline81_32:
 	sne (a1)+
 	rts
 
-hline82_32:
+hl82_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -17350,7 +17350,7 @@ hline82_32:
 	sne (a1)+
 	rts
 
-hline83_32:
+hl83_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -17519,7 +17519,7 @@ hline83_32:
 	sne (a1)+
 	rts
 
-hline84_32:
+hl84_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -17690,7 +17690,7 @@ hline84_32:
 	sne (a1)+
 	rts
 
-hline85_32:
+hl85_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -17863,7 +17863,7 @@ hline85_32:
 	sne (a1)+
 	rts
 
-hline86_32:
+hl86_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -18038,7 +18038,7 @@ hline86_32:
 	sne (a1)+
 	rts
 
-hline87_32:
+hl87_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -18215,7 +18215,7 @@ hline87_32:
 	sne (a1)+
 	rts
 
-hline88_32:
+hl88_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -18394,7 +18394,7 @@ hline88_32:
 	sne (a1)+
 	rts
 
-hline89_32:
+hl89_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -18575,7 +18575,7 @@ hline89_32:
 	sne (a1)+
 	rts
 
-hline90_32:
+hl90_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -18758,7 +18758,7 @@ hline90_32:
 	sne (a1)+
 	rts
 
-hline91_32:
+hl91_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -18943,7 +18943,7 @@ hline91_32:
 	sne (a1)+
 	rts
 
-hline92_32:
+hl92_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -19130,7 +19130,7 @@ hline92_32:
 	sne (a1)+
 	rts
 
-hline93_32:
+hl93_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -19319,7 +19319,7 @@ hline93_32:
 	sne (a1)+
 	rts
 
-hline94_32:
+hl94_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -19510,7 +19510,7 @@ hline94_32:
 	sne (a1)+
 	rts
 
-hline95_32:
+hl95_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -19703,7 +19703,7 @@ hline95_32:
 	sne (a1)+
 	rts
 
-hline96_32:
+hl96_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -19898,7 +19898,7 @@ hline96_32:
 	sne (a1)+
 	rts
 
-hline97_32:
+hl97_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -20095,7 +20095,7 @@ hline97_32:
 	sne (a1)+
 	rts
 
-hline98_32:
+hl98_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -20294,7 +20294,7 @@ hline98_32:
 	sne (a1)+
 	rts
 
-hline99_32:
+hl99_32:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -20498,119 +20498,119 @@ hline99_32:
 
 hlink32Table
 	dc.l 0
-	dc.l hline1_32
-	dc.l hline2_32
-	dc.l hline3_32
-	dc.l hline4_32
-	dc.l hline5_32
-	dc.l hline6_32
-	dc.l hline7_32
-	dc.l hline8_32
-	dc.l hline9_32
-	dc.l hline10_32
-	dc.l hline11_32
-	dc.l hline12_32
-	dc.l hline13_32
-	dc.l hline14_32
-	dc.l hline15_32
-	dc.l hline16_32
-	dc.l hline17_32
-	dc.l hline18_32
-	dc.l hline19_32
-	dc.l hline20_32
-	dc.l hline21_32
-	dc.l hline22_32
-	dc.l hline23_32
-	dc.l hline24_32
-	dc.l hline25_32
-	dc.l hline26_32
-	dc.l hline27_32
-	dc.l hline28_32
-	dc.l hline29_32
-	dc.l hline30_32
-	dc.l hline31_32
-	dc.l hline32_32
-	dc.l hline33_32
-	dc.l hline34_32
-	dc.l hline35_32
-	dc.l hline36_32
-	dc.l hline37_32
-	dc.l hline38_32
-	dc.l hline39_32
-	dc.l hline40_32
-	dc.l hline41_32
-	dc.l hline42_32
-	dc.l hline43_32
-	dc.l hline44_32
-	dc.l hline45_32
-	dc.l hline46_32
-	dc.l hline47_32
-	dc.l hline48_32
-	dc.l hline49_32
-	dc.l hline50_32
-	dc.l hline51_32
-	dc.l hline52_32
-	dc.l hline53_32
-	dc.l hline54_32
-	dc.l hline55_32
-	dc.l hline56_32
-	dc.l hline57_32
-	dc.l hline58_32
-	dc.l hline59_32
-	dc.l hline60_32
-	dc.l hline61_32
-	dc.l hline62_32
-	dc.l hline63_32
-	dc.l hline64_32
-	dc.l hline65_32
-	dc.l hline66_32
-	dc.l hline67_32
-	dc.l hline68_32
-	dc.l hline69_32
-	dc.l hline70_32
-	dc.l hline71_32
-	dc.l hline72_32
-	dc.l hline73_32
-	dc.l hline74_32
-	dc.l hline75_32
-	dc.l hline76_32
-	dc.l hline77_32
-	dc.l hline78_32
-	dc.l hline79_32
-	dc.l hline80_32
-	dc.l hline81_32
-	dc.l hline82_32
-	dc.l hline83_32
-	dc.l hline84_32
-	dc.l hline85_32
-	dc.l hline86_32
-	dc.l hline87_32
-	dc.l hline88_32
-	dc.l hline89_32
-	dc.l hline90_32
-	dc.l hline91_32
-	dc.l hline92_32
-	dc.l hline93_32
-	dc.l hline94_32
-	dc.l hline95_32
-	dc.l hline96_32
-	dc.l hline97_32
-	dc.l hline98_32
-	dc.l hline99_32
+	dc.l hl1_32
+	dc.l hl2_32
+	dc.l hl3_32
+	dc.l hl4_32
+	dc.l hl5_32
+	dc.l hl6_32
+	dc.l hl7_32
+	dc.l hl8_32
+	dc.l hl9_32
+	dc.l hl10_32
+	dc.l hl11_32
+	dc.l hl12_32
+	dc.l hl13_32
+	dc.l hl14_32
+	dc.l hl15_32
+	dc.l hl16_32
+	dc.l hl17_32
+	dc.l hl18_32
+	dc.l hl19_32
+	dc.l hl20_32
+	dc.l hl21_32
+	dc.l hl22_32
+	dc.l hl23_32
+	dc.l hl24_32
+	dc.l hl25_32
+	dc.l hl26_32
+	dc.l hl27_32
+	dc.l hl28_32
+	dc.l hl29_32
+	dc.l hl30_32
+	dc.l hl31_32
+	dc.l hl32_32
+	dc.l hl33_32
+	dc.l hl34_32
+	dc.l hl35_32
+	dc.l hl36_32
+	dc.l hl37_32
+	dc.l hl38_32
+	dc.l hl39_32
+	dc.l hl40_32
+	dc.l hl41_32
+	dc.l hl42_32
+	dc.l hl43_32
+	dc.l hl44_32
+	dc.l hl45_32
+	dc.l hl46_32
+	dc.l hl47_32
+	dc.l hl48_32
+	dc.l hl49_32
+	dc.l hl50_32
+	dc.l hl51_32
+	dc.l hl52_32
+	dc.l hl53_32
+	dc.l hl54_32
+	dc.l hl55_32
+	dc.l hl56_32
+	dc.l hl57_32
+	dc.l hl58_32
+	dc.l hl59_32
+	dc.l hl60_32
+	dc.l hl61_32
+	dc.l hl62_32
+	dc.l hl63_32
+	dc.l hl64_32
+	dc.l hl65_32
+	dc.l hl66_32
+	dc.l hl67_32
+	dc.l hl68_32
+	dc.l hl69_32
+	dc.l hl70_32
+	dc.l hl71_32
+	dc.l hl72_32
+	dc.l hl73_32
+	dc.l hl74_32
+	dc.l hl75_32
+	dc.l hl76_32
+	dc.l hl77_32
+	dc.l hl78_32
+	dc.l hl79_32
+	dc.l hl80_32
+	dc.l hl81_32
+	dc.l hl82_32
+	dc.l hl83_32
+	dc.l hl84_32
+	dc.l hl85_32
+	dc.l hl86_32
+	dc.l hl87_32
+	dc.l hl88_32
+	dc.l hl89_32
+	dc.l hl90_32
+	dc.l hl91_32
+	dc.l hl92_32
+	dc.l hl93_32
+	dc.l hl94_32
+	dc.l hl95_32
+	dc.l hl96_32
+	dc.l hl97_32
+	dc.l hl98_32
+	dc.l hl99_32
 
-hline1_48:
+hl1_48:
 	move.b 47(a3),(a0)+
 	sne (a1)+
 	rts
 
-hline2_48:
+hl2_48:
 	move.b 23(a3),(a0)+
 	sne (a1)+
 	move.b 47(a3),(a0)+
 	sne (a1)+
 	rts
 
-hline3_48:
+hl3_48:
 	move.b 15(a3),(a0)+
 	sne (a1)+
 	move.b 31(a3),(a0)+
@@ -20619,7 +20619,7 @@ hline3_48:
 	sne (a1)+
 	rts
 
-hline4_48:
+hl4_48:
 	move.b 11(a3),(a0)+
 	sne (a1)+
 	move.b 23(a3),(a0)+
@@ -20630,7 +20630,7 @@ hline4_48:
 	sne (a1)+
 	rts
 
-hline5_48:
+hl5_48:
 	move.b 9(a3),(a0)+
 	sne (a1)+
 	move.b 19(a3),(a0)+
@@ -20643,7 +20643,7 @@ hline5_48:
 	sne (a1)+
 	rts
 
-hline6_48:
+hl6_48:
 	move.b 7(a3),(a0)+
 	sne (a1)+
 	move.b 15(a3),(a0)+
@@ -20658,7 +20658,7 @@ hline6_48:
 	sne (a1)+
 	rts
 
-hline7_48:
+hl7_48:
 	move.b 6(a3),(a0)+
 	sne (a1)+
 	move.b 13(a3),(a0)+
@@ -20675,7 +20675,7 @@ hline7_48:
 	sne (a1)+
 	rts
 
-hline8_48:
+hl8_48:
 	move.b 5(a3),(a0)+
 	sne (a1)+
 	move.b 11(a3),(a0)+
@@ -20694,7 +20694,7 @@ hline8_48:
 	sne (a1)+
 	rts
 
-hline9_48:
+hl9_48:
 	move.b 5(a3),(a0)+
 	sne (a1)+
 	move.b 10(a3),(a0)+
@@ -20715,7 +20715,7 @@ hline9_48:
 	sne (a1)+
 	rts
 
-hline10_48:
+hl10_48:
 	move.b 4(a3),(a0)+
 	sne (a1)+
 	move.b 9(a3),(a0)+
@@ -20738,7 +20738,7 @@ hline10_48:
 	sne (a1)+
 	rts
 
-hline11_48:
+hl11_48:
 	move.b 4(a3),(a0)+
 	sne (a1)+
 	move.b 8(a3),(a0)+
@@ -20763,7 +20763,7 @@ hline11_48:
 	sne (a1)+
 	rts
 
-hline12_48:
+hl12_48:
 	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 7(a3),(a0)+
@@ -20790,7 +20790,7 @@ hline12_48:
 	sne (a1)+
 	rts
 
-hline13_48:
+hl13_48:
 	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 7(a3),(a0)+
@@ -20819,7 +20819,7 @@ hline13_48:
 	sne (a1)+
 	rts
 
-hline14_48:
+hl14_48:
 	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 6(a3),(a0)+
@@ -20850,7 +20850,7 @@ hline14_48:
 	sne (a1)+
 	rts
 
-hline15_48:
+hl15_48:
 	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 6(a3),(a0)+
@@ -20883,7 +20883,7 @@ hline15_48:
 	sne (a1)+
 	rts
 
-hline16_48:
+hl16_48:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
@@ -20918,7 +20918,7 @@ hline16_48:
 	sne (a1)+
 	rts
 
-hline17_48:
+hl17_48:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
@@ -20955,7 +20955,7 @@ hline17_48:
 	sne (a1)+
 	rts
 
-hline18_48:
+hl18_48:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
@@ -20994,7 +20994,7 @@ hline18_48:
 	sne (a1)+
 	rts
 
-hline19_48:
+hl19_48:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
@@ -21035,7 +21035,7 @@ hline19_48:
 	sne (a1)+
 	rts
 
-hline20_48:
+hl20_48:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 4(a3),(a0)+
@@ -21078,7 +21078,7 @@ hline20_48:
 	sne (a1)+
 	rts
 
-hline21_48:
+hl21_48:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 4(a3),(a0)+
@@ -21123,7 +21123,7 @@ hline21_48:
 	sne (a1)+
 	rts
 
-hline22_48:
+hl22_48:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 4(a3),(a0)+
@@ -21170,7 +21170,7 @@ hline22_48:
 	sne (a1)+
 	rts
 
-hline23_48:
+hl23_48:
 	move.b 2(a3),(a0)+
 	sne (a1)+
 	move.b 4(a3),(a0)+
@@ -21219,7 +21219,7 @@ hline23_48:
 	sne (a1)+
 	rts
 
-hline24_48:
+hl24_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -21270,7 +21270,7 @@ hline24_48:
 	sne (a1)+
 	rts
 
-hline25_48:
+hl25_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -21323,7 +21323,7 @@ hline25_48:
 	sne (a1)+
 	rts
 
-hline26_48:
+hl26_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -21378,7 +21378,7 @@ hline26_48:
 	sne (a1)+
 	rts
 
-hline27_48:
+hl27_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -21435,7 +21435,7 @@ hline27_48:
 	sne (a1)+
 	rts
 
-hline28_48:
+hl28_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -21494,7 +21494,7 @@ hline28_48:
 	sne (a1)+
 	rts
 
-hline29_48:
+hl29_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -21555,7 +21555,7 @@ hline29_48:
 	sne (a1)+
 	rts
 
-hline30_48:
+hl30_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -21618,7 +21618,7 @@ hline30_48:
 	sne (a1)+
 	rts
 
-hline31_48:
+hl31_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
@@ -21683,7 +21683,7 @@ hline31_48:
 	sne (a1)+
 	rts
 
-hline32_48:
+hl32_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -21750,7 +21750,7 @@ hline32_48:
 	sne (a1)+
 	rts
 
-hline33_48:
+hl33_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -21819,7 +21819,7 @@ hline33_48:
 	sne (a1)+
 	rts
 
-hline34_48:
+hl34_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -21890,7 +21890,7 @@ hline34_48:
 	sne (a1)+
 	rts
 
-hline35_48:
+hl35_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -21963,7 +21963,7 @@ hline35_48:
 	sne (a1)+
 	rts
 
-hline36_48:
+hl36_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22038,7 +22038,7 @@ hline36_48:
 	sne (a1)+
 	rts
 
-hline37_48:
+hl37_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22115,7 +22115,7 @@ hline37_48:
 	sne (a1)+
 	rts
 
-hline38_48:
+hl38_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22194,7 +22194,7 @@ hline38_48:
 	sne (a1)+
 	rts
 
-hline39_48:
+hl39_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22275,7 +22275,7 @@ hline39_48:
 	sne (a1)+
 	rts
 
-hline40_48:
+hl40_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22358,7 +22358,7 @@ hline40_48:
 	sne (a1)+
 	rts
 
-hline41_48:
+hl41_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22443,7 +22443,7 @@ hline41_48:
 	sne (a1)+
 	rts
 
-hline42_48:
+hl42_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22530,7 +22530,7 @@ hline42_48:
 	sne (a1)+
 	rts
 
-hline43_48:
+hl43_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22619,7 +22619,7 @@ hline43_48:
 	sne (a1)+
 	rts
 
-hline44_48:
+hl44_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22710,7 +22710,7 @@ hline44_48:
 	sne (a1)+
 	rts
 
-hline45_48:
+hl45_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22803,7 +22803,7 @@ hline45_48:
 	sne (a1)+
 	rts
 
-hline46_48:
+hl46_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22898,7 +22898,7 @@ hline46_48:
 	sne (a1)+
 	rts
 
-hline47_48:
+hl47_48:
 	move.b 1(a3),(a0)+
 	sne (a1)+
 	move.b 2(a3),(a0)+
@@ -22995,7 +22995,7 @@ hline47_48:
 	sne (a1)+
 	rts
 
-hline48_48:
+hl48_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -23094,7 +23094,7 @@ hline48_48:
 	sne (a1)+
 	rts
 
-hline49_48:
+hl49_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -23195,7 +23195,7 @@ hline49_48:
 	sne (a1)+
 	rts
 
-hline50_48:
+hl50_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -23298,7 +23298,7 @@ hline50_48:
 	sne (a1)+
 	rts
 
-hline51_48:
+hl51_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -23403,7 +23403,7 @@ hline51_48:
 	sne (a1)+
 	rts
 
-hline52_48:
+hl52_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -23510,7 +23510,7 @@ hline52_48:
 	sne (a1)+
 	rts
 
-hline53_48:
+hl53_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -23619,7 +23619,7 @@ hline53_48:
 	sne (a1)+
 	rts
 
-hline54_48:
+hl54_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -23730,7 +23730,7 @@ hline54_48:
 	sne (a1)+
 	rts
 
-hline55_48:
+hl55_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -23843,7 +23843,7 @@ hline55_48:
 	sne (a1)+
 	rts
 
-hline56_48:
+hl56_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -23958,7 +23958,7 @@ hline56_48:
 	sne (a1)+
 	rts
 
-hline57_48:
+hl57_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -24075,7 +24075,7 @@ hline57_48:
 	sne (a1)+
 	rts
 
-hline58_48:
+hl58_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -24194,7 +24194,7 @@ hline58_48:
 	sne (a1)+
 	rts
 
-hline59_48:
+hl59_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -24315,7 +24315,7 @@ hline59_48:
 	sne (a1)+
 	rts
 
-hline60_48:
+hl60_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -24438,7 +24438,7 @@ hline60_48:
 	sne (a1)+
 	rts
 
-hline61_48:
+hl61_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -24563,7 +24563,7 @@ hline61_48:
 	sne (a1)+
 	rts
 
-hline62_48:
+hl62_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -24690,7 +24690,7 @@ hline62_48:
 	sne (a1)+
 	rts
 
-hline63_48:
+hl63_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -24819,7 +24819,7 @@ hline63_48:
 	sne (a1)+
 	rts
 
-hline64_48:
+hl64_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -24950,7 +24950,7 @@ hline64_48:
 	sne (a1)+
 	rts
 
-hline65_48:
+hl65_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -25083,7 +25083,7 @@ hline65_48:
 	sne (a1)+
 	rts
 
-hline66_48:
+hl66_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -25218,7 +25218,7 @@ hline66_48:
 	sne (a1)+
 	rts
 
-hline67_48:
+hl67_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -25355,7 +25355,7 @@ hline67_48:
 	sne (a1)+
 	rts
 
-hline68_48:
+hl68_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -25494,7 +25494,7 @@ hline68_48:
 	sne (a1)+
 	rts
 
-hline69_48:
+hl69_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -25635,7 +25635,7 @@ hline69_48:
 	sne (a1)+
 	rts
 
-hline70_48:
+hl70_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -25778,7 +25778,7 @@ hline70_48:
 	sne (a1)+
 	rts
 
-hline71_48:
+hl71_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -25923,7 +25923,7 @@ hline71_48:
 	sne (a1)+
 	rts
 
-hline72_48:
+hl72_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -26070,7 +26070,7 @@ hline72_48:
 	sne (a1)+
 	rts
 
-hline73_48:
+hl73_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -26219,7 +26219,7 @@ hline73_48:
 	sne (a1)+
 	rts
 
-hline74_48:
+hl74_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -26370,7 +26370,7 @@ hline74_48:
 	sne (a1)+
 	rts
 
-hline75_48:
+hl75_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -26523,7 +26523,7 @@ hline75_48:
 	sne (a1)+
 	rts
 
-hline76_48:
+hl76_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -26678,7 +26678,7 @@ hline76_48:
 	sne (a1)+
 	rts
 
-hline77_48:
+hl77_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -26835,7 +26835,7 @@ hline77_48:
 	sne (a1)+
 	rts
 
-hline78_48:
+hl78_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -26955,167 +26955,6 @@ hline78_48:
 	move.b 36(a3),(a0)+
 	sne (a1)+
 	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 48(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline79_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
 	sne (a1)+
 	move.b 37(a3),(a0)+
 	sne (a1)+
@@ -27155,7 +26994,7 @@ hline79_48:
 	sne (a1)+
 	rts
 
-hline80_48:
+hl79_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -27164,7 +27003,7 @@ hline80_48:
 	sne (a1)+
 	move.b 2(a3),(a0)+
 	sne (a1)+
-	move.b 2(a3),(a0)+
+	move.b 3(a3),(a0)+
 	sne (a1)+
 	move.b 3(a3),(a0)+
 	sne (a1)+
@@ -27174,7 +27013,7 @@ hline80_48:
 	sne (a1)+
 	move.b 5(a3),(a0)+
 	sne (a1)+
-	move.b 5(a3),(a0)+
+	move.b 6(a3),(a0)+
 	sne (a1)+
 	move.b 6(a3),(a0)+
 	sne (a1)+
@@ -27184,7 +27023,7 @@ hline80_48:
 	sne (a1)+
 	move.b 8(a3),(a0)+
 	sne (a1)+
-	move.b 8(a3),(a0)+
+	move.b 9(a3),(a0)+
 	sne (a1)+
 	move.b 9(a3),(a0)+
 	sne (a1)+
@@ -27194,178 +27033,13 @@ hline80_48:
 	sne (a1)+
 	move.b 11(a3),(a0)+
 	sne (a1)+
-	move.b 11(a3),(a0)+
+	move.b 12(a3),(a0)+
 	sne (a1)+
 	move.b 12(a3),(a0)+
 	sne (a1)+
 	move.b 13(a3),(a0)+
 	sne (a1)+
 	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline81_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
 	sne (a1)+
 	move.b 14(a3),(a0)+
 	sne (a1)+
@@ -27425,342 +27099,6 @@ hline81_48:
 	sne (a1)+
 	move.b 31(a3),(a0)+
 	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline82_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline83_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
 	move.b 32(a3),(a0)+
 	sne (a1)+
 	move.b 32(a3),(a0)+
@@ -27787,702 +27125,6 @@ hline83_48:
 	sne (a1)+
 	move.b 39(a3),(a0)+
 	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline84_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline85_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline86_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline87_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
 	move.b 40(a3),(a0)+
 	sne (a1)+
 	move.b 40(a3),(a0)+
@@ -28500,736 +27142,6 @@ hline87_48:
 	move.b 44(a3),(a0)+
 	sne (a1)+
 	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline88_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline89_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline90_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline91_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
 	sne (a1)+
 	move.b 45(a3),(a0)+
 	sne (a1)+
@@ -29243,7 +27155,1367 @@ hline91_48:
 	sne (a1)+
 	rts
 
-hline92_48:
+hl80_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl81_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl82_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl83_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl84_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl85_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl86_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl87_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl88_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -29265,8 +28537,6 @@ hline92_48:
 	move.b 5(a3),(a0)+
 	sne (a1)+
 	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
 	sne (a1)+
 	move.b 6(a3),(a0)+
 	sne (a1)+
@@ -29305,6 +28575,366 @@ hline92_48:
 	move.b 15(a3),(a0)+
 	sne (a1)+
 	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl89_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl90_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
 	sne (a1)+
 	move.b 16(a3),(a0)+
 	sne (a1)+
@@ -29368,8 +28998,6 @@ hline92_48:
 	sne (a1)+
 	move.b 32(a3),(a0)+
 	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
 	move.b 33(a3),(a0)+
 	sne (a1)+
 	move.b 33(a3),(a0)+
@@ -29384,6 +29012,8 @@ hline92_48:
 	sne (a1)+
 	move.b 36(a3),(a0)+
 	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
 	move.b 37(a3),(a0)+
 	sne (a1)+
 	move.b 37(a3),(a0)+
@@ -29395,8 +29025,6 @@ hline92_48:
 	move.b 39(a3),(a0)+
 	sne (a1)+
 	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
 	sne (a1)+
 	move.b 40(a3),(a0)+
 	sne (a1)+
@@ -29430,7 +29058,7 @@ hline92_48:
 	sne (a1)+
 	rts
 
-hline93_48:
+hl91_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -29467,197 +29095,6 @@ hline93_48:
 	sne (a1)+
 	move.b 9(a3),(a0)+
 	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline94_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
 	move.b 10(a3),(a0)+
 	sne (a1)+
 	move.b 10(a3),(a0)+
@@ -29696,199 +29133,6 @@ hline94_48:
 	sne (a1)+
 	move.b 19(a3),(a0)+
 	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline95_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
 	move.b 20(a3),(a0)+
 	sne (a1)+
 	move.b 20(a3),(a0)+
@@ -29923,8 +29167,6 @@ hline95_48:
 	sne (a1)+
 	move.b 28(a3),(a0)+
 	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
 	move.b 29(a3),(a0)+
 	sne (a1)+
 	move.b 29(a3),(a0)+
@@ -29960,8 +29202,6 @@ hline95_48:
 	move.b 37(a3),(a0)+
 	sne (a1)+
 	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
 	sne (a1)+
 	move.b 38(a3),(a0)+
 	sne (a1)+
@@ -30003,9 +29243,7 @@ hline95_48:
 	sne (a1)+
 	rts
 
-hline96_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
+hl92_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -30051,8 +29289,6 @@ hline96_48:
 	move.b 11(a3),(a0)+
 	sne (a1)+
 	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
 	sne (a1)+
 	move.b 12(a3),(a0)+
 	sne (a1)+
@@ -30101,6 +29337,382 @@ hline96_48:
 	move.b 23(a3),(a0)+
 	sne (a1)+
 	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl93_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl94_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
 	sne (a1)+
 	move.b 24(a3),(a0)+
 	sne (a1)+
@@ -30198,9 +29810,7 @@ hline96_48:
 	sne (a1)+
 	rts
 
-hline97_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
+hl95_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 1(a3),(a0)+
@@ -30386,8 +29996,6 @@ hline97_48:
 	move.b 46(a3),(a0)+
 	sne (a1)+
 	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
 	sne (a1)+
 	move.b 47(a3),(a0)+
 	sne (a1)+
@@ -30395,7 +30003,7 @@ hline97_48:
 	sne (a1)+
 	rts
 
-hline98_48:
+hl96_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -30492,8 +30100,6 @@ hline98_48:
 	sne (a1)+
 	move.b 23(a3),(a0)+
 	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
 	move.b 24(a3),(a0)+
 	sne (a1)+
 	move.b 24(a3),(a0)+
@@ -30585,8 +30191,6 @@ hline98_48:
 	move.b 46(a3),(a0)+
 	sne (a1)+
 	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
 	sne (a1)+
 	move.b 47(a3),(a0)+
 	sne (a1)+
@@ -30594,7 +30198,7 @@ hline98_48:
 	sne (a1)+
 	rts
 
-hline99_48:
+hl97_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -30663,8 +30267,6 @@ hline99_48:
 	sne (a1)+
 	move.b 16(a3),(a0)+
 	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
 	move.b 17(a3),(a0)+
 	sne (a1)+
 	move.b 17(a3),(a0)+
@@ -30724,8 +30326,6 @@ hline99_48:
 	move.b 31(a3),(a0)+
 	sne (a1)+
 	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
 	sne (a1)+
 	move.b 32(a3),(a0)+
 	sne (a1)+
@@ -30795,7 +30395,407 @@ hline99_48:
 	sne (a1)+
 	rts
 
-hline100_48:
+hl98_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl99_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 48(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl100_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -30998,7 +30998,7 @@ hline100_48:
 	sne (a1)+
 	rts
 
-hline101_48:
+hl101_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -31203,7 +31203,7 @@ hline101_48:
 	sne (a1)+
 	rts
 
-hline102_48:
+hl102_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -31410,7 +31410,7 @@ hline102_48:
 	sne (a1)+
 	rts
 
-hline103_48:
+hl103_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -31619,7 +31619,7 @@ hline103_48:
 	sne (a1)+
 	rts
 
-hline104_48:
+hl104_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -31830,7 +31830,7 @@ hline104_48:
 	sne (a1)+
 	rts
 
-hline105_48:
+hl105_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -32043,7 +32043,7 @@ hline105_48:
 	sne (a1)+
 	rts
 
-hline106_48:
+hl106_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -32258,7 +32258,7 @@ hline106_48:
 	sne (a1)+
 	rts
 
-hline107_48:
+hl107_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -32475,7 +32475,7 @@ hline107_48:
 	sne (a1)+
 	rts
 
-hline108_48:
+hl108_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -32694,7 +32694,7 @@ hline108_48:
 	sne (a1)+
 	rts
 
-hline109_48:
+hl109_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -32915,7 +32915,7 @@ hline109_48:
 	sne (a1)+
 	rts
 
-hline110_48:
+hl110_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -33138,7 +33138,7 @@ hline110_48:
 	sne (a1)+
 	rts
 
-hline111_48:
+hl111_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -33363,7 +33363,7 @@ hline111_48:
 	sne (a1)+
 	rts
 
-hline112_48:
+hl112_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -33590,7 +33590,7 @@ hline112_48:
 	sne (a1)+
 	rts
 
-hline113_48:
+hl113_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -33819,7 +33819,7 @@ hline113_48:
 	sne (a1)+
 	rts
 
-hline114_48:
+hl114_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -34050,7 +34050,7 @@ hline114_48:
 	sne (a1)+
 	rts
 
-hline115_48:
+hl115_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -34283,7 +34283,7 @@ hline115_48:
 	sne (a1)+
 	rts
 
-hline116_48:
+hl116_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -34518,7 +34518,7 @@ hline116_48:
 	sne (a1)+
 	rts
 
-hline117_48:
+hl117_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -34755,7 +34755,7 @@ hline117_48:
 	sne (a1)+
 	rts
 
-hline118_48:
+hl118_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -34994,7 +34994,7 @@ hline118_48:
 	sne (a1)+
 	rts
 
-hline119_48:
+hl119_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -35235,7 +35235,7 @@ hline119_48:
 	sne (a1)+
 	rts
 
-hline120_48:
+hl120_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -35349,251 +35349,6 @@ hline120_48:
 	move.b 22(a3),(a0)+
 	sne (a1)+
 	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 24(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 25(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 26(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 27(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 28(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 29(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 30(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 31(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 32(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 33(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 34(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 35(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 36(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 37(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 38(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 39(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 40(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 41(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 42(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 43(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 44(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 45(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 46(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 47(a3),(a0)+
-	sne (a1)+
-	move.b 48(a3),(a0)+
-	sne (a1)+
-	rts
-
-hline121_48:
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 0(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 1(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 2(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 3(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 4(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 5(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 6(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 7(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 8(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 9(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 10(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 11(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 12(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 13(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 14(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 15(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 16(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 17(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 18(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 19(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 20(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 21(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 22(a3),(a0)+
-	sne (a1)+
-	move.b 23(a3),(a0)+
 	sne (a1)+
 	move.b 23(a3),(a0)+
 	sne (a1)+
@@ -35723,7 +35478,252 @@ hline121_48:
 	sne (a1)+
 	rts
 
-hline122_48:
+hl121_48:
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 0(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 1(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 2(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 3(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 4(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 5(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 6(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 7(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 8(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 9(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 10(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 11(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 12(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 13(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 14(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 15(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 16(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 17(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 18(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 19(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 20(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 21(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 22(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 23(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 24(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 25(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 26(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 27(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 28(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 29(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 30(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 31(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 32(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 33(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 34(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 35(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 36(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 37(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 38(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 39(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 40(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 41(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 42(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 43(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 44(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 45(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 46(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 47(a3),(a0)+
+	sne (a1)+
+	move.b 48(a3),(a0)+
+	sne (a1)+
+	rts
+
+hl122_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -35970,7 +35970,7 @@ hline122_48:
 	sne (a1)+
 	rts
 
-hline123_48:
+hl123_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -36219,7 +36219,7 @@ hline123_48:
 	sne (a1)+
 	rts
 
-hline124_48:
+hl124_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -36470,7 +36470,7 @@ hline124_48:
 	sne (a1)+
 	rts
 
-hline125_48:
+hl125_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -36723,7 +36723,7 @@ hline125_48:
 	sne (a1)+
 	rts
 
-hline126_48:
+hl126_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -36978,7 +36978,7 @@ hline126_48:
 	sne (a1)+
 	rts
 
-hline127_48:
+hl127_48:
 	move.b 0(a3),(a0)+
 	sne (a1)+
 	move.b 0(a3),(a0)+
@@ -37238,162 +37238,162 @@ hline127_48:
 
 hlink48Table
 	dc.l 0
-	dc.l hline1_48
-	dc.l hline2_48
-	dc.l hline3_48
-	dc.l hline4_48
-	dc.l hline5_48
-	dc.l hline6_48
-	dc.l hline7_48
-	dc.l hline8_48
-	dc.l hline9_48
-	dc.l hline10_48
-	dc.l hline11_48
-	dc.l hline12_48
-	dc.l hline13_48
-	dc.l hline14_48
-	dc.l hline15_48
-	dc.l hline16_48
-	dc.l hline17_48
-	dc.l hline18_48
-	dc.l hline19_48
-	dc.l hline20_48
-	dc.l hline21_48
-	dc.l hline22_48
-	dc.l hline23_48
-	dc.l hline24_48
-	dc.l hline25_48
-	dc.l hline26_48
-	dc.l hline27_48
-	dc.l hline28_48
-	dc.l hline29_48
-	dc.l hline30_48
-	dc.l hline31_48
-	dc.l hline32_48
-	dc.l hline33_48
-	dc.l hline34_48
-	dc.l hline35_48
-	dc.l hline36_48
-	dc.l hline37_48
-	dc.l hline38_48
-	dc.l hline39_48
-	dc.l hline40_48
-	dc.l hline41_48
-	dc.l hline42_48
-	dc.l hline43_48
-	dc.l hline44_48
-	dc.l hline45_48
-	dc.l hline46_48
-	dc.l hline47_48
-	dc.l hline48_48
-	dc.l hline49_48
-	dc.l hline50_48
-	dc.l hline51_48
-	dc.l hline52_48
-	dc.l hline53_48
-	dc.l hline54_48
-	dc.l hline55_48
-	dc.l hline56_48
-	dc.l hline57_48
-	dc.l hline58_48
-	dc.l hline59_48
-	dc.l hline60_48
-	dc.l hline61_48
-	dc.l hline62_48
-	dc.l hline63_48
-	dc.l hline64_48
-	dc.l hline65_48
-	dc.l hline66_48
-	dc.l hline67_48
-	dc.l hline68_48
-	dc.l hline69_48
-	dc.l hline70_48
-	dc.l hline71_48
-	dc.l hline72_48
-	dc.l hline73_48
-	dc.l hline74_48
-	dc.l hline75_48
-	dc.l hline76_48
-	dc.l hline77_48
-	dc.l hline78_48
-	dc.l hline79_48
-	dc.l hline80_48
-	dc.l hline81_48
-	dc.l hline82_48
-	dc.l hline83_48
-	dc.l hline84_48
-	dc.l hline85_48
-	dc.l hline86_48
-	dc.l hline87_48
-	dc.l hline88_48
-	dc.l hline89_48
-	dc.l hline90_48
-	dc.l hline91_48
-	dc.l hline92_48
-	dc.l hline93_48
-	dc.l hline94_48
-	dc.l hline95_48
-	dc.l hline96_48
-	dc.l hline97_48
-	dc.l hline98_48
-	dc.l hline99_48
-	dc.l hline100_48
-	dc.l hline101_48
-	dc.l hline102_48
-	dc.l hline103_48
-	dc.l hline104_48
-	dc.l hline105_48
-	dc.l hline106_48
-	dc.l hline107_48
-	dc.l hline108_48
-	dc.l hline109_48
-	dc.l hline110_48
-	dc.l hline111_48
-	dc.l hline112_48
-	dc.l hline113_48
-	dc.l hline114_48
-	dc.l hline115_48
-	dc.l hline116_48
-	dc.l hline117_48
-	dc.l hline118_48
-	dc.l hline119_48
-	dc.l hline120_48
-	dc.l hline121_48
-	dc.l hline122_48
-	dc.l hline123_48
-	dc.l hline124_48
-	dc.l hline125_48
-	dc.l hline126_48
-	dc.l hline127_48
+	dc.l hl1_48
+	dc.l hl2_48
+	dc.l hl3_48
+	dc.l hl4_48
+	dc.l hl5_48
+	dc.l hl6_48
+	dc.l hl7_48
+	dc.l hl8_48
+	dc.l hl9_48
+	dc.l hl10_48
+	dc.l hl11_48
+	dc.l hl12_48
+	dc.l hl13_48
+	dc.l hl14_48
+	dc.l hl15_48
+	dc.l hl16_48
+	dc.l hl17_48
+	dc.l hl18_48
+	dc.l hl19_48
+	dc.l hl20_48
+	dc.l hl21_48
+	dc.l hl22_48
+	dc.l hl23_48
+	dc.l hl24_48
+	dc.l hl25_48
+	dc.l hl26_48
+	dc.l hl27_48
+	dc.l hl28_48
+	dc.l hl29_48
+	dc.l hl30_48
+	dc.l hl31_48
+	dc.l hl32_48
+	dc.l hl33_48
+	dc.l hl34_48
+	dc.l hl35_48
+	dc.l hl36_48
+	dc.l hl37_48
+	dc.l hl38_48
+	dc.l hl39_48
+	dc.l hl40_48
+	dc.l hl41_48
+	dc.l hl42_48
+	dc.l hl43_48
+	dc.l hl44_48
+	dc.l hl45_48
+	dc.l hl46_48
+	dc.l hl47_48
+	dc.l hl48_48
+	dc.l hl49_48
+	dc.l hl50_48
+	dc.l hl51_48
+	dc.l hl52_48
+	dc.l hl53_48
+	dc.l hl54_48
+	dc.l hl55_48
+	dc.l hl56_48
+	dc.l hl57_48
+	dc.l hl58_48
+	dc.l hl59_48
+	dc.l hl60_48
+	dc.l hl61_48
+	dc.l hl62_48
+	dc.l hl63_48
+	dc.l hl64_48
+	dc.l hl65_48
+	dc.l hl66_48
+	dc.l hl67_48
+	dc.l hl68_48
+	dc.l hl69_48
+	dc.l hl70_48
+	dc.l hl71_48
+	dc.l hl72_48
+	dc.l hl73_48
+	dc.l hl74_48
+	dc.l hl75_48
+	dc.l hl76_48
+	dc.l hl77_48
+	dc.l hl78_48
+	dc.l hl79_48
+	dc.l hl80_48
+	dc.l hl81_48
+	dc.l hl82_48
+	dc.l hl83_48
+	dc.l hl84_48
+	dc.l hl85_48
+	dc.l hl86_48
+	dc.l hl87_48
+	dc.l hl88_48
+	dc.l hl89_48
+	dc.l hl90_48
+	dc.l hl91_48
+	dc.l hl92_48
+	dc.l hl93_48
+	dc.l hl94_48
+	dc.l hl95_48
+	dc.l hl96_48
+	dc.l hl97_48
+	dc.l hl98_48
+	dc.l hl99_48
+	dc.l hl100_48
+	dc.l hl101_48
+	dc.l hl102_48
+	dc.l hl103_48
+	dc.l hl104_48
+	dc.l hl105_48
+	dc.l hl106_48
+	dc.l hl107_48
+	dc.l hl108_48
+	dc.l hl109_48
+	dc.l hl110_48
+	dc.l hl111_48
+	dc.l hl112_48
+	dc.l hl113_48
+	dc.l hl114_48
+	dc.l hl115_48
+	dc.l hl116_48
+	dc.l hl117_48
+	dc.l hl118_48
+	dc.l hl119_48
+	dc.l hl120_48
+	dc.l hl121_48
+	dc.l hl122_48
+	dc.l hl123_48
+	dc.l hl124_48
+	dc.l hl125_48
+	dc.l hl126_48
+	dc.l hl127_48
 
-hvline1_16_36:
+h11636:
 	dc.b 16
-hvline2_16_36:
+h21636:
 	dc.b 16
 	dc.b 16
-hvline3_16_36:
+h31636:
 	dc.b 176
 	dc.b 192
 	dc.b 192
-hvline4_16_36:
+h41636:
 	dc.b 128
 	dc.b 144
 	dc.b 144
 	dc.b 144
-hvline5_16_36:
+h51636:
 	dc.b 112
 	dc.b 112
 	dc.b 112
 	dc.b 112
 	dc.b 112
-hvline6_16_36:
+h61636:
 	dc.b 80
 	dc.b 96
 	dc.b 96
 	dc.b 96
 	dc.b 96
 	dc.b 96
-hvline7_16_36:
+h71636:
 	dc.b 80
 	dc.b 80
 	dc.b 80
@@ -37401,7 +37401,7 @@ hvline7_16_36:
 	dc.b 80
 	dc.b 80
 	dc.b 96
-hvline8_16_36:
+h81636:
 	dc.b 64
 	dc.b 64
 	dc.b 80
@@ -37410,7 +37410,7 @@ hvline8_16_36:
 	dc.b 64
 	dc.b 80
 	dc.b 64
-hvline9_16_36:
+h91636:
 	dc.b 48
 	dc.b 64
 	dc.b 64
@@ -37420,7 +37420,7 @@ hvline9_16_36:
 	dc.b 64
 	dc.b 64
 	dc.b 64
-hvline10_16_36:
+h101636:
 	dc.b 48
 	dc.b 64
 	dc.b 48
@@ -37431,7 +37431,7 @@ hvline10_16_36:
 	dc.b 48
 	dc.b 64
 	dc.b 48
-hvline11_16_36:
+h111636:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -37443,7 +37443,7 @@ hvline11_16_36:
 	dc.b 48
 	dc.b 48
 	dc.b 64
-hvline12_16_36:
+h121636:
 	dc.b 32
 	dc.b 48
 	dc.b 48
@@ -37456,7 +37456,7 @@ hvline12_16_36:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline13_16_36:
+h131636:
 	dc.b 32
 	dc.b 48
 	dc.b 48
@@ -37470,7 +37470,7 @@ hvline13_16_36:
 	dc.b 48
 	dc.b 48
 	dc.b 32
-hvline14_16_36:
+h141636:
 	dc.b 32
 	dc.b 48
 	dc.b 32
@@ -37485,7 +37485,7 @@ hvline14_16_36:
 	dc.b 32
 	dc.b 48
 	dc.b 48
-hvline15_16_36:
+h151636:
 	dc.b 32
 	dc.b 32
 	dc.b 48
@@ -37501,7 +37501,7 @@ hvline15_16_36:
 	dc.b 48
 	dc.b 32
 	dc.b 32
-hvline16_16_36:
+h161636:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -37518,7 +37518,7 @@ hvline16_16_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline17_16_36:
+h171636:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -37536,7 +37536,7 @@ hvline17_16_36:
 	dc.b 32
 	dc.b 32
 	dc.b 48
-hvline18_16_36:
+h181636:
 	dc.b 16
 	dc.b 32
 	dc.b 32
@@ -37555,7 +37555,7 @@ hvline18_16_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline19_16_36:
+h191636:
 	dc.b 16
 	dc.b 32
 	dc.b 32
@@ -37575,7 +37575,7 @@ hvline19_16_36:
 	dc.b 32
 	dc.b 32
 	dc.b 16
-hvline20_16_36:
+h201636:
 	dc.b 16
 	dc.b 32
 	dc.b 32
@@ -37596,7 +37596,7 @@ hvline20_16_36:
 	dc.b 32
 	dc.b 32
 	dc.b 16
-hvline21_16_36:
+h211636:
 	dc.b 16
 	dc.b 32
 	dc.b 32
@@ -37618,7 +37618,7 @@ hvline21_16_36:
 	dc.b 32
 	dc.b 32
 	dc.b 16
-hvline22_16_36:
+h221636:
 	dc.b 16
 	dc.b 32
 	dc.b 16
@@ -37641,7 +37641,7 @@ hvline22_16_36:
 	dc.b 16
 	dc.b 32
 	dc.b 32
-hvline23_16_36:
+h231636:
 	dc.b 16
 	dc.b 32
 	dc.b 16
@@ -37665,7 +37665,7 @@ hvline23_16_36:
 	dc.b 16
 	dc.b 32
 	dc.b 32
-hvline24_16_36:
+h241636:
 	dc.b 16
 	dc.b 16
 	dc.b 32
@@ -37690,7 +37690,7 @@ hvline24_16_36:
 	dc.b 16
 	dc.b 32
 	dc.b 16
-hvline25_16_36:
+h251636:
 	dc.b 16
 	dc.b 16
 	dc.b 32
@@ -37716,7 +37716,7 @@ hvline25_16_36:
 	dc.b 32
 	dc.b 16
 	dc.b 16
-hvline26_16_36:
+h261636:
 	dc.b 16
 	dc.b 16
 	dc.b 32
@@ -37743,7 +37743,7 @@ hvline26_16_36:
 	dc.b 32
 	dc.b 16
 	dc.b 16
-hvline27_16_36:
+h271636:
 	dc.b 16
 	dc.b 16
 	dc.b 16
@@ -37771,7 +37771,7 @@ hvline27_16_36:
 	dc.b 32
 	dc.b 16
 	dc.b 16
-hvline28_16_36:
+h281636:
 	dc.b 16
 	dc.b 16
 	dc.b 16
@@ -37800,7 +37800,7 @@ hvline28_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 32
-hvline29_16_36:
+h291636:
 	dc.b 16
 	dc.b 16
 	dc.b 16
@@ -37830,7 +37830,7 @@ hvline29_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 32
-hvline30_16_36:
+h301636:
 	dc.b 16
 	dc.b 16
 	dc.b 16
@@ -37861,7 +37861,7 @@ hvline30_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline31_16_36:
+h311636:
 	dc.b 16
 	dc.b 16
 	dc.b 16
@@ -37893,7 +37893,7 @@ hvline31_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 32
-hvline32_16_36:
+h321636:
 	dc.b 16
 	dc.b 16
 	dc.b 16
@@ -37926,7 +37926,7 @@ hvline32_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline33_16_36:
+h331636:
 	dc.b 16
 	dc.b 16
 	dc.b 16
@@ -37960,7 +37960,7 @@ hvline33_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline34_16_36:
+h341636:
 	dc.b 16
 	dc.b 16
 	dc.b 16
@@ -37995,7 +37995,7 @@ hvline34_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline35_16_36:
+h351636:
 	dc.b 16
 	dc.b 16
 	dc.b 16
@@ -38031,7 +38031,7 @@ hvline35_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline36_16_36:
+h361636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38068,7 +38068,7 @@ hvline36_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline37_16_36:
+h371636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38106,7 +38106,7 @@ hvline37_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline38_16_36:
+h381636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38145,7 +38145,7 @@ hvline38_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 0
-hvline39_16_36:
+h391636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38185,7 +38185,7 @@ hvline39_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline40_16_36:
+h401636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38226,7 +38226,7 @@ hvline40_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 0
-hvline41_16_36:
+h411636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38268,7 +38268,7 @@ hvline41_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 0
-hvline42_16_36:
+h421636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38311,7 +38311,7 @@ hvline42_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 0
-hvline43_16_36:
+h431636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38355,7 +38355,7 @@ hvline43_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline44_16_36:
+h441636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38400,7 +38400,7 @@ hvline44_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline45_16_36:
+h451636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38446,7 +38446,7 @@ hvline45_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline46_16_36:
+h461636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38493,7 +38493,7 @@ hvline46_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline47_16_36:
+h471636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38541,7 +38541,7 @@ hvline47_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 0
-hvline48_16_36:
+h481636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38590,7 +38590,7 @@ hvline48_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 0
-hvline49_16_36:
+h491636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38640,7 +38640,7 @@ hvline49_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline50_16_36:
+h501636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38691,7 +38691,7 @@ hvline50_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 0
-hvline51_16_36:
+h511636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38743,7 +38743,7 @@ hvline51_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 16
-hvline52_16_36:
+h521636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38796,7 +38796,7 @@ hvline52_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 0
-hvline53_16_36:
+h531636:
 	dc.b 0
 	dc.b 16
 	dc.b 16
@@ -38850,7 +38850,7 @@ hvline53_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 0
-hvline54_16_36:
+h541636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -38905,7 +38905,7 @@ hvline54_16_36:
 	dc.b 16
 	dc.b 16
 	dc.b 0
-hvline55_16_36:
+h551636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -38961,7 +38961,7 @@ hvline55_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline56_16_36:
+h561636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39018,7 +39018,7 @@ hvline56_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 16
-hvline57_16_36:
+h571636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39076,7 +39076,7 @@ hvline57_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline58_16_36:
+h581636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39135,7 +39135,7 @@ hvline58_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 16
-hvline59_16_36:
+h591636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39195,7 +39195,7 @@ hvline59_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 16
-hvline60_16_36:
+h601636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39256,7 +39256,7 @@ hvline60_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline61_16_36:
+h611636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39318,7 +39318,7 @@ hvline61_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline62_16_36:
+h621636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39381,7 +39381,7 @@ hvline62_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 16
-hvline63_16_36:
+h631636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39445,7 +39445,7 @@ hvline63_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline64_16_36:
+h641636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39510,7 +39510,7 @@ hvline64_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline65_16_36:
+h651636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39576,7 +39576,7 @@ hvline65_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 16
-hvline66_16_36:
+h661636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39643,7 +39643,7 @@ hvline66_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline67_16_36:
+h671636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39711,7 +39711,7 @@ hvline67_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline68_16_36:
+h681636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39780,7 +39780,7 @@ hvline68_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline69_16_36:
+h691636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39850,7 +39850,7 @@ hvline69_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline70_16_36:
+h701636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39921,7 +39921,7 @@ hvline70_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline71_16_36:
+h711636:
 	dc.b 0
 	dc.b 16
 	dc.b 0
@@ -39993,7 +39993,7 @@ hvline71_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline72_16_36:
+h721636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40066,7 +40066,7 @@ hvline72_16_36:
 	dc.b 0
 	dc.b 16
 	dc.b 0
-hvline73_16_36:
+h731636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40140,7 +40140,7 @@ hvline73_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline74_16_36:
+h741636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40215,7 +40215,7 @@ hvline74_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 16
-hvline75_16_36:
+h751636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40291,7 +40291,7 @@ hvline75_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline76_16_36:
+h761636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40368,7 +40368,7 @@ hvline76_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline77_16_36:
+h771636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40446,7 +40446,7 @@ hvline77_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline78_16_36:
+h781636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40525,7 +40525,7 @@ hvline78_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 16
-hvline79_16_36:
+h791636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40605,7 +40605,7 @@ hvline79_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline80_16_36:
+h801636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40686,7 +40686,7 @@ hvline80_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline81_16_36:
+h811636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40768,7 +40768,7 @@ hvline81_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline82_16_36:
+h821636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40851,7 +40851,7 @@ hvline82_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline83_16_36:
+h831636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -40935,7 +40935,7 @@ hvline83_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 16
-hvline84_16_36:
+h841636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -41020,7 +41020,7 @@ hvline84_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 16
-hvline85_16_36:
+h851636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -41106,7 +41106,7 @@ hvline85_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 16
-hvline86_16_36:
+h861636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -41193,7 +41193,7 @@ hvline86_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 16
-hvline87_16_36:
+h871636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -41281,7 +41281,7 @@ hvline87_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline88_16_36:
+h881636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -41370,7 +41370,7 @@ hvline88_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 16
-hvline89_16_36:
+h891636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -41460,7 +41460,7 @@ hvline89_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 16
-hvline90_16_36:
+h901636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -41551,7 +41551,7 @@ hvline90_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 16
-hvline91_16_36:
+h911636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -41643,7 +41643,7 @@ hvline91_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline92_16_36:
+h921636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -41736,7 +41736,7 @@ hvline92_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline93_16_36:
+h931636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -41830,7 +41830,7 @@ hvline93_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline94_16_36:
+h941636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -41925,7 +41925,7 @@ hvline94_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline95_16_36:
+h951636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -42021,7 +42021,7 @@ hvline95_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 16
-hvline96_16_36:
+h961636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -42118,7 +42118,7 @@ hvline96_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline97_16_36:
+h971636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -42216,7 +42216,7 @@ hvline97_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 16
-hvline98_16_36:
+h981636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -42315,7 +42315,7 @@ hvline98_16_36:
 	dc.b 16
 	dc.b 0
 	dc.b 0
-hvline99_16_36:
+h991636:
 	dc.b 0
 	dc.b 0
 	dc.b 16
@@ -42418,10438 +42418,134 @@ hvline99_16_36:
 
 hvlink__16_36Table
 	dc.l 0
-	dc.l hvline1_16_36
-	dc.l hvline2_16_36
-	dc.l hvline3_16_36
-	dc.l hvline4_16_36
-	dc.l hvline5_16_36
-	dc.l hvline6_16_36
-	dc.l hvline7_16_36
-	dc.l hvline8_16_36
-	dc.l hvline9_16_36
-	dc.l hvline10_16_36
-	dc.l hvline11_16_36
-	dc.l hvline12_16_36
-	dc.l hvline13_16_36
-	dc.l hvline14_16_36
-	dc.l hvline15_16_36
-	dc.l hvline16_16_36
-	dc.l hvline17_16_36
-	dc.l hvline18_16_36
-	dc.l hvline19_16_36
-	dc.l hvline20_16_36
-	dc.l hvline21_16_36
-	dc.l hvline22_16_36
-	dc.l hvline23_16_36
-	dc.l hvline24_16_36
-	dc.l hvline25_16_36
-	dc.l hvline26_16_36
-	dc.l hvline27_16_36
-	dc.l hvline28_16_36
-	dc.l hvline29_16_36
-	dc.l hvline30_16_36
-	dc.l hvline31_16_36
-	dc.l hvline32_16_36
-	dc.l hvline33_16_36
-	dc.l hvline34_16_36
-	dc.l hvline35_16_36
-	dc.l hvline36_16_36
-	dc.l hvline37_16_36
-	dc.l hvline38_16_36
-	dc.l hvline39_16_36
-	dc.l hvline40_16_36
-	dc.l hvline41_16_36
-	dc.l hvline42_16_36
-	dc.l hvline43_16_36
-	dc.l hvline44_16_36
-	dc.l hvline45_16_36
-	dc.l hvline46_16_36
-	dc.l hvline47_16_36
-	dc.l hvline48_16_36
-	dc.l hvline49_16_36
-	dc.l hvline50_16_36
-	dc.l hvline51_16_36
-	dc.l hvline52_16_36
-	dc.l hvline53_16_36
-	dc.l hvline54_16_36
-	dc.l hvline55_16_36
-	dc.l hvline56_16_36
-	dc.l hvline57_16_36
-	dc.l hvline58_16_36
-	dc.l hvline59_16_36
-	dc.l hvline60_16_36
-	dc.l hvline61_16_36
-	dc.l hvline62_16_36
-	dc.l hvline63_16_36
-	dc.l hvline64_16_36
-	dc.l hvline65_16_36
-	dc.l hvline66_16_36
-	dc.l hvline67_16_36
-	dc.l hvline68_16_36
-	dc.l hvline69_16_36
-	dc.l hvline70_16_36
-	dc.l hvline71_16_36
-	dc.l hvline72_16_36
-	dc.l hvline73_16_36
-	dc.l hvline74_16_36
-	dc.l hvline75_16_36
-	dc.l hvline76_16_36
-	dc.l hvline77_16_36
-	dc.l hvline78_16_36
-	dc.l hvline79_16_36
-	dc.l hvline80_16_36
-	dc.l hvline81_16_36
-	dc.l hvline82_16_36
-	dc.l hvline83_16_36
-	dc.l hvline84_16_36
-	dc.l hvline85_16_36
-	dc.l hvline86_16_36
-	dc.l hvline87_16_36
-	dc.l hvline88_16_36
-	dc.l hvline89_16_36
-	dc.l hvline90_16_36
-	dc.l hvline91_16_36
-	dc.l hvline92_16_36
-	dc.l hvline93_16_36
-	dc.l hvline94_16_36
-	dc.l hvline95_16_36
-	dc.l hvline96_16_36
-	dc.l hvline97_16_36
-	dc.l hvline98_16_36
-	dc.l hvline99_16_36
+	dc.l h11636
+	dc.l h21636
+	dc.l h31636
+	dc.l h41636
+	dc.l h51636
+	dc.l h61636
+	dc.l h71636
+	dc.l h81636
+	dc.l h91636
+	dc.l h101636
+	dc.l h111636
+	dc.l h121636
+	dc.l h131636
+	dc.l h141636
+	dc.l h151636
+	dc.l h161636
+	dc.l h171636
+	dc.l h181636
+	dc.l h191636
+	dc.l h201636
+	dc.l h211636
+	dc.l h221636
+	dc.l h231636
+	dc.l h241636
+	dc.l h251636
+	dc.l h261636
+	dc.l h271636
+	dc.l h281636
+	dc.l h291636
+	dc.l h301636
+	dc.l h311636
+	dc.l h321636
+	dc.l h331636
+	dc.l h341636
+	dc.l h351636
+	dc.l h361636
+	dc.l h371636
+	dc.l h381636
+	dc.l h391636
+	dc.l h401636
+	dc.l h411636
+	dc.l h421636
+	dc.l h431636
+	dc.l h441636
+	dc.l h451636
+	dc.l h461636
+	dc.l h471636
+	dc.l h481636
+	dc.l h491636
+	dc.l h501636
+	dc.l h511636
+	dc.l h521636
+	dc.l h531636
+	dc.l h541636
+	dc.l h551636
+	dc.l h561636
+	dc.l h571636
+	dc.l h581636
+	dc.l h591636
+	dc.l h601636
+	dc.l h611636
+	dc.l h621636
+	dc.l h631636
+	dc.l h641636
+	dc.l h651636
+	dc.l h661636
+	dc.l h671636
+	dc.l h681636
+	dc.l h691636
+	dc.l h701636
+	dc.l h711636
+	dc.l h721636
+	dc.l h731636
+	dc.l h741636
+	dc.l h751636
+	dc.l h761636
+	dc.l h771636
+	dc.l h781636
+	dc.l h791636
+	dc.l h801636
+	dc.l h811636
+	dc.l h821636
+	dc.l h831636
+	dc.l h841636
+	dc.l h851636
+	dc.l h861636
+	dc.l h871636
+	dc.l h881636
+	dc.l h891636
+	dc.l h901636
+	dc.l h911636
+	dc.l h921636
+	dc.l h931636
+	dc.l h941636
+	dc.l h951636
+	dc.l h961636
+	dc.l h971636
+	dc.l h981636
+	dc.l h991636
 
-hvline1_16_22:
-	dc.b 16
-hvline2_16_22:
-	dc.b 160
-	dc.b 176
-hvline3_16_22:
-	dc.b 112
-	dc.b 112
-	dc.b 112
-hvline4_16_22:
-	dc.b 80
-	dc.b 80
-	dc.b 96
-	dc.b 80
-hvline5_16_22:
-	dc.b 64
-	dc.b 64
-	dc.b 80
-	dc.b 64
-	dc.b 80
-hvline6_16_22:
-	dc.b 48
-	dc.b 64
-	dc.b 48
-	dc.b 64
-	dc.b 64
-	dc.b 48
-hvline7_16_22:
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-hvline8_16_22:
+h13236:
 	dc.b 32
-	dc.b 48
-	dc.b 48
+h23236:
 	dc.b 32
-	dc.b 48
-	dc.b 48
-	dc.b 48
 	dc.b 32
-hvline9_16_22:
+h33236:
 	dc.b 32
 	dc.b 32
-	dc.b 48
 	dc.b 32
-	dc.b 48
+h43236:
 	dc.b 32
-	dc.b 48
 	dc.b 32
-	dc.b 48
-hvline10_16_22:
 	dc.b 32
 	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 48
-hvline11_16_22:
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-hvline12_16_22:
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-hvline13_16_22:
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-hvline14_16_22:
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-hvline15_16_22:
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-hvline16_16_22:
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-hvline17_16_22:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-hvline18_16_22:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-hvline19_16_22:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-hvline20_16_22:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-hvline21_16_22:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-hvline22_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline23_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline24_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline25_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline26_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline27_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline28_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline29_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline30_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline31_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline32_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline33_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline34_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline35_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline36_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline37_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline38_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline39_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline40_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline41_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline42_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline43_16_22:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline44_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline45_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-hvline46_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-hvline47_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-hvline48_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline49_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-hvline50_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline51_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-hvline52_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-hvline53_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-hvline54_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-hvline55_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-hvline56_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline57_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline58_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline59_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-hvline60_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline61_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline62_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline63_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline64_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline65_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline66_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline67_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline68_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline69_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-hvline70_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-hvline71_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-hvline72_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline73_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline74_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline75_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-hvline76_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline77_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-hvline78_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline79_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-hvline80_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline81_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-hvline82_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline83_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline84_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline85_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline86_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline87_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline88_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-hvline89_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-hvline90_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline91_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline92_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline93_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline94_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline95_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline96_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-hvline97_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-hvline98_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-hvline99_16_22:
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 0
-	dc.b 0
-
-hvlink__16_22Table
-	dc.l 0
-	dc.l hvline1_16_22
-	dc.l hvline2_16_22
-	dc.l hvline3_16_22
-	dc.l hvline4_16_22
-	dc.l hvline5_16_22
-	dc.l hvline6_16_22
-	dc.l hvline7_16_22
-	dc.l hvline8_16_22
-	dc.l hvline9_16_22
-	dc.l hvline10_16_22
-	dc.l hvline11_16_22
-	dc.l hvline12_16_22
-	dc.l hvline13_16_22
-	dc.l hvline14_16_22
-	dc.l hvline15_16_22
-	dc.l hvline16_16_22
-	dc.l hvline17_16_22
-	dc.l hvline18_16_22
-	dc.l hvline19_16_22
-	dc.l hvline20_16_22
-	dc.l hvline21_16_22
-	dc.l hvline22_16_22
-	dc.l hvline23_16_22
-	dc.l hvline24_16_22
-	dc.l hvline25_16_22
-	dc.l hvline26_16_22
-	dc.l hvline27_16_22
-	dc.l hvline28_16_22
-	dc.l hvline29_16_22
-	dc.l hvline30_16_22
-	dc.l hvline31_16_22
-	dc.l hvline32_16_22
-	dc.l hvline33_16_22
-	dc.l hvline34_16_22
-	dc.l hvline35_16_22
-	dc.l hvline36_16_22
-	dc.l hvline37_16_22
-	dc.l hvline38_16_22
-	dc.l hvline39_16_22
-	dc.l hvline40_16_22
-	dc.l hvline41_16_22
-	dc.l hvline42_16_22
-	dc.l hvline43_16_22
-	dc.l hvline44_16_22
-	dc.l hvline45_16_22
-	dc.l hvline46_16_22
-	dc.l hvline47_16_22
-	dc.l hvline48_16_22
-	dc.l hvline49_16_22
-	dc.l hvline50_16_22
-	dc.l hvline51_16_22
-	dc.l hvline52_16_22
-	dc.l hvline53_16_22
-	dc.l hvline54_16_22
-	dc.l hvline55_16_22
-	dc.l hvline56_16_22
-	dc.l hvline57_16_22
-	dc.l hvline58_16_22
-	dc.l hvline59_16_22
-	dc.l hvline60_16_22
-	dc.l hvline61_16_22
-	dc.l hvline62_16_22
-	dc.l hvline63_16_22
-	dc.l hvline64_16_22
-	dc.l hvline65_16_22
-	dc.l hvline66_16_22
-	dc.l hvline67_16_22
-	dc.l hvline68_16_22
-	dc.l hvline69_16_22
-	dc.l hvline70_16_22
-	dc.l hvline71_16_22
-	dc.l hvline72_16_22
-	dc.l hvline73_16_22
-	dc.l hvline74_16_22
-	dc.l hvline75_16_22
-	dc.l hvline76_16_22
-	dc.l hvline77_16_22
-	dc.l hvline78_16_22
-	dc.l hvline79_16_22
-	dc.l hvline80_16_22
-	dc.l hvline81_16_22
-	dc.l hvline82_16_22
-	dc.l hvline83_16_22
-	dc.l hvline84_16_22
-	dc.l hvline85_16_22
-	dc.l hvline86_16_22
-	dc.l hvline87_16_22
-	dc.l hvline88_16_22
-	dc.l hvline89_16_22
-	dc.l hvline90_16_22
-	dc.l hvline91_16_22
-	dc.l hvline92_16_22
-	dc.l hvline93_16_22
-	dc.l hvline94_16_22
-	dc.l hvline95_16_22
-	dc.l hvline96_16_22
-	dc.l hvline97_16_22
-	dc.l hvline98_16_22
-	dc.l hvline99_16_22
-
-hvline1_16_48:
-	dc.b 16
-hvline2_16_48:
-	dc.b 16
-	dc.b 16
-hvline3_16_48:
-	dc.b 240
-	dc.b 16
-	dc.b 16
-hvline4_16_48:
-	dc.b 176
-	dc.b 192
-	dc.b 192
-	dc.b 192
-hvline5_16_48:
-	dc.b 144
-	dc.b 160
-	dc.b 144
-	dc.b 160
-	dc.b 144
-hvline6_16_48:
-	dc.b 112
-	dc.b 128
-	dc.b 128
-	dc.b 128
-	dc.b 128
-	dc.b 128
-hvline7_16_48:
-	dc.b 96
-	dc.b 112
-	dc.b 112
-	dc.b 112
-	dc.b 112
-	dc.b 112
-	dc.b 96
-hvline8_16_48:
-	dc.b 80
-	dc.b 96
-	dc.b 96
-	dc.b 96
-	dc.b 96
-	dc.b 96
-	dc.b 96
-	dc.b 96
-hvline9_16_48:
-	dc.b 80
-	dc.b 80
-	dc.b 80
-	dc.b 96
-	dc.b 80
-	dc.b 80
-	dc.b 96
-	dc.b 80
-	dc.b 80
-hvline10_16_48:
-	dc.b 64
-	dc.b 80
-	dc.b 80
-	dc.b 80
-	dc.b 64
-	dc.b 80
-	dc.b 80
-	dc.b 80
-	dc.b 80
-	dc.b 64
-hvline11_16_48:
-	dc.b 64
-	dc.b 64
-	dc.b 80
-	dc.b 64
-	dc.b 64
-	dc.b 80
-	dc.b 64
-	dc.b 64
-	dc.b 80
-	dc.b 64
-	dc.b 64
-hvline12_16_48:
-	dc.b 48
-	dc.b 64
-	dc.b 64
-	dc.b 64
-	dc.b 64
-	dc.b 64
-	dc.b 64
-	dc.b 64
-	dc.b 64
-	dc.b 64
-	dc.b 64
-	dc.b 64
-hvline13_16_48:
-	dc.b 48
-	dc.b 64
-	dc.b 64
-	dc.b 48
-	dc.b 64
-	dc.b 64
-	dc.b 48
-	dc.b 64
-	dc.b 64
-	dc.b 48
-	dc.b 64
-	dc.b 64
-	dc.b 64
-hvline14_16_48:
-	dc.b 48
-	dc.b 48
-	dc.b 64
-	dc.b 48
-	dc.b 64
-	dc.b 48
-	dc.b 48
-	dc.b 64
-	dc.b 48
-	dc.b 64
-	dc.b 48
-	dc.b 64
-	dc.b 48
-	dc.b 48
-hvline15_16_48:
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 64
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 64
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 64
-hvline16_16_48:
-	dc.b 32
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-hvline17_16_48:
-	dc.b 32
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-	dc.b 48
-hvline18_16_48:
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 48
-	dc.b 32
-hvline19_16_48:
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 32
-hvline20_16_48:
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-hvline21_16_48:
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 32
-hvline22_16_48:
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-hvline23_16_48:
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 48
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-hvline24_16_48:
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-hvline25_16_48:
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-hvline26_16_48:
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-hvline27_16_48:
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-hvline28_16_48:
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-hvline29_16_48:
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-hvline30_16_48:
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-hvline31_16_48:
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-hvline32_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-hvline33_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-hvline34_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-hvline35_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 32
-hvline36_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-hvline37_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-hvline38_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline39_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-hvline40_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline41_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline42_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline43_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline44_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline45_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline46_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 32
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline47_16_48:
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline48_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline49_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline50_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline51_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline52_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline53_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline54_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline55_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline56_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline57_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline58_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline59_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline60_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline61_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline62_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline63_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline64_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline65_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline66_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline67_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline68_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline69_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline70_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-hvline71_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline72_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-hvline73_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline74_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline75_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline76_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline77_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline78_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline79_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline80_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline81_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline82_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline83_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline84_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline85_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline86_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline87_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline88_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline89_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline90_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline91_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline92_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline93_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline94_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline95_16_48:
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 16
-hvline96_16_48:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-hvline97_16_48:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-hvline98_16_48:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-hvline99_16_48:
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-	dc.b 0
-	dc.b 16
-
-hvlink__16_48Table
-	dc.l 0
-	dc.l hvline1_16_48
-	dc.l hvline2_16_48
-	dc.l hvline3_16_48
-	dc.l hvline4_16_48
-	dc.l hvline5_16_48
-	dc.l hvline6_16_48
-	dc.l hvline7_16_48
-	dc.l hvline8_16_48
-	dc.l hvline9_16_48
-	dc.l hvline10_16_48
-	dc.l hvline11_16_48
-	dc.l hvline12_16_48
-	dc.l hvline13_16_48
-	dc.l hvline14_16_48
-	dc.l hvline15_16_48
-	dc.l hvline16_16_48
-	dc.l hvline17_16_48
-	dc.l hvline18_16_48
-	dc.l hvline19_16_48
-	dc.l hvline20_16_48
-	dc.l hvline21_16_48
-	dc.l hvline22_16_48
-	dc.l hvline23_16_48
-	dc.l hvline24_16_48
-	dc.l hvline25_16_48
-	dc.l hvline26_16_48
-	dc.l hvline27_16_48
-	dc.l hvline28_16_48
-	dc.l hvline29_16_48
-	dc.l hvline30_16_48
-	dc.l hvline31_16_48
-	dc.l hvline32_16_48
-	dc.l hvline33_16_48
-	dc.l hvline34_16_48
-	dc.l hvline35_16_48
-	dc.l hvline36_16_48
-	dc.l hvline37_16_48
-	dc.l hvline38_16_48
-	dc.l hvline39_16_48
-	dc.l hvline40_16_48
-	dc.l hvline41_16_48
-	dc.l hvline42_16_48
-	dc.l hvline43_16_48
-	dc.l hvline44_16_48
-	dc.l hvline45_16_48
-	dc.l hvline46_16_48
-	dc.l hvline47_16_48
-	dc.l hvline48_16_48
-	dc.l hvline49_16_48
-	dc.l hvline50_16_48
-	dc.l hvline51_16_48
-	dc.l hvline52_16_48
-	dc.l hvline53_16_48
-	dc.l hvline54_16_48
-	dc.l hvline55_16_48
-	dc.l hvline56_16_48
-	dc.l hvline57_16_48
-	dc.l hvline58_16_48
-	dc.l hvline59_16_48
-	dc.l hvline60_16_48
-	dc.l hvline61_16_48
-	dc.l hvline62_16_48
-	dc.l hvline63_16_48
-	dc.l hvline64_16_48
-	dc.l hvline65_16_48
-	dc.l hvline66_16_48
-	dc.l hvline67_16_48
-	dc.l hvline68_16_48
-	dc.l hvline69_16_48
-	dc.l hvline70_16_48
-	dc.l hvline71_16_48
-	dc.l hvline72_16_48
-	dc.l hvline73_16_48
-	dc.l hvline74_16_48
-	dc.l hvline75_16_48
-	dc.l hvline76_16_48
-	dc.l hvline77_16_48
-	dc.l hvline78_16_48
-	dc.l hvline79_16_48
-	dc.l hvline80_16_48
-	dc.l hvline81_16_48
-	dc.l hvline82_16_48
-	dc.l hvline83_16_48
-	dc.l hvline84_16_48
-	dc.l hvline85_16_48
-	dc.l hvline86_16_48
-	dc.l hvline87_16_48
-	dc.l hvline88_16_48
-	dc.l hvline89_16_48
-	dc.l hvline90_16_48
-	dc.l hvline91_16_48
-	dc.l hvline92_16_48
-	dc.l hvline93_16_48
-	dc.l hvline94_16_48
-	dc.l hvline95_16_48
-	dc.l hvline96_16_48
-	dc.l hvline97_16_48
-	dc.l hvline98_16_48
-	dc.l hvline99_16_48
-
-hvline1_32_36:
-	dc.b 32
-hvline2_32_36:
-	dc.b 32
-	dc.b 32
-hvline3_32_36:
-	dc.b 32
-	dc.b 32
-	dc.b 32
-hvline4_32_36:
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-hvline5_32_36:
+h53236:
 	dc.b 224
 	dc.b 224
 	dc.b 224
 	dc.b 224
 	dc.b 224
-hvline6_32_36:
+h63236:
 	dc.b 160
 	dc.b 192
 	dc.b 192
 	dc.b 192
 	dc.b 192
 	dc.b 192
-hvline7_32_36:
+h73236:
 	dc.b 160
 	dc.b 160
 	dc.b 160
@@ -52857,7 +42553,7 @@ hvline7_32_36:
 	dc.b 160
 	dc.b 160
 	dc.b 192
-hvline8_32_36:
+h83236:
 	dc.b 128
 	dc.b 128
 	dc.b 160
@@ -52866,7 +42562,7 @@ hvline8_32_36:
 	dc.b 128
 	dc.b 160
 	dc.b 128
-hvline9_32_36:
+h93236:
 	dc.b 96
 	dc.b 128
 	dc.b 128
@@ -52876,7 +42572,7 @@ hvline9_32_36:
 	dc.b 128
 	dc.b 128
 	dc.b 128
-hvline10_32_36:
+h103236:
 	dc.b 96
 	dc.b 128
 	dc.b 96
@@ -52887,7 +42583,7 @@ hvline10_32_36:
 	dc.b 96
 	dc.b 128
 	dc.b 96
-hvline11_32_36:
+h113236:
 	dc.b 96
 	dc.b 96
 	dc.b 96
@@ -52899,7 +42595,7 @@ hvline11_32_36:
 	dc.b 96
 	dc.b 96
 	dc.b 128
-hvline12_32_36:
+h123236:
 	dc.b 64
 	dc.b 96
 	dc.b 96
@@ -52912,7 +42608,7 @@ hvline12_32_36:
 	dc.b 96
 	dc.b 96
 	dc.b 96
-hvline13_32_36:
+h133236:
 	dc.b 64
 	dc.b 96
 	dc.b 96
@@ -52926,7 +42622,7 @@ hvline13_32_36:
 	dc.b 96
 	dc.b 96
 	dc.b 64
-hvline14_32_36:
+h143236:
 	dc.b 64
 	dc.b 96
 	dc.b 64
@@ -52941,7 +42637,7 @@ hvline14_32_36:
 	dc.b 64
 	dc.b 96
 	dc.b 96
-hvline15_32_36:
+h153236:
 	dc.b 64
 	dc.b 64
 	dc.b 96
@@ -52957,7 +42653,7 @@ hvline15_32_36:
 	dc.b 96
 	dc.b 64
 	dc.b 64
-hvline16_32_36:
+h163236:
 	dc.b 64
 	dc.b 64
 	dc.b 64
@@ -52974,7 +42670,7 @@ hvline16_32_36:
 	dc.b 64
 	dc.b 64
 	dc.b 64
-hvline17_32_36:
+h173236:
 	dc.b 64
 	dc.b 64
 	dc.b 64
@@ -52992,7 +42688,7 @@ hvline17_32_36:
 	dc.b 64
 	dc.b 64
 	dc.b 96
-hvline18_32_36:
+h183236:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -53011,7 +42707,7 @@ hvline18_32_36:
 	dc.b 64
 	dc.b 64
 	dc.b 64
-hvline19_32_36:
+h193236:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -53031,7 +42727,7 @@ hvline19_32_36:
 	dc.b 64
 	dc.b 64
 	dc.b 32
-hvline20_32_36:
+h203236:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -53052,7 +42748,7 @@ hvline20_32_36:
 	dc.b 64
 	dc.b 64
 	dc.b 32
-hvline21_32_36:
+h213236:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -53074,7 +42770,7 @@ hvline21_32_36:
 	dc.b 64
 	dc.b 64
 	dc.b 32
-hvline22_32_36:
+h223236:
 	dc.b 32
 	dc.b 64
 	dc.b 32
@@ -53097,7 +42793,7 @@ hvline22_32_36:
 	dc.b 32
 	dc.b 64
 	dc.b 64
-hvline23_32_36:
+h233236:
 	dc.b 32
 	dc.b 64
 	dc.b 32
@@ -53121,7 +42817,7 @@ hvline23_32_36:
 	dc.b 32
 	dc.b 64
 	dc.b 64
-hvline24_32_36:
+h243236:
 	dc.b 32
 	dc.b 32
 	dc.b 64
@@ -53146,7 +42842,7 @@ hvline24_32_36:
 	dc.b 32
 	dc.b 64
 	dc.b 32
-hvline25_32_36:
+h253236:
 	dc.b 32
 	dc.b 32
 	dc.b 64
@@ -53172,7 +42868,7 @@ hvline25_32_36:
 	dc.b 64
 	dc.b 32
 	dc.b 32
-hvline26_32_36:
+h263236:
 	dc.b 32
 	dc.b 32
 	dc.b 64
@@ -53199,7 +42895,7 @@ hvline26_32_36:
 	dc.b 64
 	dc.b 32
 	dc.b 32
-hvline27_32_36:
+h273236:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -53227,7 +42923,7 @@ hvline27_32_36:
 	dc.b 64
 	dc.b 32
 	dc.b 32
-hvline28_32_36:
+h283236:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -53256,7 +42952,7 @@ hvline28_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 64
-hvline29_32_36:
+h293236:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -53286,7 +42982,7 @@ hvline29_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 64
-hvline30_32_36:
+h303236:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -53317,7 +43013,7 @@ hvline30_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline31_32_36:
+h313236:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -53349,7 +43045,7 @@ hvline31_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 64
-hvline32_32_36:
+h323236:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -53382,7 +43078,7 @@ hvline32_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline33_32_36:
+h333236:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -53416,7 +43112,7 @@ hvline33_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline34_32_36:
+h343236:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -53451,7 +43147,7 @@ hvline34_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline35_32_36:
+h353236:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -53487,7 +43183,7 @@ hvline35_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline36_32_36:
+h363236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53524,7 +43220,7 @@ hvline36_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline37_32_36:
+h373236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53562,7 +43258,7 @@ hvline37_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline38_32_36:
+h383236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53601,7 +43297,7 @@ hvline38_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline39_32_36:
+h393236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53641,7 +43337,7 @@ hvline39_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline40_32_36:
+h403236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53682,7 +43378,7 @@ hvline40_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline41_32_36:
+h413236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53724,7 +43420,7 @@ hvline41_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline42_32_36:
+h423236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53767,7 +43463,7 @@ hvline42_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline43_32_36:
+h433236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53811,7 +43507,7 @@ hvline43_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline44_32_36:
+h443236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53856,7 +43552,7 @@ hvline44_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline45_32_36:
+h453236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53902,7 +43598,7 @@ hvline45_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline46_32_36:
+h463236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53949,7 +43645,7 @@ hvline46_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline47_32_36:
+h473236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -53997,7 +43693,7 @@ hvline47_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline48_32_36:
+h483236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -54046,7 +43742,7 @@ hvline48_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline49_32_36:
+h493236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -54096,7 +43792,7 @@ hvline49_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline50_32_36:
+h503236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -54147,7 +43843,7 @@ hvline50_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline51_32_36:
+h513236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -54199,7 +43895,7 @@ hvline51_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline52_32_36:
+h523236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -54252,7 +43948,7 @@ hvline52_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline53_32_36:
+h533236:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -54306,7 +44002,7 @@ hvline53_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline54_32_36:
+h543236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -54361,7 +44057,7 @@ hvline54_32_36:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline55_32_36:
+h553236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -54417,7 +44113,7 @@ hvline55_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline56_32_36:
+h563236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -54474,7 +44170,7 @@ hvline56_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline57_32_36:
+h573236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -54532,7 +44228,7 @@ hvline57_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline58_32_36:
+h583236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -54591,7 +44287,7 @@ hvline58_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline59_32_36:
+h593236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -54651,7 +44347,7 @@ hvline59_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline60_32_36:
+h603236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -54712,7 +44408,7 @@ hvline60_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline61_32_36:
+h613236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -54774,7 +44470,7 @@ hvline61_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline62_32_36:
+h623236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -54837,7 +44533,7 @@ hvline62_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline63_32_36:
+h633236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -54901,7 +44597,7 @@ hvline63_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline64_32_36:
+h643236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -54966,7 +44662,7 @@ hvline64_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline65_32_36:
+h653236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -55032,7 +44728,7 @@ hvline65_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline66_32_36:
+h663236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -55099,7 +44795,7 @@ hvline66_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline67_32_36:
+h673236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -55167,7 +44863,7 @@ hvline67_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline68_32_36:
+h683236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -55236,7 +44932,7 @@ hvline68_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline69_32_36:
+h693236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -55306,7 +45002,7 @@ hvline69_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline70_32_36:
+h703236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -55377,7 +45073,7 @@ hvline70_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline71_32_36:
+h713236:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -55449,7 +45145,7 @@ hvline71_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline72_32_36:
+h723236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -55522,7 +45218,7 @@ hvline72_32_36:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline73_32_36:
+h733236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -55596,7 +45292,7 @@ hvline73_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline74_32_36:
+h743236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -55671,7 +45367,7 @@ hvline74_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline75_32_36:
+h753236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -55747,7 +45443,7 @@ hvline75_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline76_32_36:
+h763236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -55824,7 +45520,7 @@ hvline76_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline77_32_36:
+h773236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -55902,7 +45598,7 @@ hvline77_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline78_32_36:
+h783236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -55981,7 +45677,7 @@ hvline78_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline79_32_36:
+h793236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -56061,7 +45757,7 @@ hvline79_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline80_32_36:
+h803236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -56142,7 +45838,7 @@ hvline80_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline81_32_36:
+h813236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -56224,7 +45920,7 @@ hvline81_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline82_32_36:
+h823236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -56307,7 +46003,7 @@ hvline82_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline83_32_36:
+h833236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -56391,7 +46087,7 @@ hvline83_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline84_32_36:
+h843236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -56476,7 +46172,7 @@ hvline84_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline85_32_36:
+h853236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -56562,7 +46258,7 @@ hvline85_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline86_32_36:
+h863236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -56649,7 +46345,7 @@ hvline86_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline87_32_36:
+h873236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -56737,7 +46433,7 @@ hvline87_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline88_32_36:
+h883236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -56826,7 +46522,7 @@ hvline88_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline89_32_36:
+h893236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -56916,7 +46612,7 @@ hvline89_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline90_32_36:
+h903236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -57007,7 +46703,7 @@ hvline90_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline91_32_36:
+h913236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -57099,7 +46795,7 @@ hvline91_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline92_32_36:
+h923236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -57192,7 +46888,7 @@ hvline92_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline93_32_36:
+h933236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -57286,7 +46982,7 @@ hvline93_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline94_32_36:
+h943236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -57381,7 +47077,7 @@ hvline94_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline95_32_36:
+h953236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -57477,7 +47173,7 @@ hvline95_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline96_32_36:
+h963236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -57574,7 +47270,7 @@ hvline96_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline97_32_36:
+h973236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -57672,7 +47368,7 @@ hvline97_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline98_32_36:
+h983236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -57771,7 +47467,7 @@ hvline98_32_36:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline99_32_36:
+h993236:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -57874,134 +47570,134 @@ hvline99_32_36:
 
 hvlink__32_36Table
 	dc.l 0
-	dc.l hvline1_32_36
-	dc.l hvline2_32_36
-	dc.l hvline3_32_36
-	dc.l hvline4_32_36
-	dc.l hvline5_32_36
-	dc.l hvline6_32_36
-	dc.l hvline7_32_36
-	dc.l hvline8_32_36
-	dc.l hvline9_32_36
-	dc.l hvline10_32_36
-	dc.l hvline11_32_36
-	dc.l hvline12_32_36
-	dc.l hvline13_32_36
-	dc.l hvline14_32_36
-	dc.l hvline15_32_36
-	dc.l hvline16_32_36
-	dc.l hvline17_32_36
-	dc.l hvline18_32_36
-	dc.l hvline19_32_36
-	dc.l hvline20_32_36
-	dc.l hvline21_32_36
-	dc.l hvline22_32_36
-	dc.l hvline23_32_36
-	dc.l hvline24_32_36
-	dc.l hvline25_32_36
-	dc.l hvline26_32_36
-	dc.l hvline27_32_36
-	dc.l hvline28_32_36
-	dc.l hvline29_32_36
-	dc.l hvline30_32_36
-	dc.l hvline31_32_36
-	dc.l hvline32_32_36
-	dc.l hvline33_32_36
-	dc.l hvline34_32_36
-	dc.l hvline35_32_36
-	dc.l hvline36_32_36
-	dc.l hvline37_32_36
-	dc.l hvline38_32_36
-	dc.l hvline39_32_36
-	dc.l hvline40_32_36
-	dc.l hvline41_32_36
-	dc.l hvline42_32_36
-	dc.l hvline43_32_36
-	dc.l hvline44_32_36
-	dc.l hvline45_32_36
-	dc.l hvline46_32_36
-	dc.l hvline47_32_36
-	dc.l hvline48_32_36
-	dc.l hvline49_32_36
-	dc.l hvline50_32_36
-	dc.l hvline51_32_36
-	dc.l hvline52_32_36
-	dc.l hvline53_32_36
-	dc.l hvline54_32_36
-	dc.l hvline55_32_36
-	dc.l hvline56_32_36
-	dc.l hvline57_32_36
-	dc.l hvline58_32_36
-	dc.l hvline59_32_36
-	dc.l hvline60_32_36
-	dc.l hvline61_32_36
-	dc.l hvline62_32_36
-	dc.l hvline63_32_36
-	dc.l hvline64_32_36
-	dc.l hvline65_32_36
-	dc.l hvline66_32_36
-	dc.l hvline67_32_36
-	dc.l hvline68_32_36
-	dc.l hvline69_32_36
-	dc.l hvline70_32_36
-	dc.l hvline71_32_36
-	dc.l hvline72_32_36
-	dc.l hvline73_32_36
-	dc.l hvline74_32_36
-	dc.l hvline75_32_36
-	dc.l hvline76_32_36
-	dc.l hvline77_32_36
-	dc.l hvline78_32_36
-	dc.l hvline79_32_36
-	dc.l hvline80_32_36
-	dc.l hvline81_32_36
-	dc.l hvline82_32_36
-	dc.l hvline83_32_36
-	dc.l hvline84_32_36
-	dc.l hvline85_32_36
-	dc.l hvline86_32_36
-	dc.l hvline87_32_36
-	dc.l hvline88_32_36
-	dc.l hvline89_32_36
-	dc.l hvline90_32_36
-	dc.l hvline91_32_36
-	dc.l hvline92_32_36
-	dc.l hvline93_32_36
-	dc.l hvline94_32_36
-	dc.l hvline95_32_36
-	dc.l hvline96_32_36
-	dc.l hvline97_32_36
-	dc.l hvline98_32_36
-	dc.l hvline99_32_36
+	dc.l h13236
+	dc.l h23236
+	dc.l h33236
+	dc.l h43236
+	dc.l h53236
+	dc.l h63236
+	dc.l h73236
+	dc.l h83236
+	dc.l h93236
+	dc.l h103236
+	dc.l h113236
+	dc.l h123236
+	dc.l h133236
+	dc.l h143236
+	dc.l h153236
+	dc.l h163236
+	dc.l h173236
+	dc.l h183236
+	dc.l h193236
+	dc.l h203236
+	dc.l h213236
+	dc.l h223236
+	dc.l h233236
+	dc.l h243236
+	dc.l h253236
+	dc.l h263236
+	dc.l h273236
+	dc.l h283236
+	dc.l h293236
+	dc.l h303236
+	dc.l h313236
+	dc.l h323236
+	dc.l h333236
+	dc.l h343236
+	dc.l h353236
+	dc.l h363236
+	dc.l h373236
+	dc.l h383236
+	dc.l h393236
+	dc.l h403236
+	dc.l h413236
+	dc.l h423236
+	dc.l h433236
+	dc.l h443236
+	dc.l h453236
+	dc.l h463236
+	dc.l h473236
+	dc.l h483236
+	dc.l h493236
+	dc.l h503236
+	dc.l h513236
+	dc.l h523236
+	dc.l h533236
+	dc.l h543236
+	dc.l h553236
+	dc.l h563236
+	dc.l h573236
+	dc.l h583236
+	dc.l h593236
+	dc.l h603236
+	dc.l h613236
+	dc.l h623236
+	dc.l h633236
+	dc.l h643236
+	dc.l h653236
+	dc.l h663236
+	dc.l h673236
+	dc.l h683236
+	dc.l h693236
+	dc.l h703236
+	dc.l h713236
+	dc.l h723236
+	dc.l h733236
+	dc.l h743236
+	dc.l h753236
+	dc.l h763236
+	dc.l h773236
+	dc.l h783236
+	dc.l h793236
+	dc.l h803236
+	dc.l h813236
+	dc.l h823236
+	dc.l h833236
+	dc.l h843236
+	dc.l h853236
+	dc.l h863236
+	dc.l h873236
+	dc.l h883236
+	dc.l h893236
+	dc.l h903236
+	dc.l h913236
+	dc.l h923236
+	dc.l h933236
+	dc.l h943236
+	dc.l h953236
+	dc.l h963236
+	dc.l h973236
+	dc.l h983236
+	dc.l h993236
 
-hvline1_32_22:
+h13222:
 	dc.b 32
-hvline2_32_22:
+h23222:
 	dc.b 32
 	dc.b 32
-hvline3_32_22:
+h33222:
 	dc.b 224
 	dc.b 224
 	dc.b 224
-hvline4_32_22:
+h43222:
 	dc.b 160
 	dc.b 160
 	dc.b 192
 	dc.b 160
-hvline5_32_22:
+h53222:
 	dc.b 128
 	dc.b 128
 	dc.b 160
 	dc.b 128
 	dc.b 160
-hvline6_32_22:
+h63222:
 	dc.b 96
 	dc.b 128
 	dc.b 96
 	dc.b 128
 	dc.b 128
 	dc.b 96
-hvline7_32_22:
+h73222:
 	dc.b 96
 	dc.b 96
 	dc.b 96
@@ -58009,7 +47705,7 @@ hvline7_32_22:
 	dc.b 96
 	dc.b 96
 	dc.b 96
-hvline8_32_22:
+h83222:
 	dc.b 64
 	dc.b 96
 	dc.b 96
@@ -58018,7 +47714,7 @@ hvline8_32_22:
 	dc.b 96
 	dc.b 96
 	dc.b 64
-hvline9_32_22:
+h93222:
 	dc.b 64
 	dc.b 64
 	dc.b 96
@@ -58028,7 +47724,7 @@ hvline9_32_22:
 	dc.b 96
 	dc.b 64
 	dc.b 96
-hvline10_32_22:
+h103222:
 	dc.b 64
 	dc.b 64
 	dc.b 64
@@ -58039,7 +47735,7 @@ hvline10_32_22:
 	dc.b 64
 	dc.b 64
 	dc.b 96
-hvline11_32_22:
+h113222:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -58051,7 +47747,7 @@ hvline11_32_22:
 	dc.b 64
 	dc.b 64
 	dc.b 64
-hvline12_32_22:
+h123222:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -58064,7 +47760,7 @@ hvline12_32_22:
 	dc.b 64
 	dc.b 64
 	dc.b 32
-hvline13_32_22:
+h133222:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -58078,7 +47774,7 @@ hvline13_32_22:
 	dc.b 64
 	dc.b 64
 	dc.b 32
-hvline14_32_22:
+h143222:
 	dc.b 32
 	dc.b 64
 	dc.b 32
@@ -58093,7 +47789,7 @@ hvline14_32_22:
 	dc.b 32
 	dc.b 64
 	dc.b 32
-hvline15_32_22:
+h153222:
 	dc.b 32
 	dc.b 32
 	dc.b 64
@@ -58109,7 +47805,7 @@ hvline15_32_22:
 	dc.b 64
 	dc.b 32
 	dc.b 32
-hvline16_32_22:
+h163222:
 	dc.b 32
 	dc.b 32
 	dc.b 64
@@ -58126,7 +47822,7 @@ hvline16_32_22:
 	dc.b 64
 	dc.b 32
 	dc.b 32
-hvline17_32_22:
+h173222:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -58144,7 +47840,7 @@ hvline17_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 64
-hvline18_32_22:
+h183222:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -58163,14 +47859,8 @@ hvline18_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 64
-hvline19_32_22:
+h193222:
 	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 32
-	dc.b 64
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -58183,7 +47873,13 @@ hvline19_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 64
-hvline20_32_22:
+	dc.b 32
+	dc.b 32
+	dc.b 32
+	dc.b 32
+	dc.b 32
+	dc.b 64
+h203222:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -58204,7 +47900,7 @@ hvline20_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 64
-hvline21_32_22:
+h213222:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -58226,7 +47922,7 @@ hvline21_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 64
-hvline22_32_22:
+h223222:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -58249,7 +47945,7 @@ hvline22_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline23_32_22:
+h233222:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -58273,7 +47969,7 @@ hvline23_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline24_32_22:
+h243222:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -58298,7 +47994,7 @@ hvline24_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline25_32_22:
+h253222:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -58324,7 +48020,7 @@ hvline25_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline26_32_22:
+h263222:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -58351,7 +48047,7 @@ hvline26_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline27_32_22:
+h273222:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -58379,7 +48075,7 @@ hvline27_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline28_32_22:
+h283222:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -58408,7 +48104,7 @@ hvline28_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline29_32_22:
+h293222:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -58438,7 +48134,7 @@ hvline29_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline30_32_22:
+h303222:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -58469,7 +48165,7 @@ hvline30_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline31_32_22:
+h313222:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -58501,7 +48197,7 @@ hvline31_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline32_32_22:
+h323222:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -58534,7 +48230,7 @@ hvline32_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline33_32_22:
+h333222:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -58568,7 +48264,7 @@ hvline33_32_22:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline34_32_22:
+h343222:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -58603,7 +48299,7 @@ hvline34_32_22:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline35_32_22:
+h353222:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -58639,7 +48335,7 @@ hvline35_32_22:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline36_32_22:
+h363222:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -58676,7 +48372,7 @@ hvline36_32_22:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline37_32_22:
+h373222:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -58714,7 +48410,7 @@ hvline37_32_22:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline38_32_22:
+h383222:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -58753,7 +48449,7 @@ hvline38_32_22:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline39_32_22:
+h393222:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -58793,7 +48489,7 @@ hvline39_32_22:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline40_32_22:
+h403222:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -58834,7 +48530,7 @@ hvline40_32_22:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline41_32_22:
+h413222:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -58876,7 +48572,7 @@ hvline41_32_22:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline42_32_22:
+h423222:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -58919,7 +48615,7 @@ hvline42_32_22:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline43_32_22:
+h433222:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -58963,7 +48659,7 @@ hvline43_32_22:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline44_32_22:
+h443222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59008,7 +48704,7 @@ hvline44_32_22:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline45_32_22:
+h453222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59054,7 +48750,7 @@ hvline45_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline46_32_22:
+h463222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59101,7 +48797,7 @@ hvline46_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline47_32_22:
+h473222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59149,7 +48845,7 @@ hvline47_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline48_32_22:
+h483222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59198,7 +48894,7 @@ hvline48_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline49_32_22:
+h493222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59248,7 +48944,7 @@ hvline49_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline50_32_22:
+h503222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59299,7 +48995,7 @@ hvline50_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline51_32_22:
+h513222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59351,7 +49047,7 @@ hvline51_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline52_32_22:
+h523222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59404,7 +49100,7 @@ hvline52_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline53_32_22:
+h533222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59458,7 +49154,7 @@ hvline53_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline54_32_22:
+h543222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59513,7 +49209,7 @@ hvline54_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline55_32_22:
+h553222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59569,7 +49265,7 @@ hvline55_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline56_32_22:
+h563222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59626,7 +49322,7 @@ hvline56_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline57_32_22:
+h573222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59684,7 +49380,7 @@ hvline57_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline58_32_22:
+h583222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59743,7 +49439,7 @@ hvline58_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline59_32_22:
+h593222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59803,7 +49499,7 @@ hvline59_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline60_32_22:
+h603222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59864,7 +49560,7 @@ hvline60_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline61_32_22:
+h613222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59926,7 +49622,7 @@ hvline61_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline62_32_22:
+h623222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -59989,7 +49685,7 @@ hvline62_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline63_32_22:
+h633222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -60053,7 +49749,7 @@ hvline63_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline64_32_22:
+h643222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -60118,7 +49814,7 @@ hvline64_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline65_32_22:
+h653222:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -60184,7 +49880,7 @@ hvline65_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline66_32_22:
+h663222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -60251,7 +49947,7 @@ hvline66_32_22:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline67_32_22:
+h673222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -60319,7 +50015,7 @@ hvline67_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline68_32_22:
+h683222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -60388,7 +50084,7 @@ hvline68_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline69_32_22:
+h693222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -60458,7 +50154,7 @@ hvline69_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 0
-hvline70_32_22:
+h703222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -60529,7 +50225,7 @@ hvline70_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 0
-hvline71_32_22:
+h713222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -60601,7 +50297,7 @@ hvline71_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 0
-hvline72_32_22:
+h723222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -60674,7 +50370,7 @@ hvline72_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline73_32_22:
+h733222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -60748,7 +50444,7 @@ hvline73_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline74_32_22:
+h743222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -60823,7 +50519,7 @@ hvline74_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline75_32_22:
+h753222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -60899,7 +50595,7 @@ hvline75_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 0
-hvline76_32_22:
+h763222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -60976,7 +50672,7 @@ hvline76_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline77_32_22:
+h773222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61054,7 +50750,7 @@ hvline77_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 0
-hvline78_32_22:
+h783222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61133,7 +50829,7 @@ hvline78_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline79_32_22:
+h793222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61213,7 +50909,7 @@ hvline79_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 0
-hvline80_32_22:
+h803222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61294,7 +50990,7 @@ hvline80_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline81_32_22:
+h813222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61376,7 +51072,7 @@ hvline81_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 0
-hvline82_32_22:
+h823222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61459,7 +51155,7 @@ hvline82_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline83_32_22:
+h833222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61543,7 +51239,7 @@ hvline83_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline84_32_22:
+h843222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61628,7 +51324,7 @@ hvline84_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline85_32_22:
+h853222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61714,7 +51410,7 @@ hvline85_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline86_32_22:
+h863222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61801,7 +51497,7 @@ hvline86_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline87_32_22:
+h873222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61889,7 +51585,7 @@ hvline87_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline88_32_22:
+h883222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -61978,7 +51674,7 @@ hvline88_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 0
-hvline89_32_22:
+h893222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -62068,7 +51764,7 @@ hvline89_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 0
-hvline90_32_22:
+h903222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -62159,7 +51855,7 @@ hvline90_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline91_32_22:
+h913222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -62251,7 +51947,7 @@ hvline91_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline92_32_22:
+h923222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -62344,7 +52040,7 @@ hvline92_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline93_32_22:
+h933222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -62438,7 +52134,7 @@ hvline93_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline94_32_22:
+h943222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -62533,7 +52229,7 @@ hvline94_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline95_32_22:
+h953222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -62629,7 +52325,7 @@ hvline95_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline96_32_22:
+h963222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -62726,7 +52422,7 @@ hvline96_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 0
-hvline97_32_22:
+h973222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -62824,7 +52520,7 @@ hvline97_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 0
-hvline98_32_22:
+h983222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -62923,7 +52619,7 @@ hvline98_32_22:
 	dc.b 0
 	dc.b 0
 	dc.b 32
-hvline99_32_22:
+h993222:
 	dc.b 0
 	dc.b 0
 	dc.b 0
@@ -63026,134 +52722,134 @@ hvline99_32_22:
 
 hvlink__32_22Table
 	dc.l 0
-	dc.l hvline1_32_22
-	dc.l hvline2_32_22
-	dc.l hvline3_32_22
-	dc.l hvline4_32_22
-	dc.l hvline5_32_22
-	dc.l hvline6_32_22
-	dc.l hvline7_32_22
-	dc.l hvline8_32_22
-	dc.l hvline9_32_22
-	dc.l hvline10_32_22
-	dc.l hvline11_32_22
-	dc.l hvline12_32_22
-	dc.l hvline13_32_22
-	dc.l hvline14_32_22
-	dc.l hvline15_32_22
-	dc.l hvline16_32_22
-	dc.l hvline17_32_22
-	dc.l hvline18_32_22
-	dc.l hvline19_32_22
-	dc.l hvline20_32_22
-	dc.l hvline21_32_22
-	dc.l hvline22_32_22
-	dc.l hvline23_32_22
-	dc.l hvline24_32_22
-	dc.l hvline25_32_22
-	dc.l hvline26_32_22
-	dc.l hvline27_32_22
-	dc.l hvline28_32_22
-	dc.l hvline29_32_22
-	dc.l hvline30_32_22
-	dc.l hvline31_32_22
-	dc.l hvline32_32_22
-	dc.l hvline33_32_22
-	dc.l hvline34_32_22
-	dc.l hvline35_32_22
-	dc.l hvline36_32_22
-	dc.l hvline37_32_22
-	dc.l hvline38_32_22
-	dc.l hvline39_32_22
-	dc.l hvline40_32_22
-	dc.l hvline41_32_22
-	dc.l hvline42_32_22
-	dc.l hvline43_32_22
-	dc.l hvline44_32_22
-	dc.l hvline45_32_22
-	dc.l hvline46_32_22
-	dc.l hvline47_32_22
-	dc.l hvline48_32_22
-	dc.l hvline49_32_22
-	dc.l hvline50_32_22
-	dc.l hvline51_32_22
-	dc.l hvline52_32_22
-	dc.l hvline53_32_22
-	dc.l hvline54_32_22
-	dc.l hvline55_32_22
-	dc.l hvline56_32_22
-	dc.l hvline57_32_22
-	dc.l hvline58_32_22
-	dc.l hvline59_32_22
-	dc.l hvline60_32_22
-	dc.l hvline61_32_22
-	dc.l hvline62_32_22
-	dc.l hvline63_32_22
-	dc.l hvline64_32_22
-	dc.l hvline65_32_22
-	dc.l hvline66_32_22
-	dc.l hvline67_32_22
-	dc.l hvline68_32_22
-	dc.l hvline69_32_22
-	dc.l hvline70_32_22
-	dc.l hvline71_32_22
-	dc.l hvline72_32_22
-	dc.l hvline73_32_22
-	dc.l hvline74_32_22
-	dc.l hvline75_32_22
-	dc.l hvline76_32_22
-	dc.l hvline77_32_22
-	dc.l hvline78_32_22
-	dc.l hvline79_32_22
-	dc.l hvline80_32_22
-	dc.l hvline81_32_22
-	dc.l hvline82_32_22
-	dc.l hvline83_32_22
-	dc.l hvline84_32_22
-	dc.l hvline85_32_22
-	dc.l hvline86_32_22
-	dc.l hvline87_32_22
-	dc.l hvline88_32_22
-	dc.l hvline89_32_22
-	dc.l hvline90_32_22
-	dc.l hvline91_32_22
-	dc.l hvline92_32_22
-	dc.l hvline93_32_22
-	dc.l hvline94_32_22
-	dc.l hvline95_32_22
-	dc.l hvline96_32_22
-	dc.l hvline97_32_22
-	dc.l hvline98_32_22
-	dc.l hvline99_32_22
+	dc.l h13222
+	dc.l h23222
+	dc.l h33222
+	dc.l h43222
+	dc.l h53222
+	dc.l h63222
+	dc.l h73222
+	dc.l h83222
+	dc.l h93222
+	dc.l h103222
+	dc.l h113222
+	dc.l h123222
+	dc.l h133222
+	dc.l h143222
+	dc.l h153222
+	dc.l h163222
+	dc.l h173222
+	dc.l h183222
+	dc.l h193222
+	dc.l h203222
+	dc.l h213222
+	dc.l h223222
+	dc.l h233222
+	dc.l h243222
+	dc.l h253222
+	dc.l h263222
+	dc.l h273222
+	dc.l h283222
+	dc.l h293222
+	dc.l h303222
+	dc.l h313222
+	dc.l h323222
+	dc.l h333222
+	dc.l h343222
+	dc.l h353222
+	dc.l h363222
+	dc.l h373222
+	dc.l h383222
+	dc.l h393222
+	dc.l h403222
+	dc.l h413222
+	dc.l h423222
+	dc.l h433222
+	dc.l h443222
+	dc.l h453222
+	dc.l h463222
+	dc.l h473222
+	dc.l h483222
+	dc.l h493222
+	dc.l h503222
+	dc.l h513222
+	dc.l h523222
+	dc.l h533222
+	dc.l h543222
+	dc.l h553222
+	dc.l h563222
+	dc.l h573222
+	dc.l h583222
+	dc.l h593222
+	dc.l h603222
+	dc.l h613222
+	dc.l h623222
+	dc.l h633222
+	dc.l h643222
+	dc.l h653222
+	dc.l h663222
+	dc.l h673222
+	dc.l h683222
+	dc.l h693222
+	dc.l h703222
+	dc.l h713222
+	dc.l h723222
+	dc.l h733222
+	dc.l h743222
+	dc.l h753222
+	dc.l h763222
+	dc.l h773222
+	dc.l h783222
+	dc.l h793222
+	dc.l h803222
+	dc.l h813222
+	dc.l h823222
+	dc.l h833222
+	dc.l h843222
+	dc.l h853222
+	dc.l h863222
+	dc.l h873222
+	dc.l h883222
+	dc.l h893222
+	dc.l h903222
+	dc.l h913222
+	dc.l h923222
+	dc.l h933222
+	dc.l h943222
+	dc.l h953222
+	dc.l h963222
+	dc.l h973222
+	dc.l h983222
+	dc.l h993222
 
-hvline1_32_48:
+h13248:
 	dc.b 32
-hvline2_32_48:
-	dc.b 32
-	dc.b 32
-hvline3_32_48:
+h23248:
 	dc.b 32
 	dc.b 32
-	dc.b 32
-hvline4_32_48:
+h33248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-	dc.b 32
-hvline5_32_48:
+h43248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
 	dc.b 32
+h53248:
 	dc.b 32
-hvline6_32_48:
+	dc.b 32
+	dc.b 32
+	dc.b 32
+	dc.b 32
+h63248:
 	dc.b 224
 	dc.b 32
 	dc.b 32
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline7_32_48:
+h73248:
 	dc.b 192
 	dc.b 224
 	dc.b 224
@@ -63161,7 +52857,7 @@ hvline7_32_48:
 	dc.b 224
 	dc.b 224
 	dc.b 192
-hvline8_32_48:
+h83248:
 	dc.b 160
 	dc.b 192
 	dc.b 192
@@ -63170,7 +52866,7 @@ hvline8_32_48:
 	dc.b 192
 	dc.b 192
 	dc.b 192
-hvline9_32_48:
+h93248:
 	dc.b 160
 	dc.b 160
 	dc.b 160
@@ -63180,7 +52876,7 @@ hvline9_32_48:
 	dc.b 192
 	dc.b 160
 	dc.b 160
-hvline10_32_48:
+h103248:
 	dc.b 128
 	dc.b 160
 	dc.b 160
@@ -63191,7 +52887,7 @@ hvline10_32_48:
 	dc.b 160
 	dc.b 160
 	dc.b 128
-hvline11_32_48:
+h113248:
 	dc.b 128
 	dc.b 128
 	dc.b 160
@@ -63203,7 +52899,7 @@ hvline11_32_48:
 	dc.b 160
 	dc.b 128
 	dc.b 128
-hvline12_32_48:
+h123248:
 	dc.b 96
 	dc.b 128
 	dc.b 128
@@ -63216,7 +52912,7 @@ hvline12_32_48:
 	dc.b 128
 	dc.b 128
 	dc.b 128
-hvline13_32_48:
+h133248:
 	dc.b 96
 	dc.b 128
 	dc.b 128
@@ -63230,7 +52926,7 @@ hvline13_32_48:
 	dc.b 128
 	dc.b 128
 	dc.b 128
-hvline14_32_48:
+h143248:
 	dc.b 96
 	dc.b 96
 	dc.b 128
@@ -63245,7 +52941,7 @@ hvline14_32_48:
 	dc.b 128
 	dc.b 96
 	dc.b 96
-hvline15_32_48:
+h153248:
 	dc.b 96
 	dc.b 96
 	dc.b 96
@@ -63261,7 +52957,7 @@ hvline15_32_48:
 	dc.b 96
 	dc.b 96
 	dc.b 128
-hvline16_32_48:
+h163248:
 	dc.b 64
 	dc.b 96
 	dc.b 96
@@ -63278,7 +52974,7 @@ hvline16_32_48:
 	dc.b 96
 	dc.b 96
 	dc.b 96
-hvline17_32_48:
+h173248:
 	dc.b 64
 	dc.b 96
 	dc.b 96
@@ -63296,7 +52992,7 @@ hvline17_32_48:
 	dc.b 96
 	dc.b 96
 	dc.b 96
-hvline18_32_48:
+h183248:
 	dc.b 64
 	dc.b 96
 	dc.b 64
@@ -63315,7 +53011,7 @@ hvline18_32_48:
 	dc.b 96
 	dc.b 96
 	dc.b 64
-hvline19_32_48:
+h193248:
 	dc.b 64
 	dc.b 96
 	dc.b 64
@@ -63335,7 +53031,7 @@ hvline19_32_48:
 	dc.b 64
 	dc.b 96
 	dc.b 64
-hvline20_32_48:
+h203248:
 	dc.b 64
 	dc.b 64
 	dc.b 96
@@ -63356,7 +53052,7 @@ hvline20_32_48:
 	dc.b 96
 	dc.b 64
 	dc.b 64
-hvline21_32_48:
+h213248:
 	dc.b 64
 	dc.b 64
 	dc.b 64
@@ -63378,7 +53074,7 @@ hvline21_32_48:
 	dc.b 64
 	dc.b 64
 	dc.b 64
-hvline22_32_48:
+h223248:
 	dc.b 64
 	dc.b 64
 	dc.b 64
@@ -63401,7 +53097,7 @@ hvline22_32_48:
 	dc.b 64
 	dc.b 64
 	dc.b 64
-hvline23_32_48:
+h233248:
 	dc.b 64
 	dc.b 64
 	dc.b 64
@@ -63425,7 +53121,7 @@ hvline23_32_48:
 	dc.b 64
 	dc.b 64
 	dc.b 64
-hvline24_32_48:
+h243248:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -63450,7 +53146,7 @@ hvline24_32_48:
 	dc.b 64
 	dc.b 64
 	dc.b 64
-hvline25_32_48:
+h253248:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -63476,7 +53172,7 @@ hvline25_32_48:
 	dc.b 64
 	dc.b 64
 	dc.b 32
-hvline26_32_48:
+h263248:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -63503,7 +53199,7 @@ hvline26_32_48:
 	dc.b 64
 	dc.b 64
 	dc.b 64
-hvline27_32_48:
+h273248:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -63531,7 +53227,7 @@ hvline27_32_48:
 	dc.b 64
 	dc.b 64
 	dc.b 32
-hvline28_32_48:
+h283248:
 	dc.b 32
 	dc.b 64
 	dc.b 64
@@ -63560,7 +53256,7 @@ hvline28_32_48:
 	dc.b 64
 	dc.b 64
 	dc.b 32
-hvline29_32_48:
+h293248:
 	dc.b 32
 	dc.b 64
 	dc.b 32
@@ -63590,7 +53286,7 @@ hvline29_32_48:
 	dc.b 32
 	dc.b 64
 	dc.b 64
-hvline30_32_48:
+h303248:
 	dc.b 32
 	dc.b 64
 	dc.b 32
@@ -63621,7 +53317,7 @@ hvline30_32_48:
 	dc.b 32
 	dc.b 64
 	dc.b 64
-hvline31_32_48:
+h313248:
 	dc.b 32
 	dc.b 64
 	dc.b 32
@@ -63653,7 +53349,7 @@ hvline31_32_48:
 	dc.b 32
 	dc.b 64
 	dc.b 32
-hvline32_32_48:
+h323248:
 	dc.b 32
 	dc.b 32
 	dc.b 64
@@ -63686,7 +53382,7 @@ hvline32_32_48:
 	dc.b 32
 	dc.b 64
 	dc.b 32
-hvline33_32_48:
+h333248:
 	dc.b 32
 	dc.b 32
 	dc.b 64
@@ -63720,7 +53416,7 @@ hvline33_32_48:
 	dc.b 64
 	dc.b 32
 	dc.b 64
-hvline34_32_48:
+h343248:
 	dc.b 32
 	dc.b 32
 	dc.b 64
@@ -63755,7 +53451,7 @@ hvline34_32_48:
 	dc.b 64
 	dc.b 32
 	dc.b 64
-hvline35_32_48:
+h353248:
 	dc.b 32
 	dc.b 32
 	dc.b 64
@@ -63791,7 +53487,7 @@ hvline35_32_48:
 	dc.b 64
 	dc.b 32
 	dc.b 64
-hvline36_32_48:
+h363248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -63828,7 +53524,7 @@ hvline36_32_48:
 	dc.b 64
 	dc.b 32
 	dc.b 32
-hvline37_32_48:
+h373248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -63866,7 +53562,7 @@ hvline37_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 64
-hvline38_32_48:
+h383248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -63905,7 +53601,7 @@ hvline38_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline39_32_48:
+h393248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -63945,7 +53641,7 @@ hvline39_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 64
-hvline40_32_48:
+h403248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -63986,7 +53682,7 @@ hvline40_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline41_32_48:
+h413248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -64028,7 +53724,7 @@ hvline41_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline42_32_48:
+h423248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -64071,7 +53767,7 @@ hvline42_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline43_32_48:
+h433248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -64115,7 +53811,7 @@ hvline43_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline44_32_48:
+h443248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -64160,7 +53856,7 @@ hvline44_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline45_32_48:
+h453248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -64206,7 +53902,7 @@ hvline45_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline46_32_48:
+h463248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -64253,7 +53949,7 @@ hvline46_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline47_32_48:
+h473248:
 	dc.b 32
 	dc.b 32
 	dc.b 32
@@ -64301,7 +53997,7 @@ hvline47_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline48_32_48:
+h483248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64350,7 +54046,7 @@ hvline48_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline49_32_48:
+h493248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64400,7 +54096,7 @@ hvline49_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline50_32_48:
+h503248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64451,7 +54147,7 @@ hvline50_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline51_32_48:
+h513248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64503,7 +54199,7 @@ hvline51_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline52_32_48:
+h523248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64556,7 +54252,7 @@ hvline52_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline53_32_48:
+h533248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64610,7 +54306,7 @@ hvline53_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline54_32_48:
+h543248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64665,7 +54361,7 @@ hvline54_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline55_32_48:
+h553248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64721,7 +54417,7 @@ hvline55_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline56_32_48:
+h563248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64778,7 +54474,7 @@ hvline56_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline57_32_48:
+h573248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64836,7 +54532,7 @@ hvline57_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline58_32_48:
+h583248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64895,7 +54591,7 @@ hvline58_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline59_32_48:
+h593248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -64955,7 +54651,7 @@ hvline59_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline60_32_48:
+h603248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65016,7 +54712,7 @@ hvline60_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline61_32_48:
+h613248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65078,7 +54774,7 @@ hvline61_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline62_32_48:
+h623248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65141,7 +54837,7 @@ hvline62_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline63_32_48:
+h633248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65205,7 +54901,7 @@ hvline63_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline64_32_48:
+h643248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65270,7 +54966,7 @@ hvline64_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline65_32_48:
+h653248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65336,7 +55032,7 @@ hvline65_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline66_32_48:
+h663248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65403,7 +55099,7 @@ hvline66_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline67_32_48:
+h673248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65471,7 +55167,7 @@ hvline67_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline68_32_48:
+h683248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65540,7 +55236,7 @@ hvline68_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline69_32_48:
+h693248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65610,7 +55306,7 @@ hvline69_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline70_32_48:
+h703248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65681,7 +55377,7 @@ hvline70_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 32
-hvline71_32_48:
+h713248:
 	dc.b 0
 	dc.b 32
 	dc.b 32
@@ -65753,7 +55449,7 @@ hvline71_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline72_32_48:
+h723248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -65826,7 +55522,7 @@ hvline72_32_48:
 	dc.b 32
 	dc.b 32
 	dc.b 0
-hvline73_32_48:
+h733248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -65900,7 +55596,7 @@ hvline73_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline74_32_48:
+h743248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -65975,7 +55671,7 @@ hvline74_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline75_32_48:
+h753248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66051,7 +55747,7 @@ hvline75_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline76_32_48:
+h763248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66128,7 +55824,7 @@ hvline76_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline77_32_48:
+h773248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66206,7 +55902,7 @@ hvline77_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline78_32_48:
+h783248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66285,7 +55981,7 @@ hvline78_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline79_32_48:
+h793248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66365,7 +56061,7 @@ hvline79_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline80_32_48:
+h803248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66446,7 +56142,7 @@ hvline80_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline81_32_48:
+h813248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66528,7 +56224,7 @@ hvline81_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline82_32_48:
+h823248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66611,7 +56307,7 @@ hvline82_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline83_32_48:
+h833248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66695,7 +56391,7 @@ hvline83_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline84_32_48:
+h843248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66780,7 +56476,7 @@ hvline84_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline85_32_48:
+h853248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66866,7 +56562,7 @@ hvline85_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline86_32_48:
+h863248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -66953,7 +56649,7 @@ hvline86_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline87_32_48:
+h873248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -67041,7 +56737,7 @@ hvline87_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline88_32_48:
+h883248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -67130,7 +56826,7 @@ hvline88_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline89_32_48:
+h893248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -67220,7 +56916,7 @@ hvline89_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline90_32_48:
+h903248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -67311,7 +57007,7 @@ hvline90_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline91_32_48:
+h913248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -67403,7 +57099,7 @@ hvline91_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline92_32_48:
+h923248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -67496,7 +57192,7 @@ hvline92_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline93_32_48:
+h933248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -67590,7 +57286,7 @@ hvline93_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline94_32_48:
+h943248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -67685,7 +57381,7 @@ hvline94_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline95_32_48:
+h953248:
 	dc.b 0
 	dc.b 32
 	dc.b 0
@@ -67781,7 +57477,7 @@ hvline95_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 32
-hvline96_32_48:
+h963248:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -67878,7 +57574,7 @@ hvline96_32_48:
 	dc.b 0
 	dc.b 32
 	dc.b 0
-hvline97_32_48:
+h973248:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -67976,7 +57672,7 @@ hvline97_32_48:
 	dc.b 32
 	dc.b 0
 	dc.b 32
-hvline98_32_48:
+h983248:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -68075,7 +57771,7 @@ hvline98_32_48:
 	dc.b 32
 	dc.b 0
 	dc.b 0
-hvline99_32_48:
+h993248:
 	dc.b 0
 	dc.b 0
 	dc.b 32
@@ -68178,134 +57874,134 @@ hvline99_32_48:
 
 hvlink__32_48Table
 	dc.l 0
-	dc.l hvline1_32_48
-	dc.l hvline2_32_48
-	dc.l hvline3_32_48
-	dc.l hvline4_32_48
-	dc.l hvline5_32_48
-	dc.l hvline6_32_48
-	dc.l hvline7_32_48
-	dc.l hvline8_32_48
-	dc.l hvline9_32_48
-	dc.l hvline10_32_48
-	dc.l hvline11_32_48
-	dc.l hvline12_32_48
-	dc.l hvline13_32_48
-	dc.l hvline14_32_48
-	dc.l hvline15_32_48
-	dc.l hvline16_32_48
-	dc.l hvline17_32_48
-	dc.l hvline18_32_48
-	dc.l hvline19_32_48
-	dc.l hvline20_32_48
-	dc.l hvline21_32_48
-	dc.l hvline22_32_48
-	dc.l hvline23_32_48
-	dc.l hvline24_32_48
-	dc.l hvline25_32_48
-	dc.l hvline26_32_48
-	dc.l hvline27_32_48
-	dc.l hvline28_32_48
-	dc.l hvline29_32_48
-	dc.l hvline30_32_48
-	dc.l hvline31_32_48
-	dc.l hvline32_32_48
-	dc.l hvline33_32_48
-	dc.l hvline34_32_48
-	dc.l hvline35_32_48
-	dc.l hvline36_32_48
-	dc.l hvline37_32_48
-	dc.l hvline38_32_48
-	dc.l hvline39_32_48
-	dc.l hvline40_32_48
-	dc.l hvline41_32_48
-	dc.l hvline42_32_48
-	dc.l hvline43_32_48
-	dc.l hvline44_32_48
-	dc.l hvline45_32_48
-	dc.l hvline46_32_48
-	dc.l hvline47_32_48
-	dc.l hvline48_32_48
-	dc.l hvline49_32_48
-	dc.l hvline50_32_48
-	dc.l hvline51_32_48
-	dc.l hvline52_32_48
-	dc.l hvline53_32_48
-	dc.l hvline54_32_48
-	dc.l hvline55_32_48
-	dc.l hvline56_32_48
-	dc.l hvline57_32_48
-	dc.l hvline58_32_48
-	dc.l hvline59_32_48
-	dc.l hvline60_32_48
-	dc.l hvline61_32_48
-	dc.l hvline62_32_48
-	dc.l hvline63_32_48
-	dc.l hvline64_32_48
-	dc.l hvline65_32_48
-	dc.l hvline66_32_48
-	dc.l hvline67_32_48
-	dc.l hvline68_32_48
-	dc.l hvline69_32_48
-	dc.l hvline70_32_48
-	dc.l hvline71_32_48
-	dc.l hvline72_32_48
-	dc.l hvline73_32_48
-	dc.l hvline74_32_48
-	dc.l hvline75_32_48
-	dc.l hvline76_32_48
-	dc.l hvline77_32_48
-	dc.l hvline78_32_48
-	dc.l hvline79_32_48
-	dc.l hvline80_32_48
-	dc.l hvline81_32_48
-	dc.l hvline82_32_48
-	dc.l hvline83_32_48
-	dc.l hvline84_32_48
-	dc.l hvline85_32_48
-	dc.l hvline86_32_48
-	dc.l hvline87_32_48
-	dc.l hvline88_32_48
-	dc.l hvline89_32_48
-	dc.l hvline90_32_48
-	dc.l hvline91_32_48
-	dc.l hvline92_32_48
-	dc.l hvline93_32_48
-	dc.l hvline94_32_48
-	dc.l hvline95_32_48
-	dc.l hvline96_32_48
-	dc.l hvline97_32_48
-	dc.l hvline98_32_48
-	dc.l hvline99_32_48
+	dc.l h13248
+	dc.l h23248
+	dc.l h33248
+	dc.l h43248
+	dc.l h53248
+	dc.l h63248
+	dc.l h73248
+	dc.l h83248
+	dc.l h93248
+	dc.l h103248
+	dc.l h113248
+	dc.l h123248
+	dc.l h133248
+	dc.l h143248
+	dc.l h153248
+	dc.l h163248
+	dc.l h173248
+	dc.l h183248
+	dc.l h193248
+	dc.l h203248
+	dc.l h213248
+	dc.l h223248
+	dc.l h233248
+	dc.l h243248
+	dc.l h253248
+	dc.l h263248
+	dc.l h273248
+	dc.l h283248
+	dc.l h293248
+	dc.l h303248
+	dc.l h313248
+	dc.l h323248
+	dc.l h333248
+	dc.l h343248
+	dc.l h353248
+	dc.l h363248
+	dc.l h373248
+	dc.l h383248
+	dc.l h393248
+	dc.l h403248
+	dc.l h413248
+	dc.l h423248
+	dc.l h433248
+	dc.l h443248
+	dc.l h453248
+	dc.l h463248
+	dc.l h473248
+	dc.l h483248
+	dc.l h493248
+	dc.l h503248
+	dc.l h513248
+	dc.l h523248
+	dc.l h533248
+	dc.l h543248
+	dc.l h553248
+	dc.l h563248
+	dc.l h573248
+	dc.l h583248
+	dc.l h593248
+	dc.l h603248
+	dc.l h613248
+	dc.l h623248
+	dc.l h633248
+	dc.l h643248
+	dc.l h653248
+	dc.l h663248
+	dc.l h673248
+	dc.l h683248
+	dc.l h693248
+	dc.l h703248
+	dc.l h713248
+	dc.l h723248
+	dc.l h733248
+	dc.l h743248
+	dc.l h753248
+	dc.l h763248
+	dc.l h773248
+	dc.l h783248
+	dc.l h793248
+	dc.l h803248
+	dc.l h813248
+	dc.l h823248
+	dc.l h833248
+	dc.l h843248
+	dc.l h853248
+	dc.l h863248
+	dc.l h873248
+	dc.l h883248
+	dc.l h893248
+	dc.l h903248
+	dc.l h913248
+	dc.l h923248
+	dc.l h933248
+	dc.l h943248
+	dc.l h953248
+	dc.l h963248
+	dc.l h973248
+	dc.l h983248
+	dc.l h993248
 
-hvline1_48_80:
+h14880:
 	dc.b 48
-hvline2_48_80:
+h24880:
 	dc.b 48
 	dc.b 48
-hvline3_48_80:
+h34880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline4_48_80:
+h44880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline5_48_80:
+h54880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline6_48_80:
+h64880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline7_48_80:
+h74880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -68313,7 +58009,7 @@ hvline7_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline8_48_80:
+h84880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -68322,7 +58018,7 @@ hvline8_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline9_48_80:
+h94880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -68332,7 +58028,7 @@ hvline9_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline10_48_80:
+h104880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -68343,7 +58039,7 @@ hvline10_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline11_48_80:
+h114880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -68355,7 +58051,7 @@ hvline11_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline12_48_80:
+h124880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -68368,7 +58064,7 @@ hvline12_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline13_48_80:
+h134880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -68382,7 +58078,7 @@ hvline13_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline14_48_80:
+h144880:
 	dc.b 240
 	dc.b 48
 	dc.b 48
@@ -68397,7 +58093,7 @@ hvline14_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline15_48_80:
+h154880:
 	dc.b 240
 	dc.b 240
 	dc.b 240
@@ -68413,7 +58109,7 @@ hvline15_48_80:
 	dc.b 48
 	dc.b 240
 	dc.b 240
-hvline16_48_80:
+h164880:
 	dc.b 192
 	dc.b 240
 	dc.b 240
@@ -68430,7 +58126,7 @@ hvline16_48_80:
 	dc.b 240
 	dc.b 240
 	dc.b 240
-hvline17_48_80:
+h174880:
 	dc.b 192
 	dc.b 240
 	dc.b 240
@@ -68448,7 +58144,7 @@ hvline17_48_80:
 	dc.b 240
 	dc.b 240
 	dc.b 240
-hvline18_48_80:
+h184880:
 	dc.b 192
 	dc.b 192
 	dc.b 240
@@ -68467,7 +58163,7 @@ hvline18_48_80:
 	dc.b 240
 	dc.b 192
 	dc.b 240
-hvline19_48_80:
+h194880:
 	dc.b 192
 	dc.b 192
 	dc.b 192
@@ -68487,7 +58183,7 @@ hvline19_48_80:
 	dc.b 192
 	dc.b 192
 	dc.b 192
-hvline20_48_80:
+h204880:
 	dc.b 144
 	dc.b 192
 	dc.b 192
@@ -68508,7 +58204,7 @@ hvline20_48_80:
 	dc.b 192
 	dc.b 192
 	dc.b 192
-hvline21_48_80:
+h214880:
 	dc.b 144
 	dc.b 192
 	dc.b 192
@@ -68530,7 +58226,7 @@ hvline21_48_80:
 	dc.b 192
 	dc.b 192
 	dc.b 144
-hvline22_48_80:
+h224880:
 	dc.b 144
 	dc.b 192
 	dc.b 144
@@ -68553,7 +58249,7 @@ hvline22_48_80:
 	dc.b 144
 	dc.b 192
 	dc.b 144
-hvline23_48_80:
+h234880:
 	dc.b 144
 	dc.b 144
 	dc.b 192
@@ -68577,7 +58273,7 @@ hvline23_48_80:
 	dc.b 192
 	dc.b 144
 	dc.b 144
-hvline24_48_80:
+h244880:
 	dc.b 144
 	dc.b 144
 	dc.b 144
@@ -68602,7 +58298,7 @@ hvline24_48_80:
 	dc.b 144
 	dc.b 144
 	dc.b 192
-hvline25_48_80:
+h254880:
 	dc.b 144
 	dc.b 144
 	dc.b 144
@@ -68628,7 +58324,7 @@ hvline25_48_80:
 	dc.b 144
 	dc.b 144
 	dc.b 192
-hvline26_48_80:
+h264880:
 	dc.b 144
 	dc.b 144
 	dc.b 144
@@ -68655,7 +58351,7 @@ hvline26_48_80:
 	dc.b 144
 	dc.b 144
 	dc.b 192
-hvline27_48_80:
+h274880:
 	dc.b 96
 	dc.b 144
 	dc.b 144
@@ -68683,7 +58379,7 @@ hvline27_48_80:
 	dc.b 144
 	dc.b 144
 	dc.b 96
-hvline28_48_80:
+h284880:
 	dc.b 96
 	dc.b 144
 	dc.b 144
@@ -68712,7 +58408,7 @@ hvline28_48_80:
 	dc.b 144
 	dc.b 144
 	dc.b 144
-hvline29_48_80:
+h294880:
 	dc.b 96
 	dc.b 144
 	dc.b 144
@@ -68742,7 +58438,7 @@ hvline29_48_80:
 	dc.b 144
 	dc.b 144
 	dc.b 144
-hvline30_48_80:
+h304880:
 	dc.b 96
 	dc.b 144
 	dc.b 96
@@ -68773,7 +58469,7 @@ hvline30_48_80:
 	dc.b 144
 	dc.b 144
 	dc.b 96
-hvline31_48_80:
+h314880:
 	dc.b 96
 	dc.b 144
 	dc.b 96
@@ -68805,7 +58501,7 @@ hvline31_48_80:
 	dc.b 96
 	dc.b 144
 	dc.b 96
-hvline32_48_80:
+h324880:
 	dc.b 96
 	dc.b 96
 	dc.b 144
@@ -68838,7 +58534,7 @@ hvline32_48_80:
 	dc.b 96
 	dc.b 144
 	dc.b 96
-hvline33_48_80:
+h334880:
 	dc.b 96
 	dc.b 96
 	dc.b 144
@@ -68872,7 +58568,7 @@ hvline33_48_80:
 	dc.b 144
 	dc.b 96
 	dc.b 144
-hvline34_48_80:
+h344880:
 	dc.b 96
 	dc.b 96
 	dc.b 144
@@ -68907,7 +58603,7 @@ hvline34_48_80:
 	dc.b 144
 	dc.b 96
 	dc.b 144
-hvline35_48_80:
+h354880:
 	dc.b 96
 	dc.b 96
 	dc.b 96
@@ -68943,7 +58639,7 @@ hvline35_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 96
-hvline36_48_80:
+h364880:
 	dc.b 96
 	dc.b 96
 	dc.b 96
@@ -68980,7 +58676,7 @@ hvline36_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 144
-hvline37_48_80:
+h374880:
 	dc.b 96
 	dc.b 96
 	dc.b 96
@@ -69018,7 +58714,7 @@ hvline37_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 144
-hvline38_48_80:
+h384880:
 	dc.b 96
 	dc.b 96
 	dc.b 96
@@ -69057,7 +58753,7 @@ hvline38_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 96
-hvline39_48_80:
+h394880:
 	dc.b 96
 	dc.b 96
 	dc.b 96
@@ -69097,7 +58793,7 @@ hvline39_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 96
-hvline40_48_80:
+h404880:
 	dc.b 48
 	dc.b 96
 	dc.b 96
@@ -69138,7 +58834,7 @@ hvline40_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 96
-hvline41_48_80:
+h414880:
 	dc.b 48
 	dc.b 96
 	dc.b 96
@@ -69180,7 +58876,7 @@ hvline41_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 48
-hvline42_48_80:
+h424880:
 	dc.b 48
 	dc.b 96
 	dc.b 96
@@ -69223,7 +58919,7 @@ hvline42_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 48
-hvline43_48_80:
+h434880:
 	dc.b 48
 	dc.b 96
 	dc.b 96
@@ -69267,7 +58963,7 @@ hvline43_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 48
-hvline44_48_80:
+h444880:
 	dc.b 48
 	dc.b 96
 	dc.b 96
@@ -69312,7 +59008,7 @@ hvline44_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 48
-hvline45_48_80:
+h454880:
 	dc.b 48
 	dc.b 96
 	dc.b 96
@@ -69358,7 +59054,7 @@ hvline45_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 48
-hvline46_48_80:
+h464880:
 	dc.b 48
 	dc.b 96
 	dc.b 96
@@ -69405,7 +59101,7 @@ hvline46_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 48
-hvline47_48_80:
+h474880:
 	dc.b 48
 	dc.b 96
 	dc.b 96
@@ -69453,7 +59149,7 @@ hvline47_48_80:
 	dc.b 96
 	dc.b 96
 	dc.b 96
-hvline48_48_80:
+h484880:
 	dc.b 48
 	dc.b 96
 	dc.b 48
@@ -69502,7 +59198,7 @@ hvline48_48_80:
 	dc.b 48
 	dc.b 96
 	dc.b 96
-hvline49_48_80:
+h494880:
 	dc.b 48
 	dc.b 96
 	dc.b 48
@@ -69552,7 +59248,7 @@ hvline49_48_80:
 	dc.b 48
 	dc.b 96
 	dc.b 96
-hvline50_48_80:
+h504880:
 	dc.b 48
 	dc.b 96
 	dc.b 48
@@ -69603,7 +59299,7 @@ hvline50_48_80:
 	dc.b 48
 	dc.b 96
 	dc.b 96
-hvline51_48_80:
+h514880:
 	dc.b 48
 	dc.b 96
 	dc.b 48
@@ -69655,7 +59351,7 @@ hvline51_48_80:
 	dc.b 48
 	dc.b 96
 	dc.b 48
-hvline52_48_80:
+h524880:
 	dc.b 48
 	dc.b 96
 	dc.b 48
@@ -69708,7 +59404,7 @@ hvline52_48_80:
 	dc.b 48
 	dc.b 96
 	dc.b 96
-hvline53_48_80:
+h534880:
 	dc.b 48
 	dc.b 96
 	dc.b 48
@@ -69762,7 +59458,7 @@ hvline53_48_80:
 	dc.b 48
 	dc.b 96
 	dc.b 96
-hvline54_48_80:
+h544880:
 	dc.b 48
 	dc.b 48
 	dc.b 96
@@ -69817,7 +59513,7 @@ hvline54_48_80:
 	dc.b 96
 	dc.b 48
 	dc.b 48
-hvline55_48_80:
+h554880:
 	dc.b 48
 	dc.b 48
 	dc.b 96
@@ -69873,7 +59569,7 @@ hvline55_48_80:
 	dc.b 96
 	dc.b 48
 	dc.b 96
-hvline56_48_80:
+h564880:
 	dc.b 48
 	dc.b 48
 	dc.b 96
@@ -69930,7 +59626,7 @@ hvline56_48_80:
 	dc.b 96
 	dc.b 48
 	dc.b 96
-hvline57_48_80:
+h574880:
 	dc.b 48
 	dc.b 48
 	dc.b 96
@@ -69988,7 +59684,7 @@ hvline57_48_80:
 	dc.b 96
 	dc.b 48
 	dc.b 48
-hvline58_48_80:
+h584880:
 	dc.b 48
 	dc.b 48
 	dc.b 96
@@ -70047,7 +59743,7 @@ hvline58_48_80:
 	dc.b 96
 	dc.b 48
 	dc.b 96
-hvline59_48_80:
+h594880:
 	dc.b 48
 	dc.b 48
 	dc.b 96
@@ -70107,7 +59803,7 @@ hvline59_48_80:
 	dc.b 96
 	dc.b 48
 	dc.b 48
-hvline60_48_80:
+h604880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70168,7 +59864,7 @@ hvline60_48_80:
 	dc.b 96
 	dc.b 48
 	dc.b 48
-hvline61_48_80:
+h614880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70230,7 +59926,7 @@ hvline61_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline62_48_80:
+h624880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70293,7 +59989,7 @@ hvline62_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline63_48_80:
+h634880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70357,7 +60053,7 @@ hvline63_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline64_48_80:
+h644880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70422,7 +60118,7 @@ hvline64_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline65_48_80:
+h654880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70488,7 +60184,7 @@ hvline65_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 96
-hvline66_48_80:
+h664880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70555,7 +60251,7 @@ hvline66_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline67_48_80:
+h674880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70623,7 +60319,7 @@ hvline67_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline68_48_80:
+h684880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70692,7 +60388,7 @@ hvline68_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 96
-hvline69_48_80:
+h694880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70762,7 +60458,7 @@ hvline69_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 96
-hvline70_48_80:
+h704880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70833,7 +60529,7 @@ hvline70_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline71_48_80:
+h714880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70905,7 +60601,7 @@ hvline71_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 96
-hvline72_48_80:
+h724880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -70978,7 +60674,7 @@ hvline72_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 96
-hvline73_48_80:
+h734880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -71052,7 +60748,7 @@ hvline73_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline74_48_80:
+h744880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -71127,7 +60823,7 @@ hvline74_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 96
-hvline75_48_80:
+h754880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -71203,7 +60899,7 @@ hvline75_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline76_48_80:
+h764880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -71280,7 +60976,7 @@ hvline76_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline77_48_80:
+h774880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -71358,7 +61054,7 @@ hvline77_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline78_48_80:
+h784880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -71437,7 +61133,7 @@ hvline78_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline79_48_80:
+h794880:
 	dc.b 48
 	dc.b 48
 	dc.b 48
@@ -71517,7 +61213,7 @@ hvline79_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 96
-hvline80_48_80:
+h804880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -71598,7 +61294,7 @@ hvline80_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline81_48_80:
+h814880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -71680,7 +61376,7 @@ hvline81_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline82_48_80:
+h824880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -71763,7 +61459,7 @@ hvline82_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline83_48_80:
+h834880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -71847,7 +61543,7 @@ hvline83_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline84_48_80:
+h844880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -71932,7 +61628,7 @@ hvline84_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline85_48_80:
+h854880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -72018,7 +61714,7 @@ hvline85_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline86_48_80:
+h864880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -72105,7 +61801,7 @@ hvline86_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline87_48_80:
+h874880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -72193,7 +61889,7 @@ hvline87_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline88_48_80:
+h884880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -72282,7 +61978,7 @@ hvline88_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline89_48_80:
+h894880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -72372,7 +62068,7 @@ hvline89_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline90_48_80:
+h904880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -72463,7 +62159,7 @@ hvline90_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline91_48_80:
+h914880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -72555,7 +62251,7 @@ hvline91_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline92_48_80:
+h924880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -72648,7 +62344,7 @@ hvline92_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline93_48_80:
+h934880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -72742,7 +62438,7 @@ hvline93_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline94_48_80:
+h944880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -72837,7 +62533,7 @@ hvline94_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline95_48_80:
+h954880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -72933,7 +62629,7 @@ hvline95_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline96_48_80:
+h964880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -73030,7 +62726,7 @@ hvline96_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline97_48_80:
+h974880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -73128,7 +62824,7 @@ hvline97_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 0
-hvline98_48_80:
+h984880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -73227,7 +62923,7 @@ hvline98_48_80:
 	dc.b 48
 	dc.b 48
 	dc.b 48
-hvline99_48_80:
+h994880:
 	dc.b 0
 	dc.b 48
 	dc.b 48
@@ -73330,103 +63026,103 @@ hvline99_48_80:
 
 hvlink__48_80Table
 	dc.l 0
-	dc.l hvline1_48_80
-	dc.l hvline2_48_80
-	dc.l hvline3_48_80
-	dc.l hvline4_48_80
-	dc.l hvline5_48_80
-	dc.l hvline6_48_80
-	dc.l hvline7_48_80
-	dc.l hvline8_48_80
-	dc.l hvline9_48_80
-	dc.l hvline10_48_80
-	dc.l hvline11_48_80
-	dc.l hvline12_48_80
-	dc.l hvline13_48_80
-	dc.l hvline14_48_80
-	dc.l hvline15_48_80
-	dc.l hvline16_48_80
-	dc.l hvline17_48_80
-	dc.l hvline18_48_80
-	dc.l hvline19_48_80
-	dc.l hvline20_48_80
-	dc.l hvline21_48_80
-	dc.l hvline22_48_80
-	dc.l hvline23_48_80
-	dc.l hvline24_48_80
-	dc.l hvline25_48_80
-	dc.l hvline26_48_80
-	dc.l hvline27_48_80
-	dc.l hvline28_48_80
-	dc.l hvline29_48_80
-	dc.l hvline30_48_80
-	dc.l hvline31_48_80
-	dc.l hvline32_48_80
-	dc.l hvline33_48_80
-	dc.l hvline34_48_80
-	dc.l hvline35_48_80
-	dc.l hvline36_48_80
-	dc.l hvline37_48_80
-	dc.l hvline38_48_80
-	dc.l hvline39_48_80
-	dc.l hvline40_48_80
-	dc.l hvline41_48_80
-	dc.l hvline42_48_80
-	dc.l hvline43_48_80
-	dc.l hvline44_48_80
-	dc.l hvline45_48_80
-	dc.l hvline46_48_80
-	dc.l hvline47_48_80
-	dc.l hvline48_48_80
-	dc.l hvline49_48_80
-	dc.l hvline50_48_80
-	dc.l hvline51_48_80
-	dc.l hvline52_48_80
-	dc.l hvline53_48_80
-	dc.l hvline54_48_80
-	dc.l hvline55_48_80
-	dc.l hvline56_48_80
-	dc.l hvline57_48_80
-	dc.l hvline58_48_80
-	dc.l hvline59_48_80
-	dc.l hvline60_48_80
-	dc.l hvline61_48_80
-	dc.l hvline62_48_80
-	dc.l hvline63_48_80
-	dc.l hvline64_48_80
-	dc.l hvline65_48_80
-	dc.l hvline66_48_80
-	dc.l hvline67_48_80
-	dc.l hvline68_48_80
-	dc.l hvline69_48_80
-	dc.l hvline70_48_80
-	dc.l hvline71_48_80
-	dc.l hvline72_48_80
-	dc.l hvline73_48_80
-	dc.l hvline74_48_80
-	dc.l hvline75_48_80
-	dc.l hvline76_48_80
-	dc.l hvline77_48_80
-	dc.l hvline78_48_80
-	dc.l hvline79_48_80
-	dc.l hvline80_48_80
-	dc.l hvline81_48_80
-	dc.l hvline82_48_80
-	dc.l hvline83_48_80
-	dc.l hvline84_48_80
-	dc.l hvline85_48_80
-	dc.l hvline86_48_80
-	dc.l hvline87_48_80
-	dc.l hvline88_48_80
-	dc.l hvline89_48_80
-	dc.l hvline90_48_80
-	dc.l hvline91_48_80
-	dc.l hvline92_48_80
-	dc.l hvline93_48_80
-	dc.l hvline94_48_80
-	dc.l hvline95_48_80
-	dc.l hvline96_48_80
-	dc.l hvline97_48_80
-	dc.l hvline98_48_80
-	dc.l hvline99_48_80
+	dc.l h14880
+	dc.l h24880
+	dc.l h34880
+	dc.l h44880
+	dc.l h54880
+	dc.l h64880
+	dc.l h74880
+	dc.l h84880
+	dc.l h94880
+	dc.l h104880
+	dc.l h114880
+	dc.l h124880
+	dc.l h134880
+	dc.l h144880
+	dc.l h154880
+	dc.l h164880
+	dc.l h174880
+	dc.l h184880
+	dc.l h194880
+	dc.l h204880
+	dc.l h214880
+	dc.l h224880
+	dc.l h234880
+	dc.l h244880
+	dc.l h254880
+	dc.l h264880
+	dc.l h274880
+	dc.l h284880
+	dc.l h294880
+	dc.l h304880
+	dc.l h314880
+	dc.l h324880
+	dc.l h334880
+	dc.l h344880
+	dc.l h354880
+	dc.l h364880
+	dc.l h374880
+	dc.l h384880
+	dc.l h394880
+	dc.l h404880
+	dc.l h414880
+	dc.l h424880
+	dc.l h434880
+	dc.l h444880
+	dc.l h454880
+	dc.l h464880
+	dc.l h474880
+	dc.l h484880
+	dc.l h494880
+	dc.l h504880
+	dc.l h514880
+	dc.l h524880
+	dc.l h534880
+	dc.l h544880
+	dc.l h554880
+	dc.l h564880
+	dc.l h574880
+	dc.l h584880
+	dc.l h594880
+	dc.l h604880
+	dc.l h614880
+	dc.l h624880
+	dc.l h634880
+	dc.l h644880
+	dc.l h654880
+	dc.l h664880
+	dc.l h674880
+	dc.l h684880
+	dc.l h694880
+	dc.l h704880
+	dc.l h714880
+	dc.l h724880
+	dc.l h734880
+	dc.l h744880
+	dc.l h754880
+	dc.l h764880
+	dc.l h774880
+	dc.l h784880
+	dc.l h794880
+	dc.l h804880
+	dc.l h814880
+	dc.l h824880
+	dc.l h834880
+	dc.l h844880
+	dc.l h854880
+	dc.l h864880
+	dc.l h874880
+	dc.l h884880
+	dc.l h894880
+	dc.l h904880
+	dc.l h914880
+	dc.l h924880
+	dc.l h934880
+	dc.l h944880
+	dc.l h954880
+	dc.l h964880
+	dc.l h974880
+	dc.l h984880
+	dc.l h994880
 

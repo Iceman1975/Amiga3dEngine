@@ -15,7 +15,8 @@ screen_init:
                               move.l    a1,$dff080                                                                 ; COP1LCH (also sets COP1LCL)
                               move.w    $dff088,d0                                                                 ; COPJMP1 
                               move.w    #$81a0,$dff096                                                             ; DMACON set bitplane, copper, sprite
-							 bsr screen_initFooter
+							  bsr screen_initFooter
+							  bsr screen_setGradient
                               rts	
 	
 
@@ -183,6 +184,9 @@ screen_buffer
 ;a0 pointer to colors
 screen_setColors
                               lea       copper_colors,a1
+							  move.l 	currentLevel,a0
+							  move.l   10(a0),a0
+							  ;lea		map_colors,a0
                               moveq     #15,d0
 sr_col_loop                   move.l    (a0)+,(a1)+
                               dbf       d0,sr_col_loop
@@ -215,7 +219,7 @@ screen_buffer2screen
   rts
 							  
 sprites_init:
-  lea.l      blanksprite,a1                                                                                                               ; put blanksprite address into a1
+  lea.l      sprites,a1                                                                                                               ; put blanksprite address into a1
   lea.l      sp0,a2                                                                                                                       ; put copper address into a2
   add.l      #10,a2                                                                                                                       ; add 10 to copper address in a2
   move.l     a1,d1                                                                                                                        ; move blanksprite address into d1
@@ -229,11 +233,49 @@ s1_sprcoploop:            ; set all 7 sprite pointers
   move.w     d1,(a2)
   addq.l     #4,a2
   dbra       d0,s1_sprcoploop                                                                                                             ; loop trough all 7 sprite pointers
-
-                                                                                                      ; transfer sprite address low to copper
   rts
 
+screen_updateSprites: 
+  move.l sprites_pointer,a0
+  move.l (a0),a0	
+  lea sp0,a1
+  moveq      #7,d1 	
+.loop:
+  move.l a0,d0
+  move.w d0,6(a1)
+  swap d0
+  move.w d0,2(a1)
 
+  ;lea w0p0_s1,a0
+  adda.l #64*4,a0
+  adda.l #8,a1
+  dbra d1,.loop
+
+  bsr screen_setSpriteColors  
+
+  lea sprites_pointer,a0
+  add.l #4,(a0)
+  move.l (a0),a0
+
+  cmp.l #-1,(a0)
+  bne.s .done
+  lea  sprites,a0
+  move.l a0,sprites_pointer	
+.done:
+  rts
+
+  
+;a0 pointer to colors
+screen_setSpriteColors
+                              lea       copper_sprite_colors,a1
+							  ;move.l 	currentLevel,a0
+							  ;move.l   10(a0),a0
+							  ;lea.l   weapon0_color,a0
+							  ;lea		map_colors,a0
+                              moveq     #15,d0
+.sr_col_loop                   move.l    (a0)+,(a1)+
+                              dbf       d0,.sr_col_loop
+                              rts
 
 screen_drawFPS:
                               lea        screen_fps,a4
@@ -260,7 +302,7 @@ screen_drawFPS:
                               adda.l     d0,a1
 
                               move.l     #16,d0	; x pos
-                              move.l     #16,d1 ; y pos
+                              move.l     #7,d1 ; y pos
                               move.w     12(a3),d5
                               move.w     14(a3),d7   
                               move.w     6(a3),d6                                
@@ -295,7 +337,7 @@ screen_drawFPS:
                               adda.l     d0,a1
 
                               move.l     #8,d0	; x pos
-                              move.l     #16,d1 ; y pos
+                              move.l     #7,d1 ; y pos
                               move.w     12(a3),d5
                               move.w     14(a3),d7   
                               move.w     6(a3),d6                                
@@ -310,16 +352,18 @@ screen_drawFPS:
 
 
 screen_setGradient:
-	lea gradient,a0
+	move.l currentLevel,a0
+	move.l 14(a0),a0
+	beq.s .done 	;no gradient? -> done
 	move.w (a0)+,d6
-	lea gradient,a0
+	
 	lea copper_colorGradient,a1
 	adda.l #10,a1
 .loop:
 	move.w (a0)+,(a1)
 	adda.l #28,a1
 	dbf.w d6,.loop
-
+.done:
 	rts
 
 	  ; a0 pointer to bitmap
@@ -424,7 +468,7 @@ copper_scroll:
                               dc.w      BPLCON1, $0000
 
                               dc.w      BPLCON0,$4200
-							  dc.w      BPLCON2,$0000
+							  ;dc.w      BPLCON2,$0000
                               dc.w      BPL1MOD,screenBuffer_modulo
                               dc.w      BPL2MOD,screenBuffer_modulo
 
@@ -446,9 +490,11 @@ sp4:
              dc.w       $0132,$0000                                                                                                                                      ; SPR4PTL
 sp5:
              dc.w       $0134,$0000                                                                                                                                      ; SPR5PTH
-             dc.w       $0136,$0000                                                                                                                                      ; SPR5PTL
+             dc.w       $0136,$0000    
+sp6:                                                                                                                                  ; SPR5PTL
              dc.w       $0138,$0000                                                                                                                                      ; SPR6PTH
              dc.w       $013a,$0000                                                                                                                                      ; SPR6PTL
+sp7:
              dc.w       $013c,$0000                                                                                                                                      ; SPR7PTH
              dc.w       $013e,$0000  
 
@@ -477,7 +523,7 @@ copper_colors:
 	dc.w  COLOR14, $0d40
 	dc.w  COLOR15, $0a00
 
-; sprite colors:
+copper_sprite_colors:
 	dc.w  COLOR16, $0323
 	dc.w  COLOR17, $0222
 	dc.w  COLOR18, $0311
@@ -497,22 +543,7 @@ copper_colors:
 
 ;double size
 copper_colorGradient:
-	dc.w $2c01,$fffe
-	dc.w  $2c3f,$fffe, COLOR00,$0000, $2cdf,$fffe,COLOR00,$0000
-	dc.w  BPL1MOD,screenBuffer_modulo
-	dc.w  BPL2MOD,screenBuffer_modulo
-	dc.w $2d01,$fffe
-	dc.w  $2d3f,$fffe, COLOR00,$0000, $2ddf,$fffe,COLOR00,$0000
-	dc.w  BPL1MOD,screenBuffer_modulo_repeat
-	dc.w  BPL2MOD,screenBuffer_modulo_repeat
-	dc.w $2e01,$fffe
-	dc.w  $2e3f,$fffe, COLOR00,$0000, $2edf,$fffe,COLOR00,$0000
-	dc.w  BPL1MOD,screenBuffer_modulo
-	dc.w  BPL2MOD,screenBuffer_modulo
-	dc.w $2f01,$fffe
-	dc.w  $2f3f,$fffe, COLOR00,$0000, $2fdf,$fffe,COLOR00,$0000
-	dc.w  BPL1MOD,screenBuffer_modulo_repeat
-	dc.w  BPL2MOD,screenBuffer_modulo_repeat
+
 	dc.w $3001,$fffe
 	dc.w  $303f,$fffe, COLOR00,$0000, $30df,$fffe,COLOR00,$0000
 	dc.w  BPL1MOD,screenBuffer_modulo
@@ -1313,6 +1344,23 @@ copper_footer:
 							 dc.w  BPL1MOD,(screenBuffer_width_Byte*4)-(screen_width/8)-2
 							 dc.w  BPL2MOD,(screenBuffer_width_Byte*4)-(screen_width/8)-2
 
+							 	dc.w  COLOR00, $0222
+	dc.w  COLOR01, $0444
+	dc.w  COLOR02, $0620
+	dc.w  COLOR03, $0260
+	dc.w  COLOR04, $0666
+	dc.w  COLOR05, $0940
+	dc.w  COLOR06, $0999
+	dc.w  COLOR07, $0692
+	dc.w  COLOR08, $0b60
+	dc.w  COLOR09, $0bbb
+	dc.w  COLOR10, $0ddd
+	dc.w  COLOR11, $0d90
+	dc.w  COLOR12, $0b74
+	dc.w  COLOR13, $0452
+	dc.w  COLOR14, $0d40
+	dc.w  COLOR15, $0a00
+
 
 copperSlot:
                               dc.w      $ffdf,$fffe                                                                ; wait($df,$ff) enables waits > $ff vertical
@@ -1332,9 +1380,9 @@ footer:
 
 
 		
-bufferBefore			ds.b (160/8)*(100)
-bufferMem				ds.b screenBuffer_size
-bufferAfter				ds.b (160/8)*(100)
+;bufferBefore			ds.b (160/8)*(100)
+bufferMem				ds.b 160*100
+bufferAfter				ds.b 160*50		;y clipping bottom still missing
 
 buffer 					dc.l bufferMem
 
@@ -1346,5 +1394,23 @@ buffer 					dc.l bufferMem
 		;include    "./code/c2p/c2p2x1_4_CPU_stretchedByte.asm"
 	endif
 
-gradient:
-	dc.w 119,$004b,$004b,$004b,$004b,$004b,$004b,$004b,$004b,$004b,$004b,$004b,$004b,$005b,$005b,$005b,$005b,$005b,$005b,$005b,$005b,$005b,$005b,$006b,$006b,$006b,$006b,$006b,$006b,$006b,$006b,$007b,$007b,$007b,$007b,$007b,$007b,$009b,$009b,$009b,$009b,$009b,$009b,$00ab,$00ab,$00ab,$00ab,$00bb,$00bb,$00bb,$00bb,$02cc,$02cc,$04dd,$04dd,$04dd,$04dd,$05ee,$05ee,$06ff,$06ff,$06ff,$06ff,$07ff,$07ff,$09ff,$09ff,$0aff,$0aff,$0bff,$0bff,$0cff,$0cff,$0dff,$0dff,$0eff,$0eff,$0fff,$0fff,$0eee,$0eee,$0ddd,$0ddd,$0ccc,$0ccc,$0bbb,$0bbb,$0aaa,$0aaa,$0999,$0999,$0999,$0999,$0777,$0777,$0777,$0777,$0666,$0666,$0665,$0665,$0564,$0564,$0563,$0563,$0562,$0562,$0461,$0461,$0461,$0461,$0461,$0461,$0461,$0461,$0461,$0461,$0461,$0461
+sprites:
+	dc.l s4
+	dc.l s1
+	dc.l s2
+	dc.l s3
+	dc.l s4
+	dc.l -1
+
+sprites_pointer	dc.l sprites
+ 
+s0:
+  include     "./data/sprites/sprites_weapon0_phase0.asm"
+s1:
+  include     "./data/sprites/sprites_weapon0_phase1.asm"
+s2:
+  include     "./data/sprites/sprites_weapon0_phase2.asm"
+s3:
+  include     "./data/sprites/sprites_weapon0_phase3.asm"
+s4:
+  include     "./data/sprites/sprites_weapon0_phase4.asm"

@@ -5,24 +5,44 @@ ray_drawFloor:
 	add.l #160*60,a0
 
 
-	lea    floorImageMid,a1
+	;lea    floorImageMid,a1
+ 
+  move.l  floorDataPointer,a1
+  adda.l #128*64,a1 
+
 	moveq #0,d3
 	move.w global_z,d3
 	bge .skip
-	neg.w d3
+
+  neg.w d3
+  and.w #%01111111,d3
+ 	
+  move.w #128,d0
+  sub.w  d3,d0
+  move.w d0,d3
+  bra.s .zPos
 .skip:
-	divu.w  #128,d3
-	swap  d3
+  and.w #%01111111,d3
+
+.zPos:
 
 
 ; x value
 	moveq #0,d4
 	move.w global_x,d4
 	bge .skip2
-	neg.w d4
+
+  neg.w d4
+  and.w #%01111111,d4
+ 	
+  move.w #128,d0
+  sub.w  d4,d0
+  move.w d0,d4
+  bra.s .xPos
 .skip2:	
-	divu.w  #128,d4
-	swap  d4
+	and.w #%01111111,d4
+.xPos:
+
 
 	;d3=y; d4=x
 	moveq #0,d0
@@ -64,12 +84,19 @@ correctionDone:
 	adda.l d0,a2
 	move.l (a2),a2
 	jsr (a2)
+  
+  ifd CEILING
+  move.l currentLevel,a3
+  cmp.w #0,6(a3)
+  beq.s .noSky
+  bsr ray_drawSky
+	bra.s .done
+.noSky
+	bsr ray_drawCeiling
 
-	ifd CEILING
-		bsr ray_drawCeiling
-	else
-		bsr ray_drawSky
+.done		
 	endif
+
 	rts
 
 ;d0: angle
@@ -165,20 +192,10 @@ ray_drawCeiling:
   rts	
 
 
+
 ray_drawSky:
 	moveq #0,d3
-	move.w global_yAngle,d3
-	cmp.w #90,d3
-	ble.s .done
-	sub.w #90,d3
-
-	cmp.w #90,d3
-	ble.s .done
-	sub.w #90,d3
-
-	cmp.w #90,d3
-	ble.s .done
-	sub.w #90,d3
+	move.w sky_position,d3
 .done
 	and.w #$fffe,d3
 	
@@ -194,12 +211,13 @@ ray_drawSky:
 	
 
 
-  lea.l      sky,a1   
+  ;lea.l      sky,a1   
+  move.l  skyDataPointer,a1
   add.l      d3,a1 ; add angle
 
   move.l     buffer,a2 ; destination
-  
-  add.l 	#(160*40),a2
+  ;sub.l  #2,a2			;correction
+  ;add.l 	#(160*40),a2
   moveq      #0,d0	; x POS
   moveq      #0,d1	 ; y POS
 
@@ -219,18 +237,22 @@ ray_drawSky:
   move.l     a1,$dff050               ;A=Maske
   move.l     a2,$dff054               ;D=Dest write
                     ;blisize (bitplanes*height*64)+((width_in_pixel+16)/16)
-  move       #(20*64)+(((80*8)+16)/16),$dff058
-
+  move       #(60*64)+(((80*8)+16)/16),$dff058
 
 .e_waitblit_3
   btst       #14,$dff002
   bne.s      .e_waitblit_3
 
-  lea.l      sky,a1   
+  move       #(80+160)-2,$dff064           ;A Modulo
+  move       #(80-2),$dff066           ;D Address
+  ;lea.l      sky,a1   
+  move.l  skyDataPointer,a1
   add.l      d3,a1 ; add angle
   add.l 	#80,a1                  ; pointer to floor rendering 
   move.l     buffer,a2 ; destination
-  add.l 	#(160*40)+80,a2
+  ;sub.l  #2,a2			;correction
+ ; add.l 	#(160*40)+80,a2
+  add.l 	#80,a2
  
 .e_waitblit_4
   btst       #14,$dff002
@@ -239,5 +261,5 @@ ray_drawSky:
   move.l     a1,$dff050               ;A=Maske
   move.l     a2,$dff054               ;D=Dest write
                     ;blisize (bitplanes*height*64)+((width_in_pixel+16)/16)
-  move       #(20*64)+(((80*8)+16)/16),$dff058
+  move       #(60*64)+(((80*8+16))/16),$dff058
   rts	
