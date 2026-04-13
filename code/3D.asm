@@ -646,6 +646,132 @@ _world3d_calculate2DProjection_bitmap:
 .next:
     rts
 
+
+_world3d_calculate2DProjection_poly:
+	move.w #0,MAP_STATUS(a0)
+
+	moveq #0,d0
+	moveq #0,d1
+	moveq #0,d2
+    move.w #PFR,d2
+	
+	        ;int xx0=(PFR*(wall.x0)/((wall.z0)+PFR))+centerX;
+
+	move.w MAP_X0_POLY(a0),d0 	; x0
+	move.w MAP_Z0_POLY(a0),d1 ; z0
+    move.w d1,d3
+	muls d2,d0 ; check if result 32 bit
+	add.w #PFR_DIV,d1
+    beq .next
+	divs d1,d0 ; check if 32 bit
+	add.w #CENTER_X,d0
+	move.w d0,MAP_XX0_POLY(a0)
+
+	move.w MAP_X1_POLY(a0),d0 	; x0
+	move.w MAP_Z1_POLY(a0),d1 ; z0
+
+    cmp.w d1,d3
+    bge.s .toX2
+    move.w d1,d3
+.toX2:
+	muls d2,d0 ; check if result 32 bit
+	add.w #PFR_DIV,d1
+    beq .next
+	divs d1,d0 ; check if 32 bit
+	add.w #CENTER_X,d0
+	move.w d0,MAP_XX1_POLY(a0)
+
+	move.w MAP_X2_POLY(a0),d0 	; x0
+	move.w MAP_Z2_POLY(a0),d1 ; z0
+    cmp.w d1,d3
+    bge.s .toX3
+    move.w d1,d3
+.toX3:
+	muls d2,d0 ; check if result 32 bit
+	add.w #PFR_DIV,d1
+    beq .next
+	divs d1,d0 ; check if 32 bit
+	add.w #CENTER_X,d0
+	move.w d0,MAP_XX2_POLY(a0)
+
+	move.w MAP_X3_POLY(a0),d0 	; x0
+	move.w MAP_Z3_POLY(a0),d1 ; z0
+
+    cmp.w d1,d3
+    bge.s .toX4
+    move.w d1,d3
+.toX4:
+	muls d2,d0 ; check if result 32 bit
+	add.w #PFR_DIV,d1
+    beq .next
+	divs d1,d0 ; check if 32 bit
+	add.w #CENTER_X,d0
+	move.w d0,MAP_XX3_POLY(a0)
+
+    ; calc YY
+	move.w MAP_Y0_POLY(a0),d0 	; ystart
+	neg.w d0
+	move.w MAP_Z0_POLY(a0),d1 	; z0
+	muls d2,d0 ; check if result 32 bit
+	add.w #PFR_DIV,d1
+	divs d1,d0 ; check if 32 bit
+	add.w #CENTER_Y,d0
+	move.w d0,MAP_YY0_POLY(a0)
+
+	move.w MAP_Y1_POLY(a0),d0 	; ystart
+	neg.w d0
+	move.w MAP_Z1_POLY(a0),d1 	; z0
+	muls d2,d0 ; check if result 32 bit
+	add.w #PFR_DIV,d1
+	divs d1,d0 ; check if 32 bit
+	add.w #CENTER_Y,d0
+	move.w d0,MAP_YY1_POLY(a0)
+
+    move.w MAP_Y2_POLY(a0),d0 	; ystart
+	neg.w d0
+	move.w MAP_Z2_POLY(a0),d1 	; z0
+	muls d2,d0 ; check if result 32 bit
+	add.w #PFR_DIV,d1
+	divs d1,d0 ; check if 32 bit
+	add.w #CENTER_Y,d0
+	move.w d0,MAP_YY2_POLY(a0)
+
+    move.w MAP_Y3_POLY(a0),d0 	; ystart
+	neg.w d0
+	move.w MAP_Z3_POLY(a0),d1 	; z0
+	muls d2,d0 ; check if result 32 bit
+	add.w #PFR_DIV,d1
+	divs d1,d0 ; check if 32 bit
+	add.w #CENTER_Y,d0
+	move.w d0,MAP_YY3_POLY(a0)
+
+    tst.w d3
+    ble .next   ; z<0 skip
+
+    ; more clipping here
+
+	move.w #1,MAP_STATUS(a0)
+
+    moveq #0,d0
+    move.w d3,d0    ;set sort value
+  
+    bsr object_addPointer
+	;check done
+
+  
+.next:
+    tst.w MAP_STATUS(a0)
+    beq.s .done 
+
+    ;tst.w MAP_ISCLIPPED(a1)
+    ;beq.s .done             ;no clipping=no coll
+
+
+.done
+    rts
+
+
+
 	;x0	 - d0.w
 	;x1	 - d1.w
 	;y0	 - d2.w
@@ -662,6 +788,8 @@ world3d_clipLine:
 	divs d1,d3
 	add d2,d3
 	rts
+
+
 
 
 ; simple length; works only for 90 degree walls
@@ -731,7 +859,7 @@ world3d_doorClipping:
 .done
     rts
 
-    include    "./code/objects.asm"
+    include    "./code/game/objects.asm"
 
 SinusTable:
    dc.w   0,285,571,857,1142,1427,1712,1996,2280,2563   ;Sin(0) ou Cos(-90)

@@ -27,7 +27,8 @@ INTF_VERTB	=	1<<5
 start:
   jsr dos_init
 
-  lea.l test,a0
+  ;lea.l test,a0
+  lea.l dungeon0,a0
   move.l a0,currentLevel
 
   jsr init_level
@@ -104,39 +105,39 @@ start:
 
   include    "./code/const.asm"
   include    "./code/global.asm"
-  include    "./code/joystick.asm"
-  include    "./code/player.asm"
+  include    "./code/amiga/joystick.asm"
+  include    "./code/game/player.asm"
 
   include    "./data/level.asm"
-  include    "./code/enemies.asm"
-  include    "./code/animations.asm"
+  include    "./code/game/enemies.asm"
+  include    "./code/game/animations.asm"
   
-  include    "./code/init.asm"
-  include    "./code/dos.asm"
+  include    "./code/amiga/init.asm"
+  include    "./code/amiga/dos.asm"
 
-  include   "./data/Amiga_CM_sound_data.asm"
-  include   "./data/Amiga_FM_sound_config.asm"
-  include   "./code/sound.asm"
-  include   "./code/chunkyPolyTextureDraw.asm"
-  include   "./code/chunkyPolyDraw.asm"
+  include   "./data/assets/Amiga_CM_sound_data.asm"
+  include   "./data/assets/Amiga_FM_sound_config.asm"
+  include   "./code/amiga/sound.asm"
+  include   "./code/draw/chunkyPolyTextureDraw.asm"
+  include   "./code/draw/chunkyPolyDraw.asm"
   ifd MODE
-      include    "./code/c2pByte/screen.asm"
+      include    "./code/amiga/screen.asm"
   else
-    include    "./code/c2pByte/screen1x1.asm"	
+    include    "./code/amiga/screen1x1.asm"	
   endif
 
 
-    include    "./code/c2pByte/raycaster_c2p.asm"
-    include    "./code/c2pByte/ray_vLines_c2p_generated.asm"
-    include    "./code/c2pByte/raycaster_floor_c2p.asm"
+    include    "./code/draw/chunkyFrameDraw.asm"
+    include    "./code/draw/generated/ray_vLines_c2p_generated.asm"
+    include    "./code/draw/chunkyFloorDraw.asm"
 
 
  
   SECTION    Data,  DATA
   ; walls abd scaling
-  include    "./code/c2pByte/steptables.asm"	
-  include    "./code/c2pByte/ray_hlines_c2p_scaling_generated.asm"
-  include    "./code/c2pByte/ray_floor_generated_raw.asm"
+  include    "./code/draw/generated/steptables.asm"	
+  include    "./code/draw/generated/ray_hlines_c2p_scaling_generated.asm"
+  include    "./code/draw/generated/ray_floor_generated_raw.asm"
     
 
   include    "./data/demo/upper.asm"

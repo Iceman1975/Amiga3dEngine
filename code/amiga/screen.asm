@@ -1374,9 +1374,9 @@ copperSlot:
 	
 
 footer: 
-	include "./data/bg_footer.asm"
+	include "./data/background/bg_footer.asm"
 
-	include "./data/Amiga_CM_font_data.asm"
+	include "./data/assets/Amiga_CM_font_data.asm"
 
 
 		

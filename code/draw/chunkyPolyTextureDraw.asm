@@ -1,5 +1,5 @@
 
-tray_drawPoly:
+ray_drawTexture:
     movem.l    d0-d7/a0-a6,-(sp)  
     move.l a1,a4
     lea  trect,a0

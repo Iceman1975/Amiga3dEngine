@@ -234,15 +234,15 @@ s1_sprcoploop:            ; set all 7 sprite pointers
 
 	
 screen_mem1:			;Reserve screen memory 
-                include "./data/bg1x1_UU.asm"
+                include "./data/background/bg1x1_UU.asm"
                            ; ds.b      screenBuffer_size
 
 screen_mem2:			;Reserve screen memory 
-  include "./data/bg1x1_UU.asm"
+  include "./data/background/bg1x1_UU.asm"
                             ;ds.b      screenBuffer_size
 
 screen_mem3:			;Reserve screen memory 
- include "./data/bg1x1_UU.asm"
+ include "./data/background/bg1x1_UU.asm"
 							;ds.b      screenBuffer_size
     
 Screen_SHOW:                  dc.l      screen_mem1
