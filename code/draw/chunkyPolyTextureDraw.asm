@@ -600,7 +600,11 @@ tdpi_calculateUV
     move.w (a3),d0                      ;fetch u0
     add.l d0,(a4)                       ;add u0
     move.w 2*TEXTURE_MAX_HEIGHT(a3),d0    ;fetch v0    
-    lsl.w #8,d0                         ;v0*texture width (256)
+
+    and.w #$00FC,d0                     ;NEU: (v0>>2)<<2
+    lsl.w #6,d0                         ;NEU: statt lsl.w #8 -> (v0/4)*256
+    ;lsl.w #8,d0                         ;OLD v0*texture width (256)
+
     add.l d0,(a4)+                      ;add v0 to pointer
 
 ;du
@@ -667,7 +671,9 @@ dpi_calculateUV_nosign
     move.w (a3),d0                      ;fetch u0
     add.l d0,(a4)                       ;add u0
     move.w 2*TEXTURE_MAX_HEIGHT(a3),d0    ;fetch v0    
-    lsl.w #8,d0                         ;v0*texture width (256)
+    ;lsl.w #8,d0                         ;OLD: v0*texture width (256)
+    and.w #$00FC,d0                     ;NEW: v0 & ~3
+    lsl.w #6,d0                         ;NEW:  (v0/4)*256
     add.l d0,(a4)+                      ;add v0 to pointer
 
 ;du
@@ -694,7 +700,8 @@ dpi_calculateUV_nosign
    ; move.b #1,1(a6)  ; set sign for v        
 .nosign1:
     ext.l d0
-    lsl.l #8,d0       ;8:8
+    lsl.l #6,d0       ;8:8  ;NEW
+    ;lsl.l #8,d0       ;8:8 ;OLD
     divs  d2,d0     ; (v1-v0)/dx
     move.w d0,4(a6)  ; store value
 

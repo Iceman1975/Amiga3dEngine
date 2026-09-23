@@ -55,11 +55,18 @@ ray_drawPoly:
     tst.w d1    ;x1<0
     blt.s .done 
 
-
     move.l d0,(a0)+
     move.l d1,(a0)+
     move.l d2,(a0)+
     move.l d3,(a0)+
+
+  ;  swap d3 ; load x
+  ;  swap d1
+  ;  cmp.w d1,d3 ;x3>x1 ?  
+  ;  bgt.s .done 
+
+   ; swap d3 ; correct again
+   ; swap d1
     
     tst.w d3    ; y_bottom < screen start
     ble.s .done

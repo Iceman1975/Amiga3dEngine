@@ -137,7 +137,7 @@ castle_enemies:
 
 test
 	dc.l    test_map ;		0|  pointer
-	dc.w    24  ; 				4| size-1
+	dc.w    8  ;27 				4| size-1
 	dc.w    0		; 6| sky flag
 	dc.w    1		;8| floor flag
 	dc.l    test_map_colors ; 	10| pointer to colors

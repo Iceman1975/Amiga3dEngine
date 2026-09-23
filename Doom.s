@@ -27,8 +27,8 @@ INTF_VERTB	=	1<<5
 start:
   jsr dos_init
 
-  ;lea.l test,a0
-  lea.l dungeon0,a0
+  lea.l test,a0
+  ;lea.l dungeon0,a0
   move.l a0,currentLevel
 
   jsr init_level
