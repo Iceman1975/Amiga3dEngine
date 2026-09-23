@@ -6,7 +6,7 @@ Textured walls, textured floors *and* ceilings, flat-shaded polygons, affine tex
 
 ![Complete outdoor scene](docs/images/complete_scene_outdoor.png)
 
-The engine was developed alongside a German article series ("Kategorie Wissen"). This README summarizes the key ideas of every part of the series; the source code in this repository is the reference implementation.
+The engine was developed alongside an article series ("Amiga Future"). This README summarizes the key ideas of every part of the series; the source code in this repository is the reference implementation.
 
 ---
 
